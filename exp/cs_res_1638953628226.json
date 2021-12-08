@@ -1,0 +1,527 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - halsey manic album cover art",
+                "totalResults": "4490",
+                "searchTerms": "halsey manic album cover art",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "26f8dc88b37904c0a"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - halsey manic album cover art",
+                "totalResults": "4490",
+                "searchTerms": "halsey manic album cover art",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "26f8dc88b37904c0a"
+            }
+        ]
+    },
+    "context": {
+        "title": "album_cover_finder"
+    },
+    "searchInformation": {
+        "searchTime": 0.420444,
+        "formattedSearchTime": "0.42",
+        "totalResults": "4490",
+        "formattedTotalResults": "4,490"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Halsey - Manic Lyrics and Tracklist | Genius",
+            "htmlTitle": "<b>Halsey</b> - <b>Manic</b> Lyrics and Tracklist | Genius",
+            "link": "https://genius.com/albums/Halsey/Manic",
+            "displayLink": "genius.com",
+            "snippet": "Jan 17, 2020 ... Manic is Halsey's third studio album, released on January 17, 2020. ... What was the concept behind the single art covers?",
+            "htmlSnippet": "Jan 17, 2020 <b>...</b> <b>Manic</b> is <b>Halsey&#39;s</b> third studio <b>album</b>, released on January 17, 2020. ... What was the concept behind the single <b>art covers</b>?",
+            "cacheId": "X6IZEskcFi0J",
+            "formattedUrl": "https://genius.com/albums/Halsey/Manic",
+            "htmlFormattedUrl": "https://genius.com/<b>albums</b>/<b>Halsey</b>/<b>Manic</b>",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTxlmaDGijFywS_qBNiBrQXpKQQgwUbj3D7KaFK_LSAjJL4yHvl8mxGgrfP",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=709482991",
+                        "og:image": "https://images.genius.com/958fa4649491000c741454bac1f134c4.1000x1000x1.png",
+                        "twitter:title": "Manic by Halsey",
+                        "twitter:card": "summary_large_image",
+                        "twitter:url": "https://genius.com/albums/Halsey/Manic",
+                        "amp-google-client-id-api": "googleanalytics",
+                        "og:title": "Manic by Halsey",
+                        "og:description": "Manic is Halsey’s third studio album, released on January 17, 2020. The title was officially unveiled on September 13, 2019, in a tweet alongside its pre-order and second single, “",
+                        "twitter:image": "https://images.genius.com/958fa4649491000c741454bac1f134c4.1000x1000x1.png",
+                        "twitter:site": "@Genius",
+                        "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+                        "twitter:description": "Manic is Halsey’s third studio album, released on January 17, 2020. The title was officially unveiled on September 13, 2019, in a tweet alongside its pre-order and second single, “",
+                        "og:url": "https://genius.com/albums/Halsey/Manic",
+                        "amp-consent-blocking": "amp-ad"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://images.genius.com/958fa4649491000c741454bac1f134c4.1000x1000x1.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Halsey – Graveyard Lyrics | Genius Lyrics",
+            "htmlTitle": "<b>Halsey</b> – Graveyard Lyrics | Genius Lyrics",
+            "link": "https://genius.com/Halsey-graveyard-lyrics",
+            "displayLink": "genius.com",
+            "snippet": "Sep 13, 2019 ... The existence of this song as a part of her album as opposed to a ... Halsey live-streamed herself painting the cover art for Manic, ...",
+            "htmlSnippet": "Sep 13, 2019 <b>...</b> The existence of this <b>song</b> as a part of her <b>album</b> as opposed to a ... <b>Halsey</b> live-streamed herself <b>painting</b> the <b>cover art</b> for <b>Manic</b>,&nbsp;...",
+            "cacheId": "vfSHv9jh9rEJ",
+            "formattedUrl": "https://genius.com/Halsey-graveyard-lyrics",
+            "htmlFormattedUrl": "https://genius.com/<b>Halsey</b>-graveyard-lyrics",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHKNcS8h2SLDFGQJWxNnt4vITtdxaDWL9s9imhhtkfR9006eUZd3YeRZs",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=709482991",
+                        "og:image": "https://images.genius.com/2f9fc61cef5bd85878704ab10a502007.1000x1000x1.jpg",
+                        "og:type": "music.song",
+                        "twitter:title": "Halsey – Graveyard",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Genius",
+                        "twitter:url": "https://genius.com/Halsey-graveyard-lyrics",
+                        "og:title": "Halsey – Graveyard",
+                        "y_key": "f63347d284f184b0",
+                        "fb:pages": "308252472676410",
+                        "og:description": "“Graveyard” is the second single by Halsey for her third studio album, Manic, following the release of non-album single “Nightmare” in May 2019. The existence of this song as a",
+                        "twitter:image": "https://images.genius.com/2f9fc61cef5bd85878704ab10a502007.1000x1000x1.jpg",
+                        "fb:app_id": "265539304824",
+                        "twitter:site": "@Genius",
+                        "viewport": "width=device-width,initial-scale=1",
+                        "twitter:description": "“Graveyard” is the second single by Halsey for her third studio album, Manic, following the release of non-album single “Nightmare” in May 2019. The existence of this song as a",
+                        "og:url": "https://genius.com/Halsey-graveyard-lyrics",
+                        "twitter:type": "music.song"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://images.genius.com/2f9fc61cef5bd85878704ab10a502007.1000x1000x1.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Here's Everything We Know About Halsey's New Album 'Manic ...",
+            "htmlTitle": "Here&#39;s Everything We Know About <b>Halsey&#39;s</b> New <b>Album</b> &#39;<b>Manic</b> ...",
+            "link": "https://genius.com/a/heres-everything-we-know-about-halsey-s-new-album-manic",
+            "displayLink": "genius.com",
+            "snippet": "Dec 7, 2019 ... Halsey's third album, Manic, is on the way. ... The Cover Art. The pop star previously shared the album cover on social media:.",
+            "htmlSnippet": "Dec 7, 2019 <b>...</b> <b>Halsey</b>&#39;s third album, <b>Manic</b>, is on the way. ... The Cover <b>Art</b>. The pop star previously shared the <b>album cover</b> on social media:.",
+            "cacheId": "jlF2sy786sMJ",
+            "formattedUrl": "https://genius.com/.../heres-everything-we-know-about-halsey-s-new-album- manic",
+            "htmlFormattedUrl": "https://genius.com/.../heres-everything-we-know-about-<b>halsey</b>-s-new-<b>album</b>- <b>manic</b>",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSRboZVt-Rzrk3bLyvrdfikMw0q4H9fA5AkMJNDxa-nIx6_mf8Gq0wLpWI",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=709482991",
+                        "og:image": "https://t2.genius.com/unsafe/1200x1200/https%3A%2F%2Fimages.genius.com%2Fcaf88989269601aba12d8dc9037b3994.2048x2048x1.jpg",
+                        "twitter:app:url:iphone": "genius://articles/9879",
+                        "twitter:title": "Here’s Everything We Know About Halsey’s New Album ‘Manic’",
+                        "twitter:card": "summary_large_image",
+                        "twitter:url": "https://genius.com/a/heres-everything-we-know-about-halsey-s-new-album-manic",
+                        "amp-google-client-id-api": "googleanalytics",
+                        "og:title": "Here’s Everything We Know About Halsey’s New Album ‘Manic’",
+                        "twitter:app:id:iphone": "709482991",
+                        "og:description": "“It’s literally just, like, whatever the f*ck I felt like making.”",
+                        "twitter:image": "https://t2.genius.com/unsafe/1200x1200/https%3A%2F%2Fimages.genius.com%2Fcaf88989269601aba12d8dc9037b3994.2048x2048x1.jpg",
+                        "twitter:site": "@Genius",
+                        "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+                        "twitter:description": "“It’s literally just, like, whatever the f*ck I felt like making.”",
+                        "og:url": "https://genius.com/a/heres-everything-we-know-about-halsey-s-new-album-manic",
+                        "twitter:app:name:iphone": "Genius",
+                        "amp-consent-blocking": "amp-ad"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://t2.genius.com/unsafe/1200x1200/https%3A%2F%2Fimages.genius.com%2Fcaf88989269601aba12d8dc9037b3994.2048x2048x1.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Halsey | Spotify - Listen Free",
+            "htmlTitle": "<b>Halsey</b> | Spotify - Listen Free",
+            "link": "https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2",
+            "displayLink": "open.spotify.com",
+            "snippet": "Artist · 37.9M monthly listeners. ... Manic: …Or Are You Normal EP ... In 2015, Halsey released her debut full-length album, Badlands, which featured ...",
+            "htmlSnippet": "<b>Artist</b> · 37.9M monthly listeners. ... <b>Manic</b>: …Or Are You Normal EP ... In 2015, <b>Halsey</b> released her debut full-length <b>album</b>, Badlands, which featured&nbsp;...",
+            "cacheId": "3yRV8uf1CF4J",
+            "formattedUrl": "https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2",
+            "htmlFormattedUrl": "https://open.spotify.com/<b>artist</b>/26VFTg2z8YR0cCuwLzESi2",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSAL-8_cD26rNCcDJY0DVt35B9r_zDyIxWZ60dDsiX2eEEAtDd4Vs705U",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://i.scdn.co/image/ab6761610000e5ebdade5a33a51db8b049787d7f",
+                        "og:type": "profile",
+                        "twitter:title": "Halsey",
+                        "twitter:card": "summary",
+                        "og:site_name": "Spotify",
+                        "al:ios:app_name": "Spotify",
+                        "og:title": "Halsey",
+                        "al:android:package": "com.spotify.music",
+                        "google": "notranslate",
+                        "al:ios:url": "spotify://artist/26VFTg2z8YR0cCuwLzESi2",
+                        "og:description": "Artist · 37.9M monthly listeners.",
+                        "al:ios:app_store_id": "324684580",
+                        "twitter:image": "https://i.scdn.co/image/ab6761610000e5ebdade5a33a51db8b049787d7f",
+                        "al:android:url": "spotify://artist/26VFTg2z8YR0cCuwLzESi2",
+                        "fb:app_id": "174829003346",
+                        "twitter:site": "@spotify",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "Artist · 37.9M monthly listeners.",
+                        "og:url": "https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2",
+                        "al:android:app_name": "Spotify"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://i.scdn.co/image/ab6761610000e5ebdade5a33a51db8b049787d7f"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Halsey - hopeless fountain kingdom Lyrics and Tracklist | Genius",
+            "htmlTitle": "<b>Halsey</b> - hopeless fountain kingdom Lyrics and Tracklist | Genius",
+            "link": "https://genius.com/albums/Halsey/Hopeless-fountain-kingdom",
+            "displayLink": "genius.com",
+            "snippet": "Jun 2, 2017 ... This is an alternative Album Cover Art which is also the cover of the Urban Outfitters Edition of Halsey's album―hopeless fountain kingdom.",
+            "htmlSnippet": "Jun 2, 2017 <b>...</b> This is an alternative <b>Album Cover Art</b> which is also the cover of the Urban Outfitters Edition of <b>Halsey&#39;s</b> album―hopeless fountain kingdom.",
+            "cacheId": "h7IGkFUXeN0J",
+            "formattedUrl": "https://genius.com/albums/Halsey/Hopeless-fountain-kingdom",
+            "htmlFormattedUrl": "https://genius.com/<b>albums</b>/<b>Halsey</b>/Hopeless-fountain-kingdom",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRF6A638bhG0T6fG1Bsiiev3t_JY5PsjAxVh2oeDTIRpxyqIbAMMRe2ETEQ",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=709482991",
+                        "og:image": "https://images.genius.com/e331236ca5c2bb736fe64dbff7495236.1000x1000x1.png",
+                        "twitter:title": "hopeless fountain kingdom by Halsey",
+                        "twitter:card": "summary_large_image",
+                        "twitter:url": "https://genius.com/albums/Halsey/Hopeless-fountain-kingdom",
+                        "amp-google-client-id-api": "googleanalytics",
+                        "og:title": "hopeless fountain kingdom by Halsey",
+                        "og:description": "hopeless fountain kingdom is Halsey’s sophomore album released on June 2, 2017. The release date was revealed on March 22 on Twitter through a series of cards which featured Roman",
+                        "twitter:image": "https://images.genius.com/e331236ca5c2bb736fe64dbff7495236.1000x1000x1.png",
+                        "twitter:site": "@Genius",
+                        "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+                        "twitter:description": "hopeless fountain kingdom is Halsey’s sophomore album released on June 2, 2017. The release date was revealed on March 22 on Twitter through a series of cards which featured Roman",
+                        "og:url": "https://genius.com/albums/Halsey/Hopeless-fountain-kingdom",
+                        "amp-consent-blocking": "amp-ad"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://images.genius.com/e331236ca5c2bb736fe64dbff7495236.1000x1000x1.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Halsey - If I Can't Have Love, I Want Power Lyrics and Tracklist ...",
+            "htmlTitle": "<b>Halsey</b> - If I Can&#39;t Have Love, I Want Power Lyrics and Tracklist ...",
+            "link": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power",
+            "displayLink": "genius.com",
+            "snippet": "Aug 27, 2021 ... Halsey unveiled the album cover with a teaser video at New York's Metropolitan Museum of Art, where she wandered around looking at ...",
+            "htmlSnippet": "Aug 27, 2021 <b>...</b> <b>Halsey</b> unveiled the <b>album cover</b> with a teaser video at New York&#39;s Metropolitan Museum of <b>Art</b>, where she wandered around looking at&nbsp;...",
+            "cacheId": "kZXgG529OmUJ",
+            "formattedUrl": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power",
+            "htmlFormattedUrl": "https://genius.com/<b>albums</b>/<b>Halsey</b>/If-i-cant-have-love-i-want-power",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LW3lgTo8GvRUd3V7mcrSIR_WRmQlauszxugmef8pITpIl_-OO55_3qCD",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=709482991",
+                        "og:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+                        "twitter:title": "If I Can’t Have Love, I Want Power by Halsey",
+                        "twitter:card": "summary_large_image",
+                        "twitter:url": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power",
+                        "amp-google-client-id-api": "googleanalytics",
+                        "og:title": "If I Can’t Have Love, I Want Power by Halsey",
+                        "og:description": "If I Can’t Have Love, I Want Power is the fourth studio album by American singer-songwriter Halsey, released on August 27, 2021, through Capitol Records.\n\nOn June 28, 2021, Halsey",
+                        "twitter:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+                        "twitter:site": "@Genius",
+                        "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+                        "twitter:description": "If I Can’t Have Love, I Want Power is the fourth studio album by American singer-songwriter Halsey, released on August 27, 2021, through Capitol Records.\n\nOn June 28, 2021, Halsey",
+                        "og:url": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power",
+                        "amp-consent-blocking": "amp-ad"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Halsey – Without Me Lyrics | Genius Lyrics",
+            "htmlTitle": "<b>Halsey</b> – Without Me Lyrics | Genius Lyrics",
+            "link": "https://genius.com/Halsey-without-me-lyrics",
+            "displayLink": "genius.com",
+            "snippet": "Oct 4, 2018 ... “Without Me” is the first new song released by Halsey since her 2017 ... Drawing from the song's themes the skull on the cover art likely ...",
+            "htmlSnippet": "Oct 4, 2018 <b>...</b> “Without Me” is the first new <b>song</b> released by <b>Halsey</b> since her 2017 ... Drawing from the <b>song&#39;s</b> themes the skull on the <b>cover art</b> likely&nbsp;...",
+            "cacheId": "NhWG3BVHoXwJ",
+            "formattedUrl": "https://genius.com/Halsey-without-me-lyrics",
+            "htmlFormattedUrl": "https://genius.com/<b>Halsey</b>-without-me-lyrics",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHKNcS8h2SLDFGQJWxNnt4vITtdxaDWL9s9imhhtkfR9006eUZd3YeRZs",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=709482991",
+                        "og:image": "https://images.genius.com/2f9fc61cef5bd85878704ab10a502007.1000x1000x1.jpg",
+                        "twitter:app:url:iphone": "genius://songs/3977187",
+                        "og:type": "music.song",
+                        "twitter:title": "Halsey – Without Me",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Genius",
+                        "twitter:url": "https://genius.com/Halsey-without-me-lyrics",
+                        "og:title": "Halsey – Without Me",
+                        "y_key": "f63347d284f184b0",
+                        "twitter:app:id:iphone": "709482991",
+                        "fb:pages": "308252472676410",
+                        "og:description": "“Without Me” is the first new song released by Halsey since her 2017 album, hopeless fountain kingdom. The track is directed at her ex G-Eazy after she was “cheated on in front of",
+                        "twitter:image": "https://images.genius.com/2f9fc61cef5bd85878704ab10a502007.1000x1000x1.jpg",
+                        "fb:app_id": "265539304824",
+                        "twitter:site": "@Genius",
+                        "viewport": "width=device-width,initial-scale=1",
+                        "twitter:description": "“Without Me” is the first new song released by Halsey since her 2017 album, hopeless fountain kingdom. The track is directed at her ex G-Eazy after she was “cheated on in front of",
+                        "og:url": "https://genius.com/Halsey-without-me-lyrics",
+                        "twitter:type": "music.song",
+                        "twitter:app:name:iphone": "Genius"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://images.genius.com/2f9fc61cef5bd85878704ab10a502007.1000x1000x1.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Halsey – Ashley Lyrics | Genius Lyrics",
+            "htmlTitle": "<b>Halsey</b> – Ashley Lyrics | Genius Lyrics",
+            "link": "https://genius.com/Halsey-ashley-lyrics",
+            "displayLink": "genius.com",
+            "snippet": "Jan 17, 2020 ... Ashley. Halsey. LyricsAboutTracklistComments. Halsey opens her third album, Manic with “Ashley” – a title taken from her own ...",
+            "htmlSnippet": "Jan 17, 2020 <b>...</b> Ashley. <b>Halsey</b>. LyricsAboutTracklistComments. <b>Halsey</b> opens her third <b>album</b>, <b>Manic</b> with “Ashley” – a title taken from her own&nbsp;...",
+            "cacheId": "DuYmb7Dx-qgJ",
+            "formattedUrl": "https://genius.com/Halsey-ashley-lyrics",
+            "htmlFormattedUrl": "https://genius.com/<b>Halsey</b>-ashley-lyrics",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTxlmaDGijFywS_qBNiBrQXpKQQgwUbj3D7KaFK_LSAjJL4yHvl8mxGgrfP",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=709482991",
+                        "og:image": "https://images.genius.com/958fa4649491000c741454bac1f134c4.1000x1000x1.png",
+                        "twitter:app:url:iphone": "genius://songs/5072594",
+                        "og:type": "music.song",
+                        "twitter:title": "Halsey – Ashley",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Genius",
+                        "twitter:url": "https://genius.com/Halsey-ashley-lyrics",
+                        "og:title": "Halsey – Ashley",
+                        "y_key": "f63347d284f184b0",
+                        "twitter:app:id:iphone": "709482991",
+                        "fb:pages": "308252472676410",
+                        "og:description": "Halsey opens her third album, Manic with “Ashley” – a title taken from her own name, Ashley Nicolette Frangipane. Fittingly, the song introduces Halsey fans to a new era, an album",
+                        "twitter:image": "https://images.genius.com/958fa4649491000c741454bac1f134c4.1000x1000x1.png",
+                        "fb:app_id": "265539304824",
+                        "twitter:site": "@Genius",
+                        "viewport": "width=device-width,initial-scale=1",
+                        "twitter:description": "Halsey opens her third album, Manic with “Ashley” – a title taken from her own name, Ashley Nicolette Frangipane. Fittingly, the song introduces Halsey fans to a new era, an album",
+                        "og:url": "https://genius.com/Halsey-ashley-lyrics",
+                        "twitter:type": "music.song",
+                        "twitter:app:name:iphone": "Genius"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://images.genius.com/958fa4649491000c741454bac1f134c4.1000x1000x1.png"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Artist Archive: Halsey | Genius - Genius",
+            "htmlTitle": "Artist Archive: Halsey | Genius - Genius",
+            "link": "https://genius.com/Genius-artist-archive-halsey-annotated",
+            "displayLink": "genius.com",
+            "snippet": "October 2018 to Present: Manic Era / Awards & Accomplishments / 3/7/19 - Rising ... 8/7/19 - Halsey Talks Her Third Album and Turning 25: 'It's a Miracle I ...",
+            "htmlSnippet": "October 2018 to Present: <b>Manic</b> Era / Awards &amp; Accomplishments / 3/7/19 - Rising ... 8/7/19 - <b>Halsey</b> Talks Her Third <b>Album</b> and Turning 25: &#39;It&#39;s a Miracle I&nbsp;...",
+            "cacheId": "3WtIfipCFXIJ",
+            "formattedUrl": "https://genius.com/Genius-artist-archive-halsey-annotated",
+            "htmlFormattedUrl": "https://genius.com/Genius-<b>artist</b>-archive-<b>halsey</b>-annotated",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRpV123wCxICgoWGofX79mOU3m4cQEMv1mYlBgYONunF3V4zWrpheM1jKKw",
+                        "width": "318",
+                        "height": "159"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=709482991",
+                        "og:image": "https://images.genius.com/95f76c6ccc2d85b0478ead02092ce748.1000x500x1.jpg",
+                        "twitter:app:url:iphone": "genius://songs/4600105",
+                        "og:type": "rap_genius:text",
+                        "twitter:title": "Genius (Ft. Halsey) – Artist Archive: Halsey",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Genius",
+                        "twitter:url": "https://genius.com/Genius-artist-archive-halsey-annotated",
+                        "og:title": "Genius (Ft. Halsey) – Artist Archive: Halsey",
+                        "y_key": "f63347d284f184b0",
+                        "twitter:app:id:iphone": "709482991",
+                        "fb:pages": "308252472676410",
+                        "og:description": "Welcome to the Halsey Artist Archive! This page intends to be a comprehensive guide of online resources that relate to Halsey. Examples of works that will be included are:",
+                        "twitter:image": "https://images.genius.com/95f76c6ccc2d85b0478ead02092ce748.1000x500x1.jpg",
+                        "fb:app_id": "265539304824",
+                        "twitter:site": "@Genius",
+                        "viewport": "width=device-width,initial-scale=1",
+                        "twitter:description": "Welcome to the Halsey Artist Archive! This page intends to be a comprehensive guide of online resources that relate to Halsey. Examples of works that will be included are:",
+                        "og:url": "https://genius.com/Genius-artist-archive-halsey-annotated",
+                        "twitter:type": "rap_genius:text",
+                        "twitter:app:name:iphone": "Genius"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://images.genius.com/95f76c6ccc2d85b0478ead02092ce748.1000x500x1.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Halsey – You should be sad Lyrics | Genius Lyrics",
+            "htmlTitle": "<b>Halsey</b> – You should be sad Lyrics | Genius Lyrics",
+            "link": "https://genius.com/Halsey-you-should-be-sad-lyrics",
+            "displayLink": "genius.com",
+            "snippet": "Halsey. LyricsAboutTracklistComments. One week prior to the release of her third studio album, Manic, Halsey gifted fans with one final… Read More.",
+            "htmlSnippet": "<b>Halsey</b>. LyricsAboutTracklistComments. One week prior to the release of her third studio <b>album</b>, <b>Manic</b>, <b>Halsey</b> gifted fans with one final… Read More.",
+            "cacheId": "Rlx9nxnlUvIJ",
+            "formattedUrl": "https://genius.com/Halsey-you-should-be-sad-lyrics",
+            "htmlFormattedUrl": "https://genius.com/<b>Halsey</b>-you-should-be-sad-lyrics",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHKNcS8h2SLDFGQJWxNnt4vITtdxaDWL9s9imhhtkfR9006eUZd3YeRZs",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=709482991",
+                        "og:image": "https://images.genius.com/2f9fc61cef5bd85878704ab10a502007.1000x1000x1.jpg",
+                        "twitter:app:url:iphone": "genius://songs/5009294",
+                        "og:type": "music.song",
+                        "twitter:title": "Halsey – You should be sad",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Genius",
+                        "twitter:url": "https://genius.com/Halsey-you-should-be-sad-lyrics",
+                        "og:title": "Halsey – You should be sad",
+                        "y_key": "f63347d284f184b0",
+                        "twitter:app:id:iphone": "709482991",
+                        "fb:pages": "308252472676410",
+                        "og:description": "One week prior to the release of her third studio album, Manic, Halsey gifted fans with one final single, “You should be sad.” In the country-influenced track Halsey pours out her",
+                        "twitter:image": "https://images.genius.com/2f9fc61cef5bd85878704ab10a502007.1000x1000x1.jpg",
+                        "fb:app_id": "265539304824",
+                        "twitter:site": "@Genius",
+                        "viewport": "width=device-width,initial-scale=1",
+                        "twitter:description": "One week prior to the release of her third studio album, Manic, Halsey gifted fans with one final single, “You should be sad.” In the country-influenced track Halsey pours out her",
+                        "og:url": "https://genius.com/Halsey-you-should-be-sad-lyrics",
+                        "twitter:type": "music.song",
+                        "twitter:app:name:iphone": "Genius"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://images.genius.com/2f9fc61cef5bd85878704ab10a502007.1000x1000x1.jpg"
+                    }
+                ]
+            }
+        }
+    ]
+}

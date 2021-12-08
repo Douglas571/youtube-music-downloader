@@ -1,0 +1,534 @@
+{
+  "kind": "customsearch#search",
+  "url": {
+    "type": "application/json",
+    "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+  },
+  "queries": {
+    "request": [
+      {
+        "title": "Google Custom Search - halsey iichliwp album cover art",
+        "totalResults": "80",
+        "searchTerms": "halsey iichliwp album cover art",
+        "count": 10,
+        "startIndex": 1,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "26f8dc88b37904c0a"
+      }
+    ],
+    "nextPage": [
+      {
+        "title": "Google Custom Search - halsey iichliwp album cover art",
+        "totalResults": "80",
+        "searchTerms": "halsey iichliwp album cover art",
+        "count": 10,
+        "startIndex": 11,
+        "inputEncoding": "utf8",
+        "outputEncoding": "utf8",
+        "safe": "off",
+        "cx": "26f8dc88b37904c0a"
+      }
+    ]
+  },
+  "context": {
+    "title": "album_cover_finder"
+  },
+  "searchInformation": {
+    "searchTime": 0.264869,
+    "formattedSearchTime": "0.26",
+    "totalResults": "80",
+    "formattedTotalResults": "80"
+  },
+  "items": [
+    {
+      "kind": "customsearch#result",
+      "title": "Halsey - If I Can't Have Love, I Want Power Lyrics and Tracklist ...",
+      "htmlTitle": "\u003cb\u003eHalsey\u003c/b\u003e - If I Can&#39;t Have Love, I Want Power Lyrics and Tracklist ...",
+      "link": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power",
+      "displayLink": "genius.com",
+      "snippet": "Aug 27, 2021 ... Halsey unveiled the album cover with a teaser video at New York's Metropolitan Museum of Art, where she wandered around looking at ...",
+      "htmlSnippet": "Aug 27, 2021 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eHalsey\u003c/b\u003e unveiled the \u003cb\u003ealbum cover\u003c/b\u003e with a teaser video at New York&#39;s Metropolitan Museum of \u003cb\u003eArt\u003c/b\u003e, where she wandered around looking at&nbsp;...",
+      "cacheId": "kZXgG529OmUJ",
+      "formattedUrl": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power",
+      "htmlFormattedUrl": "https://genius.com/\u003cb\u003ealbums\u003c/b\u003e/\u003cb\u003eHalsey\u003c/b\u003e/If-i-cant-have-love-i-want-power",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LW3lgTo8GvRUd3V7mcrSIR_WRmQlauszxugmef8pITpIl_-OO55_3qCD",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "twitter:title": "If I Can’t Have Love, I Want Power by Halsey",
+            "twitter:card": "summary_large_image",
+            "twitter:url": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power",
+            "amp-google-client-id-api": "googleanalytics",
+            "og:title": "If I Can’t Have Love, I Want Power by Halsey",
+            "og:description": "If I Can’t Have Love, I Want Power is the fourth studio album by American singer-songwriter Halsey, released on August 27, 2021, through Capitol Records.\n\nOn June 28, 2021, Halsey",
+            "twitter:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+            "twitter:description": "If I Can’t Have Love, I Want Power is the fourth studio album by American singer-songwriter Halsey, released on August 27, 2021, through Capitol Records.\n\nOn June 28, 2021, Halsey",
+            "og:url": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power",
+            "amp-consent-blocking": "amp-ad"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Halsey - If I Can't Have Love, I Want Power (Target Exclusive) Lyrics ...",
+      "htmlTitle": "\u003cb\u003eHalsey\u003c/b\u003e - If I Can&#39;t Have Love, I Want Power (Target Exclusive) Lyrics ...",
+      "link": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power-target-exclusive",
+      "displayLink": "genius.com",
+      "snippet": "Aug 27, 2021 ... Halsey unveiled the album cover with a teaser video at New York's Metropolitan Museum of Art, where she wandered around looking at ...",
+      "htmlSnippet": "Aug 27, 2021 \u003cb\u003e...\u003c/b\u003e \u003cb\u003eHalsey\u003c/b\u003e unveiled the \u003cb\u003ealbum cover\u003c/b\u003e with a teaser video at New York&#39;s Metropolitan Museum of \u003cb\u003eArt\u003c/b\u003e, where she wandered around looking at&nbsp;...",
+      "cacheId": "33QaVQ05pJsJ",
+      "formattedUrl": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power-target- exclusive",
+      "htmlFormattedUrl": "https://genius.com/\u003cb\u003ealbums\u003c/b\u003e/\u003cb\u003eHalsey\u003c/b\u003e/If-i-cant-have-love-i-want-power-target- exclusive",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkfeJzeXvLhzNC99snYgmpIF84aIinlutjpyFklp1ihNLqdwPHQh8wqfI",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "https://images.genius.com/7ec975f5b67051d10f3f1dada4374140.1000x1000x1.jpg",
+            "twitter:title": "If I Can’t Have Love, I Want Power (Target Exclusive) by Halsey",
+            "twitter:card": "summary_large_image",
+            "twitter:url": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power-target-exclusive",
+            "amp-google-client-id-api": "googleanalytics",
+            "og:title": "If I Can’t Have Love, I Want Power (Target Exclusive) by Halsey",
+            "og:description": "On June 28, Halsey announced her new album via billboards in Los Angeles and New York City, following a post on her social media.\n\nOn July 7, 2021, she announced the release date",
+            "twitter:image": "https://images.genius.com/7ec975f5b67051d10f3f1dada4374140.1000x1000x1.jpg",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+            "twitter:description": "On June 28, Halsey announced her new album via billboards in Los Angeles and New York City, following a post on her social media.\n\nOn July 7, 2021, she announced the release date",
+            "og:url": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power-target-exclusive",
+            "amp-consent-blocking": "amp-ad"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.genius.com/7ec975f5b67051d10f3f1dada4374140.1000x1000x1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Halsey | Spotify - Listen Free",
+      "htmlTitle": "\u003cb\u003eHalsey\u003c/b\u003e | Spotify - Listen Free",
+      "link": "https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2",
+      "displayLink": "open.spotify.com",
+      "snippet": "Listen to Halsey on Spotify. Artist · 37.9M monthly listeners. ... In 2017, Halsey was back with Hopeless Fountain Kingdom, which topped the album chart and ...",
+      "htmlSnippet": "Listen to \u003cb\u003eHalsey\u003c/b\u003e on Spotify. \u003cb\u003eArtist\u003c/b\u003e · 37.9M monthly listeners. ... In 2017, \u003cb\u003eHalsey\u003c/b\u003e was back with Hopeless Fountain Kingdom, which topped the \u003cb\u003ealbum\u003c/b\u003e chart and&nbsp;...",
+      "cacheId": "3yRV8uf1CF4J",
+      "formattedUrl": "https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2",
+      "htmlFormattedUrl": "https://open.spotify.com/\u003cb\u003eartist\u003c/b\u003e/26VFTg2z8YR0cCuwLzESi2",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQSAL-8_cD26rNCcDJY0DVt35B9r_zDyIxWZ60dDsiX2eEEAtDd4Vs705U",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "og:image": "https://i.scdn.co/image/ab6761610000e5ebdade5a33a51db8b049787d7f",
+            "og:type": "profile",
+            "twitter:title": "Halsey",
+            "twitter:card": "summary",
+            "og:site_name": "Spotify",
+            "al:ios:app_name": "Spotify",
+            "og:title": "Halsey",
+            "al:android:package": "com.spotify.music",
+            "google": "notranslate",
+            "al:ios:url": "spotify://artist/26VFTg2z8YR0cCuwLzESi2",
+            "og:description": "Artist · 37.9M monthly listeners.",
+            "al:ios:app_store_id": "324684580",
+            "twitter:image": "https://i.scdn.co/image/ab6761610000e5ebdade5a33a51db8b049787d7f",
+            "al:android:url": "spotify://artist/26VFTg2z8YR0cCuwLzESi2",
+            "fb:app_id": "174829003346",
+            "twitter:site": "@spotify",
+            "viewport": "width=device-width, initial-scale=1",
+            "twitter:description": "Artist · 37.9M monthly listeners.",
+            "og:url": "https://open.spotify.com/artist/26VFTg2z8YR0cCuwLzESi2",
+            "al:android:app_name": "Spotify"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://i.scdn.co/image/ab6761610000e5ebdade5a33a51db8b049787d7f"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Halsey – \u200bhoney Lyrics | Genius Lyrics",
+      "htmlTitle": "\u003cb\u003eHalsey\u003c/b\u003e – \u200bhoney Lyrics | Genius Lyrics",
+      "link": "https://genius.com/Halsey-honey-lyrics",
+      "displayLink": "genius.com",
+      "snippet": "Aug 27, 2021 ... honey is the ninth track off Halsey's fourth album If I Can't Have ... Prior to the release of IICHLIWP, Halsey briefly mentioned after the ...",
+      "htmlSnippet": "Aug 27, 2021 \u003cb\u003e...\u003c/b\u003e honey is the ninth track off \u003cb\u003eHalsey&#39;s\u003c/b\u003e fourth \u003cb\u003ealbum\u003c/b\u003e If I Can&#39;t Have ... Prior to the release of \u003cb\u003eIICHLIWP\u003c/b\u003e, \u003cb\u003eHalsey\u003c/b\u003e briefly mentioned after the&nbsp;...",
+      "cacheId": "gspSpoo_WwAJ",
+      "formattedUrl": "https://genius.com/Halsey-honey-lyrics",
+      "htmlFormattedUrl": "https://genius.com/\u003cb\u003eHalsey\u003c/b\u003e-honey-lyrics",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LW3lgTo8GvRUd3V7mcrSIR_WRmQlauszxugmef8pITpIl_-OO55_3qCD",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "twitter:app:url:iphone": "genius://songs/7093379",
+            "og:type": "music.song",
+            "twitter:title": "Halsey – \u200bhoney",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Genius",
+            "twitter:url": "https://genius.com/Halsey-honey-lyrics",
+            "og:title": "Halsey – \u200bhoney",
+            "y_key": "f63347d284f184b0",
+            "twitter:app:id:iphone": "709482991",
+            "fb:pages": "308252472676410",
+            "og:description": "[Verse 1] / She told me, \"Open your mouth,\" she said, \"I got a surprise\" / And so I opened it wide and then she crawled inside / She's on the tip of my tongue, she's on the top of",
+            "twitter:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "fb:app_id": "265539304824",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "[Verse 1] / She told me, \"Open your mouth,\" she said, \"I got a surprise\" / And so I opened it wide and then she crawled inside / She's on the tip of my tongue, she's on the top of",
+            "og:url": "https://genius.com/Halsey-honey-lyrics",
+            "twitter:type": "music.song",
+            "twitter:app:name:iphone": "Genius"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Halsey – Lilith Lyrics | Genius Lyrics",
+      "htmlTitle": "\u003cb\u003eHalsey\u003c/b\u003e – Lilith Lyrics | Genius Lyrics",
+      "link": "https://genius.com/Halsey-lilith-lyrics",
+      "displayLink": "genius.com",
+      "snippet": "Aug 27, 2021 ... Lilith, the fourth track off Halsey's fourth album If I Can't Have Love, ... This track was first hinted at when the @iichliwp Instagram ...",
+      "htmlSnippet": "Aug 27, 2021 \u003cb\u003e...\u003c/b\u003e Lilith, the fourth track off \u003cb\u003eHalsey&#39;s\u003c/b\u003e fourth \u003cb\u003ealbum\u003c/b\u003e If I Can&#39;t Have Love, ... This track was first hinted at when the @\u003cb\u003eiichliwp\u003c/b\u003e Instagram&nbsp;...",
+      "cacheId": "BbLUfJtH0pAJ",
+      "formattedUrl": "https://genius.com/Halsey-lilith-lyrics",
+      "htmlFormattedUrl": "https://genius.com/\u003cb\u003eHalsey\u003c/b\u003e-lilith-lyrics",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LW3lgTo8GvRUd3V7mcrSIR_WRmQlauszxugmef8pITpIl_-OO55_3qCD",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "twitter:app:url:iphone": "genius://songs/7093367",
+            "og:type": "music.song",
+            "twitter:title": "Halsey – Lilith",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Genius",
+            "twitter:url": "https://genius.com/Halsey-lilith-lyrics",
+            "og:title": "Halsey – Lilith",
+            "y_key": "f63347d284f184b0",
+            "twitter:app:id:iphone": "709482991",
+            "fb:pages": "308252472676410",
+            "og:description": "Lilith, the fourth track off Halsey’s fourth album If I Can’t Have Love, I Want Power. Halsey confirmed that “Lilith” was the first song written for the album in a Youtube",
+            "twitter:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "fb:app_id": "265539304824",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "Lilith, the fourth track off Halsey’s fourth album If I Can’t Have Love, I Want Power. Halsey confirmed that “Lilith” was the first song written for the album in a Youtube",
+            "og:url": "https://genius.com/Halsey-lilith-lyrics",
+            "twitter:type": "music.song",
+            "twitter:app:name:iphone": "Genius"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Halsey - If I Can't Have Love, I Want Power (Walmart Exclusive ...",
+      "htmlTitle": "\u003cb\u003eHalsey\u003c/b\u003e - If I Can&#39;t Have Love, I Want Power (Walmart Exclusive ...",
+      "link": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power-walmart-exclusive",
+      "displayLink": "genius.com",
+      "snippet": "1 Cover. Album ... Halsey. Released August 27, 2021. Back. How Halsey Flipped 'Romeo & Juliet' On 'hopeless fountain kingdom' ...",
+      "htmlSnippet": "1 \u003cb\u003eCover\u003c/b\u003e. \u003cb\u003eAlbum\u003c/b\u003e ... \u003cb\u003eHalsey\u003c/b\u003e. Released August 27, 2021. Back. How \u003cb\u003eHalsey\u003c/b\u003e Flipped &#39;Romeo &amp; Juliet&#39; On &#39;hopeless fountain kingdom&#39;&nbsp;...",
+      "cacheId": "4CzW1HKtZS8J",
+      "formattedUrl": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power-walmart- exclusive",
+      "htmlFormattedUrl": "https://genius.com/\u003cb\u003ealbums\u003c/b\u003e/\u003cb\u003eHalsey\u003c/b\u003e/If-i-cant-have-love-i-want-power-walm\u003cb\u003eart\u003c/b\u003e- exclusive",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkfeJzeXvLhzNC99snYgmpIF84aIinlutjpyFklp1ihNLqdwPHQh8wqfI",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "https://images.genius.com/7ec975f5b67051d10f3f1dada4374140.1000x1000x1.jpg",
+            "twitter:title": "If I Can’t Have Love, I Want Power (Walmart Exclusive) by Halsey",
+            "twitter:card": "summary_large_image",
+            "twitter:url": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power-walmart-exclusive",
+            "amp-google-client-id-api": "googleanalytics",
+            "og:title": "If I Can’t Have Love, I Want Power (Walmart Exclusive) by Halsey",
+            "og:description": "On June 28, 2021, Halsey announced If I Can’t Have Love, I Want Power via billboards in Los Angeles and New York City, following a post on her social media.\n\nOn July 7, 2021, she",
+            "twitter:image": "https://images.genius.com/7ec975f5b67051d10f3f1dada4374140.1000x1000x1.jpg",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,minimum-scale=1,initial-scale=1",
+            "twitter:description": "On June 28, 2021, Halsey announced If I Can’t Have Love, I Want Power via billboards in Los Angeles and New York City, following a post on her social media.\n\nOn July 7, 2021, she",
+            "og:url": "https://genius.com/albums/Halsey/If-i-cant-have-love-i-want-power-walmart-exclusive",
+            "amp-consent-blocking": "amp-ad"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.genius.com/7ec975f5b67051d10f3f1dada4374140.1000x1000x1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Halsey – I am not a woman, I'm a god Lyrics | Genius Lyrics",
+      "htmlTitle": "\u003cb\u003eHalsey\u003c/b\u003e – I am not a woman, I&#39;m a god Lyrics | Genius Lyrics",
+      "link": "https://genius.com/Halsey-i-am-not-a-woman-im-a-god-lyrics",
+      "displayLink": "genius.com",
+      "snippet": "Halsey. LyricsAboutTracklistComments. “I am not a woman, I'm a god” serves as the lead single from Halsey's fourth album If I Can't Have… Read More.",
+      "htmlSnippet": "\u003cb\u003eHalsey\u003c/b\u003e. LyricsAboutTracklistComments. “I am not a woman, I&#39;m a god” serves as the lead single from \u003cb\u003eHalsey&#39;s\u003c/b\u003e fourth \u003cb\u003ealbum\u003c/b\u003e If I Can&#39;t Have… Read More.",
+      "cacheId": "U64YtdeNOuIJ",
+      "formattedUrl": "https://genius.com/Halsey-i-am-not-a-woman-im-a-god-lyrics",
+      "htmlFormattedUrl": "https://genius.com/\u003cb\u003eHalsey\u003c/b\u003e-i-am-not-a-woman-im-a-god-lyrics",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LW3lgTo8GvRUd3V7mcrSIR_WRmQlauszxugmef8pITpIl_-OO55_3qCD",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "twitter:app:url:iphone": "genius://songs/7054384",
+            "og:type": "music.song",
+            "twitter:title": "Halsey – I am not a woman, I'm a god",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Genius",
+            "twitter:url": "https://genius.com/Halsey-i-am-not-a-woman-im-a-god-lyrics",
+            "og:title": "Halsey – I am not a woman, I'm a god",
+            "y_key": "f63347d284f184b0",
+            "twitter:app:id:iphone": "709482991",
+            "fb:pages": "308252472676410",
+            "og:description": "“I am not a woman, I’m a god” serves as the lead single from Halsey’s fourth album If I Can’t Have Love, I Want Power. Halsey’s work has always been shaped by the duality between",
+            "twitter:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "fb:app_id": "265539304824",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "“I am not a woman, I’m a god” serves as the lead single from Halsey’s fourth album If I Can’t Have Love, I Want Power. Halsey’s work has always been shaped by the duality between",
+            "og:url": "https://genius.com/Halsey-i-am-not-a-woman-im-a-god-lyrics",
+            "twitter:type": "music.song",
+            "twitter:app:name:iphone": "Genius"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Halsey – The Lighthouse Lyrics | Genius Lyrics",
+      "htmlTitle": "\u003cb\u003eHalsey\u003c/b\u003e – The Lighthouse Lyrics | Genius Lyrics",
+      "link": "https://genius.com/Halsey-the-lighthouse-lyrics",
+      "displayLink": "genius.com",
+      "snippet": "Aug 27, 2021 ... The Lighthouse. Halsey. LyricsAboutTracklistComments. The Lighthouse is the twelfth track off of Halsey's fourth album, If I Can't Have ...",
+      "htmlSnippet": "Aug 27, 2021 \u003cb\u003e...\u003c/b\u003e The Lighthouse. \u003cb\u003eHalsey\u003c/b\u003e. LyricsAboutTracklistComments. The Lighthouse is the twelfth track off of \u003cb\u003eHalsey&#39;s\u003c/b\u003e fourth \u003cb\u003ealbum\u003c/b\u003e, If I Can&#39;t Have&nbsp;...",
+      "cacheId": "ajoqbsuZAnsJ",
+      "formattedUrl": "https://genius.com/Halsey-the-lighthouse-lyrics",
+      "htmlFormattedUrl": "https://genius.com/\u003cb\u003eHalsey\u003c/b\u003e-the-lighthouse-lyrics",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LW3lgTo8GvRUd3V7mcrSIR_WRmQlauszxugmef8pITpIl_-OO55_3qCD",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "twitter:app:url:iphone": "genius://songs/7093381",
+            "og:type": "music.song",
+            "twitter:title": "Halsey – The Lighthouse",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Genius",
+            "twitter:url": "https://genius.com/Halsey-the-lighthouse-lyrics",
+            "og:title": "Halsey – The Lighthouse",
+            "y_key": "f63347d284f184b0",
+            "twitter:app:id:iphone": "709482991",
+            "fb:pages": "308252472676410",
+            "og:description": "[Verse 1] / From a tender age, I was cursed with rage / Came swingin' like a fist inside a battin' cage / I went swimmin' with the Devil at the bottom of a lake / And he left me",
+            "twitter:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "fb:app_id": "265539304824",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "[Verse 1] / From a tender age, I was cursed with rage / Came swingin' like a fist inside a battin' cage / I went swimmin' with the Devil at the bottom of a lake / And he left me",
+            "og:url": "https://genius.com/Halsey-the-lighthouse-lyrics",
+            "twitter:type": "music.song",
+            "twitter:app:name:iphone": "Genius"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Halsey – Girl is a Gun Lyrics | Genius Lyrics",
+      "htmlTitle": "\u003cb\u003eHalsey\u003c/b\u003e – Girl is a Gun Lyrics | Genius Lyrics",
+      "link": "https://genius.com/Halsey-girl-is-a-gun-lyrics",
+      "displayLink": "genius.com",
+      "snippet": "Halsey. LyricsAboutTracklistComments. Girl is a Gun is the fifth song off of Halsey's fourth album, If I Can't Have Love, I Want Power.… Read More. 1 112.9K",
+      "htmlSnippet": "\u003cb\u003eHalsey\u003c/b\u003e. LyricsAboutTracklistComments. Girl is a Gun is the fifth song off of \u003cb\u003eHalsey&#39;s\u003c/b\u003e fourth \u003cb\u003ealbum\u003c/b\u003e, If I Can&#39;t Have Love, I Want Power.… Read More. 1 112.9K",
+      "cacheId": "PddhbBc41t8J",
+      "formattedUrl": "https://genius.com/Halsey-girl-is-a-gun-lyrics",
+      "htmlFormattedUrl": "https://genius.com/\u003cb\u003eHalsey\u003c/b\u003e-girl-is-a-gun-lyrics",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LW3lgTo8GvRUd3V7mcrSIR_WRmQlauszxugmef8pITpIl_-OO55_3qCD",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "twitter:app:url:iphone": "genius://songs/7093368",
+            "og:type": "music.song",
+            "twitter:title": "Halsey – Girl is a Gun",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Genius",
+            "twitter:url": "https://genius.com/Halsey-girl-is-a-gun-lyrics",
+            "og:title": "Halsey – Girl is a Gun",
+            "y_key": "f63347d284f184b0",
+            "twitter:app:id:iphone": "709482991",
+            "fb:pages": "308252472676410",
+            "og:description": "[Verse 1] / I feel lighter in the waistline / With no hands around me, no spit in my teeth / No, I'm not your daydream, I won't have your baby / Stop 'cause you're killin' my vibe",
+            "twitter:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "fb:app_id": "265539304824",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "[Verse 1] / I feel lighter in the waistline / With no hands around me, no spit in my teeth / No, I'm not your daydream, I won't have your baby / Stop 'cause you're killin' my vibe",
+            "og:url": "https://genius.com/Halsey-girl-is-a-gun-lyrics",
+            "twitter:type": "music.song",
+            "twitter:app:name:iphone": "Genius"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "customsearch#result",
+      "title": "Halsey – Bells in Santa Fe Lyrics | Genius Lyrics",
+      "htmlTitle": "\u003cb\u003eHalsey\u003c/b\u003e – Bells in Santa Fe Lyrics | Genius Lyrics",
+      "link": "https://genius.com/Halsey-bells-in-santa-fe-lyrics",
+      "displayLink": "genius.com",
+      "snippet": "Halsey. LyricsAboutTracklistComments. “Bells In Santa Fe” is the second track from Halsey's fourth album, If I Can't Have Love, I Want… Read More. 1 175.7K",
+      "htmlSnippet": "\u003cb\u003eHalsey\u003c/b\u003e. LyricsAboutTracklistComments. “Bells In Santa Fe” is the second track from \u003cb\u003eHalsey&#39;s\u003c/b\u003e fourth \u003cb\u003ealbum\u003c/b\u003e, If I Can&#39;t Have Love, I Want… Read More. 1 175.7K",
+      "cacheId": "tRcSkVg3CZQJ",
+      "formattedUrl": "https://genius.com/Halsey-bells-in-santa-fe-lyrics",
+      "htmlFormattedUrl": "https://genius.com/\u003cb\u003eHalsey\u003c/b\u003e-bells-in-santa-fe-lyrics",
+      "pagemap": {
+        "cse_thumbnail": [
+          {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0LW3lgTo8GvRUd3V7mcrSIR_WRmQlauszxugmef8pITpIl_-OO55_3qCD",
+            "width": "225",
+            "height": "225"
+          }
+        ],
+        "metatags": [
+          {
+            "apple-itunes-app": "app-id=709482991",
+            "og:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "twitter:app:url:iphone": "genius://songs/6957009",
+            "og:type": "music.song",
+            "twitter:title": "Halsey – Bells in Santa Fe",
+            "twitter:card": "summary_large_image",
+            "og:site_name": "Genius",
+            "twitter:url": "https://genius.com/Halsey-bells-in-santa-fe-lyrics",
+            "og:title": "Halsey – Bells in Santa Fe",
+            "y_key": "f63347d284f184b0",
+            "twitter:app:id:iphone": "709482991",
+            "fb:pages": "308252472676410",
+            "og:description": "“Bells In Santa Fe” is the second track from Halsey’s fourth album, If I Can’t Have Love, I Want Power. It was rumored to be track 2 after Halsey had also posted the announcement",
+            "twitter:image": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png",
+            "fb:app_id": "265539304824",
+            "twitter:site": "@Genius",
+            "viewport": "width=device-width,initial-scale=1",
+            "twitter:description": "“Bells In Santa Fe” is the second track from Halsey’s fourth album, If I Can’t Have Love, I Want Power. It was rumored to be track 2 after Halsey had also posted the announcement",
+            "og:url": "https://genius.com/Halsey-bells-in-santa-fe-lyrics",
+            "twitter:type": "music.song",
+            "twitter:app:name:iphone": "Genius"
+          }
+        ],
+        "cse_image": [
+          {
+            "src": "https://images.genius.com/ea727a22978e4f6fc2d8f25358507442.1000x1000x1.png"
+          }
+        ]
+      }
+    }
+  ]
+}

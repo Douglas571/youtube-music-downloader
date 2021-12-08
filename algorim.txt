@@ -1,0 +1,51 @@
+// input - un archivo de instrucciónes
+
+// si type es "album"
+	// crear capeta "temp/{album_title}/" "temp/{album_title}/videos" "temp/{album_title}/audios"
+	// Si no hay cache, crear caché en temp/{album_title}/cache.json
+	// si hay internet
+		// descargar cover y guardar en temp/{album_title}/cover.png
+		// tomar un item
+			 // si hay id y no está en caché
+			 	// si hay internet
+			 		// descargar video en la carpeta temp/{album_title}/videos/{id}.mp4
+			 			// si se descargó exitosamente
+			 				// cachear id en temp/{album_title}/cache.json
+			 		// si no
+			 			// repetir descarga
+			 	// si no hay internet
+			 		// saltar item
+		// repetir para cada item
+
+		// tomar un item
+			// si id del item está en caché
+				// buscar video correspondiente en temp/{album_title}/videos/{id}.mp4
+				// convertir a mp3 y guardar en temp/{album-title}/audios/{id}.mp3
+				// buscar cover en temp/{album_title}/cover.png
+				// colocar cover
+				// editar metadatos
+				// copiar a download/{album_title}-{main_artist}/0{track}.{title}.mp3
+
+			// saltar item
+
+// si type es "playlist"
+	// crear capeta "temp/folder/" "temp/folder/videos" "temp/folder/audios" "temp/folder/covers"
+	// si existe temp/folder/cache.json
+		// cargar cache
+
+	// si no, crear cache file en temp/folder/cache.json
+
+	// tomar un item
+		// si hay id
+			// si hay internet y no está en caché
+				// descargar video y guardar en temp/folder/videos/{id}.mp4
+				// descargar cover en temp/folder/covers/{id}.png
+				
+
+
+		// si no hay id
+
+
+
+
+// output - una carpeta en descargas/ymd con los audios formateados

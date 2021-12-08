@@ -1,0 +1,23 @@
+{
+  "name": "ymd",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^1.0.1",
+    "axios": "^0.24.0",
+    "ffmetadata": "^1.7.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^10.0.0",
+    "google-auth-library": "^7.10.3",
+    "googleapis": "^92.0.0",
+    "node-id3": "^0.2.3",
+    "yaml": "^1.10.2",
+    "ytdl-core": "^4.9.1"
+  }
+}
