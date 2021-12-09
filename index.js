@@ -15,8 +15,8 @@ DIR.APPDATA = path.join(process.env.LOCALAPPDATA, 'ymd')
 DIR.YMD = path.join(DIR.HOME, 'ymd')
 DIR.DOWNLOADS = path.join(DIR.HOME, 'downloads', 'youtube-music-downloader')
 
-function get_instruction_file(file) {
-	const full_path = path.join(DIR.YMD, file)
+function get_instruction_file(instruction_file_path) {
+	const full_path = path.join(DIR.YMD, instruction_file_path)
 	const data = YAML.parse(fs.readFileSync(full_path, 'utf-8'))
 
 	return data
@@ -30,13 +30,13 @@ function ensure_dirs(dirs) {
 	}
 }
 
-function ensure_cache_file(file) {
-	fs.ensureFileSync(file)
+function ensure_cache_file(cache_path) {
+	fs.ensureFileSync(cache_path)
 }
 
-function get_cache(file) {
-	console.log(file)
-	const rawStr = fs.readFileSync(file, 'utf-8')
+function get_cache(cache_path) {
+	console.log(cache_path)
+	const rawStr = fs.readFileSync(cache_path, 'utf-8')
 	console.log(rawStr)
 
 	let cache
@@ -45,15 +45,16 @@ function get_cache(file) {
 
 	} catch (err) {
 		cache = {
-			videos: []
+			videos: [],
+			audios: []
 		}
 	}
 	
 	return cache
 }
 
-function save_cache(data, file) {
-	fs.writeFileSync(file, JSON.stringify(data, null, 4))
+function save_cache(data, cache_path) {
+	fs.writeFileSync(cache_path, JSON.stringify(data, null, 4))
 }
 
 function extract_id(url) {
@@ -121,13 +122,18 @@ function convert_video_to_mp3(src, dest) {
 function write_meta(meta, audio_path) {
 	return new Promise((res, rej) => {
 		NodeID3.write(meta, audio_path, err => {
+			if (err) {
+				console.log(err)
+				rej()
+			}
+			console.log('write successfull')
 			res()	
 		})
 	})
 }
 
 function read_meta(audio_path) {
-	const meta = NodeID3.read(file)
+	const meta = NodeID3.read(audio_path)
 	return meta
 }
 
@@ -142,6 +148,7 @@ async function exec(argv) {
 		: path.join(DIR.DOWNLOADS, `${data.name}`)
 
 	let temp_folder = path.join(DIR.APPDATA, `${data.name}`)
+	let temp_covers_folder = path.join(temp_folder, 'covers')
 	let temp_videos_folder = path.join(temp_folder, 'videos')
 	let temp_audios_folder = path.join(temp_folder, 'audios')
 	let temp_cache = path.join(temp_folder, 'cache.json')
@@ -155,51 +162,57 @@ async function exec(argv) {
 	ensure_cache_file(temp_cache)
 	const cache = get_cache(temp_cache)
 
+	//const path_to_cover = id => path.join(temp_covers_folder, `${id}.`)
+	const path_to_video = id => path.join(temp_videos_folder, `${id}.mp4`)
+	const path_to_audio = id => path.join(temp_audios_folder, `${id}.mp3`)
+	const path_to_mp3 = item => {
+		let file_name
+
+		let { track, title } = item
+		track = track || 0
+		file_name = (track < 10)
+			? `0${track}.${item.title}.mp3`
+			: `${track}.${item.title}.mp3`
+
+		return file_name
+	}
+
 	// Download videos
 	for (let item of data.items) {
-		//console.log(item)
+		
 		let id = item.youtube_id
-		//console.log(id)
 
+		// TO-DO: Write a function for ensure that id is asigned.
+		// IMPORTANT: Ensure that id is asigned for posterior usage.
 		if (!id) {
 			id = (item.youtube)
 				? extract_id(item.youtube)
 				: null
+			item.youtube_id = id
 		}
 
-		//console.log(id)
-		item.youtube_id = id
-
-		//console.log('includes video: ', cache.videos.includes(id))
 		if (id && (!cache.videos.includes(id))) {
 			await download_video(id, temp_videos_folder)
 			cache.videos.push(id)
 		}
 	}
 
-	const path_to_video = id => path.join(temp_videos_folder, `${id}.mp4`)
-	const path_to_audio = id => path.join(temp_audios_folder, `${id}.mp3`)
-
 	// Convert videos
 	for (let item of data.items) {
 		let id = item.youtube_id
 
-		let { track, title } = item
-		track = track || 0
-		const file_name = (track < 10)
-			? `0${track}.${item.title}.mp3`
-			: `${track}.${item.title}.mp3`
-
-
-		if (id) {
+		if (id && (!cache.audios.includes(id))) {
 			console.log(`Converting ${id} to mp3...`)
 			await convert_video_to_mp3(
 				path_to_video(id), 
 				path_to_audio(id))
+			cache.audios.push(id)
 			console.log('end convertion...')
 		}
 
 	}
+
+	//download_covers(data.items,)
 
 	// Write metadata
 	for (let item of data.items) {
@@ -209,8 +222,12 @@ async function exec(argv) {
 			const meta = {
 			    title: item.title,
 			    artist: item.artist,
+			    //performerInfo: performerArtist,
 			    //APIC: "./example/mia_cover.jpg",
-			    TRCK: item.track
+			    trackNumber: item.track,
+			    year: item.year,
+			    genre: item.genre,
+			    APIC: item.cover,
 			}
 
 			// TO-DO: Escribir el nombre del album aparte,
@@ -219,12 +236,13 @@ async function exec(argv) {
 				? data.name
 				: item.album
 
-			await write_meta(path_to_audio(id), meta)
+			await write_meta(meta, path_to_audio(id))
 
 			fs.copySync(
 				path_to_audio(id), 
-				path.join(DOWNLOAD_FOLDER,
-					file_name), 
+				path.join(
+					DOWNLOAD_FOLDER,
+					path_to_mp3(item)), 
 				{ overwrite: true })
 		}
 	}

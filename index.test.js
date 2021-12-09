@@ -113,7 +113,9 @@ describe('CLI test', () => {
 			const id = item.youtube_id
 			expect(fs.existsSync(path_to_video(id))).toEqual(true)
 			expect(fs.existsSync(path_to_audio(id))).toEqual(true)
+			
 			expect(cache.videos.includes(id)).toEqual(true)
+			expect(cache.audios.includes(id)).toEqual(true)
 
 			expect(fs.existsSync(path_to_mp3(item))).toEqual(true)
 
