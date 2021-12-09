@@ -58,9 +58,7 @@ function save_cache(data, cache_path) {
 }
 
 function extract_id(url) {
-	const str = "watch?v="
-	const idx = url.indexOf(str)
-	const id = url.slice(idx + str.length)
+	const id = url.split('=')[1]
 	return id	
 }
 
