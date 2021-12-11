@@ -1,4 +1,8 @@
 #!/usr/bin/env node
+//require('dotenv').config()
+
+console.log(process.env)
+
 const fs = require('fs-extra')
 const readline = require('readline')
 const path = require('path')
@@ -7,6 +11,8 @@ const YAML = require('yaml')
 const ytdl = require('ytdl-core')
 const ffmpeg = require('fluent-ffmpeg');
 const NodeID3 = require('node-id3')
+
+const Covers = require('./covers')
 
 const DIR = {}
 
@@ -46,7 +52,8 @@ function get_cache(cache_path) {
 	} catch (err) {
 		cache = {
 			videos: [],
-			audios: []
+			audios: [],
+			covers: {}
 		}
 	}
 	
@@ -118,13 +125,14 @@ function convert_video_to_mp3(src, dest) {
 }
 
 function write_meta(meta, audio_path) {
+	console.log(`writing meta: ${JSON.stringify(meta, null, 4)}`)
 	return new Promise((res, rej) => {
 		NodeID3.write(meta, audio_path, err => {
 			if (err) {
 				console.log(err)
 				rej()
 			}
-			console.log('write successfull')
+			//console.log('write successfull')
 			res()	
 		})
 	})
@@ -151,16 +159,18 @@ async function exec(argv) {
 	let temp_audios_folder = path.join(temp_folder, 'audios')
 	let temp_cache = path.join(temp_folder, 'cache.json')
 
+	console.log('ensuring dirs...')
 	ensure_dirs([
 		DIR.APPDATA, 
 		DOWNLOAD_FOLDER, 
 		temp_videos_folder, 
-		temp_audios_folder
+		temp_audios_folder,
+		temp_covers_folder
 	])
 	ensure_cache_file(temp_cache)
 	const cache = get_cache(temp_cache)
 
-	//const path_to_cover = id => path.join(temp_covers_folder, `${id}.`)
+	const path_to_cover = id => path.join(temp_covers_folder, `${id}.png`)
 	const path_to_video = id => path.join(temp_videos_folder, `${id}.mp4`)
 	const path_to_audio = id => path.join(temp_audios_folder, `${id}.mp3`)
 	const path_to_mp3 = item => {
@@ -176,6 +186,7 @@ async function exec(argv) {
 	}
 
 	// Download videos
+	console.log('downloading videos...')
 	for (let item of data.items) {
 		
 		let id = item.youtube_id
@@ -192,47 +203,95 @@ async function exec(argv) {
 		if (id && (!cache.videos.includes(id))) {
 			await download_video(id, temp_videos_folder)
 			cache.videos.push(id)
+			save_cache(cache, temp_cache)
 		}
 	}
 
 	// Convert videos
+	console.log('Converting videos...')
 	for (let item of data.items) {
 		let id = item.youtube_id
 
 		if (id && (!cache.audios.includes(id))) {
-			console.log(`Converting ${id} to mp3...`)
 			await convert_video_to_mp3(
 				path_to_video(id), 
 				path_to_audio(id))
 			cache.audios.push(id)
-			console.log('end convertion...')
+			save_cache(cache, temp_cache)
 		}
 
 	}
 
-	//download_covers(data.items,)
+	// Download cover
+	console.log('Downloading covers...')
+	if (data.type == 'album') {
+		// TO-DO: Write a single cover
+
+	} else {
+		for (let item of data.items) {
+			// find cover url
+			const id = item.youtube_id
+			let search = (item.title)? `${item.title}`: ''
+			search += (item.artist)? ` ${item.artist}`: ''
+			search += (item.year)? ` ${item.year}`: ''
+			let url
+
+			if(!item.cover) {
+				item.cover = {}
+
+				if(!cache.covers[search]) {
+					cache.covers[search] = {}
+				}
+
+				if(cache.covers[search].hasOwnProperty('url')) {
+					url = cache.covers[search].url
+
+				} else {
+					url = await Covers.find(search)
+					cache.covers[search].url = url
+				}
+
+				item.cover.url = url
+				save_cache(cache, temp_cache)
+			}
+
+			// download the cover
+			if (!(cache.covers[search].hasOwnProperty('file_path'))) {
+				await Covers.download(url, path_to_cover(id))	
+				cache.covers[search].file_path = path_to_cover(id)
+
+			}
+			
+			// asigne the cover file path to item
+			item.cover.file_path = path_to_cover(id)
+			save_cache(cache, temp_cache)
+		}
+
+	}
+
 
 	// Write metadata
+	console.log('Writing metadata...')
 	for (let item of data.items) {
 		const id = item.youtube_id
 
 		if (id) {
+
 			const meta = {
 			    title: item.title,
 			    artist: item.artist,
 			    //performerInfo: performerArtist,
-			    //APIC: "./example/mia_cover.jpg",
+			    APIC: item.cover.file_path,
 			    trackNumber: item.track,
 			    year: item.year,
 			    genre: item.genre,
-			    APIC: item.cover,
 			}
 
 			// TO-DO: Escribir el nombre del album aparte,
 			//        dependiendo del tipo
 			meta.album = (data.type == 'album')
 				? data.name
-				: item.album
+				: item.title
 
 			await write_meta(meta, path_to_audio(id))
 
@@ -253,6 +312,7 @@ async function exec(argv) {
 		appdata: {
 			videos: temp_videos_folder,
 			audios: temp_audios_folder,
+			covers: temp_covers_folder,
 			cache: temp_cache
 		}
 	}
@@ -261,7 +321,7 @@ async function exec(argv) {
 
 if (module === require.main) {
 	const argv = process.argv.slice(2)
-	const input = ['bts.yaml']
+	const input = ['num1.yaml']
 	exec(input)
 }
 

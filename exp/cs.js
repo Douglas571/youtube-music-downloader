@@ -1,21 +1,16 @@
-// api_key = AIzaSyCeNPyaEXxKhrmHor3RX2Gj2ADPhLesAE8
-// id_seng = 26f8dc88b37904c0a
-
-/*
-	https://www.googleapis.com/customsearch/v1?key=AIzaSyCeNPyaEXxKhrmHor3RX2Gj2ADPhLesAE8&cx=26f8dc88b37904c0a&q=halsey+iichliwp+album+cover+art
-*/
+require('dotenv').config()
 
 const { google } = require('googleapis')
 const fs = require('fs')
 const customsearch = google.customsearch({
 	version: 'v1',
-	auth: 'AIzaSyCeNPyaEXxKhrmHor3RX2Gj2ADPhLesAE8',
+	auth: process.env.GOOGLE_CS_KEY,
 })
 
 const main = async () => {
 	console.log('searchig...')
 	const res = await customsearch.cse.list({
-		cx: '26f8dc88b37904c0a',
+		cx: process.env.GOOGLE_CS_ID,
 		q: 'halsey manic album cover art'
 	})
 

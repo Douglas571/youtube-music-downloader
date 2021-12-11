@@ -36,7 +36,6 @@ describe('CLI test', () => {
 				{
 					title: 'song 3',
 				}
-
 			]
 		}
 
@@ -56,6 +55,7 @@ describe('CLI test', () => {
 
 		expect(fs.existsSync(VIDEOS_DIR)).toEqual(true)
 		expect(fs.existsSync(AUDIOS_DIR)).toEqual(true)
+		
 
 		expect(fs.existsSync(cache_file)).toEqual(true)
 	})
@@ -88,18 +88,20 @@ describe('CLI test', () => {
 
 		const output = await cli.exec(input)
 
+		
+
 		const path_to_video = id => path.join(output.appdata.videos, `${id}.mp4`)
-
 		const path_to_audio = id => path.join(output.appdata.audios, `${id}.mp3`)
-
+		const path_to_cover = id => path.join(output.appdata.covers, `${id}.png`)
 		const path_to_mp3 = item => {
-			
 			let ptm
 			const {track, title} = item
 			if (track < 10){
 				ptm = path.join(output.out_folder, `0${track}.${title}.mp3`)
+
 			} else {
 				ptm = path.join(output.out_folder, `${track}.${title}.mp3`)
+
 			}
 
 			return ptm
@@ -107,20 +109,30 @@ describe('CLI test', () => {
 
 		const cache = JSON.parse(fs.readFileSync(output.appdata.cache, 'utf-8'))
 
-		
+		const COVERS_DIR = path.join(output.appdata.covers)
+		expect(fs.existsSync(COVERS_DIR)).toEqual(true)		
 
-		playlist.items.forEach( async item => {
-			const id = item.youtube_id
-			expect(fs.existsSync(path_to_video(id))).toEqual(true)
-			expect(fs.existsSync(path_to_audio(id))).toEqual(true)
-			
-			expect(cache.videos.includes(id)).toEqual(true)
-			expect(cache.audios.includes(id)).toEqual(true)
+		playlist.items.forEach( item => {
+				const id = item.youtube_id
+				expect(fs.existsSync(path_to_video(id))).toEqual(true)
+				expect(fs.existsSync(path_to_audio(id))).toEqual(true)
+				expect(fs.existsSync(path_to_cover(id))).toEqual(true)
+				
+				expect(cache.videos.includes(id)).toEqual(true)
+				expect(cache.audios.includes(id)).toEqual(true)
 
-			expect(fs.existsSync(path_to_mp3(item))).toEqual(true)
+				let search = (item.title)? `${item.title}`: ''
+				search += (item.artist)? ` ${item.artist}`: ''
+				search += (item.year)? ` ${item.year}`: ''
 
-			const meta = cli.read_meta(path_to_mp3(item))
-			console.log(meta)
+				console.log(search)
+				const res = cache.covers[search].file_path
+				expect(res).toBe(path_to_cover(id))
+
+				expect(fs.existsSync(path_to_mp3(item))).toEqual(true)
+
+				const meta = cli.read_meta(path_to_mp3(item))
+				console.log(meta)
 		})
 		
 	})
