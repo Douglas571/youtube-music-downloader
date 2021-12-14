@@ -1,0 +1,31 @@
+{
+    "official": [
+        {
+            "youtube_id": "NmAG_SpfUVs",
+            "title": "OneRepublic - Wild Life",
+            "channel": "OneRepublicVEVO"
+        },
+        {
+            "youtube_id": "27cE9FvVO1c",
+            "title": "OneRepublic - Wild Life (Lyric Video)",
+            "channel": "OneRepublic"
+        },
+        {
+            "youtube_id": "moRYuusq9zk",
+            "title": "Wild Life",
+            "channel": "OneRepublic - Topic"
+        }
+    ],
+    "unofficial": [
+        {
+            "youtube_id": "GYdowIV-c9c",
+            "title": "OneRepublic - Wild Life (Audio)",
+            "channel": "Artist's Big Hits"
+        },
+        {
+            "youtube_id": "w5Q-ARisJDQ",
+            "title": "OneRepublic - Wild Life (Human) (Deluxe) | Audio",
+            "channel": "Sound Reliever"
+        }
+    ]
+}

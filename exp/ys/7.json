@@ -1,0 +1,182 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "N4Wn6g9GGIKvB7ai7uDKhobLeLs",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "VE",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "y21GtNsYEHWwbV1Su7jHABUoDX4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "meHJkMU4f40"
+            },
+            "snippet": {
+                "publishedAt": "2021-08-27T04:00:12Z",
+                "channelId": "UCQ5kHOKpF3-1_UCKaqXARRg",
+                "title": "OneRepublic - Take Care of You (Official Audio)",
+                "description": "Stream & Download OneRepublic's album “Human”: https://OneRepublic.lnk.to/Human Shop OneRepublic: http://smarturl.it/1RShop Sign up for email updates: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/meHJkMU4f40/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/meHJkMU4f40/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/meHJkMU4f40/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "OneRepublicVEVO",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-08-27T04:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "4SydTg6fvwPLnDmE6hYO8wd5XxU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "oJ86b3XcbvE"
+            },
+            "snippet": {
+                "publishedAt": "2021-08-27T04:03:51Z",
+                "channelId": "UCZCmb5a8LE9LMxW9I3-BFjA",
+                "title": "OneRepublic - Take Care of You (Lyrics)",
+                "description": "OneRepublic - Take Care of You (Lyrics) Follow OneRepublic: https://www.facebook.com/OneRepublic​ https://twitter.com/OneRepublic​ ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oJ86b3XcbvE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oJ86b3XcbvE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oJ86b3XcbvE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "ourmemoriestonight",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-08-27T04:03:51Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "oMw5ILP18QoKZ1ZKX55mVABbfrM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hb68O1Vkruo"
+            },
+            "snippet": {
+                "publishedAt": "2021-08-27T04:06:50Z",
+                "channelId": "UC2IoEoxT4T9--KhY294trYg",
+                "title": "OneRepublic - Take Care of You // Sub Español - Lyrics |HD|",
+                "description": "Artist/Artista: OneRepublic Song/canción: Take Care of You *LEER* Sígueme en mis redes. Instagram: https://www.instagram.com/luisrivera.33 Facebook: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hb68O1Vkruo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hb68O1Vkruo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hb68O1Vkruo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Luis !",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-08-27T04:06:50Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tgb5nXsYliPRdyRE3dz4GB1uPEE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "k0SMN_D5O8s"
+            },
+            "snippet": {
+                "publishedAt": "2021-08-27T13:07:49Z",
+                "channelId": "UC4EbICb2YHOkzFkyX4DPfWQ",
+                "title": "OneRepublic - Take Care Of You (Human) (Deluxe) | Audio",
+                "description": "Audio \"Take Care Of You\" from the album \"Human (Deluxe)\" by OneRepublic. https://onerepublic.lnk.to/Human Playlist link: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/k0SMN_D5O8s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/k0SMN_D5O8s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/k0SMN_D5O8s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Sound Reliever",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-08-27T13:07:49Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "obB02rrV1tJoH7oXxW9RkBE_hq4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "5-20leD2CiM"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-29T11:44:30Z",
+                "channelId": "UCTYnLSVHDop6laUj_z9rTSw",
+                "title": "OneRepublic - Take Care Of You (One Night In Malibu)",
+                "description": "onerepublic #takecareofyou #human.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5-20leD2CiM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5-20leD2CiM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5-20leD2CiM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "OneRepublicLyfe",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-29T11:44:30Z"
+            }
+        }
+    ]
+}
