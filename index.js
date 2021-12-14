@@ -289,9 +289,12 @@ async function exec(argv) {
 
 			// TO-DO: Escribir el nombre del album aparte,
 			//        dependiendo del tipo
+
 			meta.album = (data.type == 'album')
 				? data.name
 				: item.title
+
+			meta.album = item.album || meta.album
 
 			await write_meta(meta, path_to_audio(id))
 
@@ -321,7 +324,7 @@ async function exec(argv) {
 
 if (module === require.main) {
 	const argv = process.argv.slice(2)
-	const input = ['num1.yaml']
+	const input = ['gits.yaml']
 	exec(input)
 }
 
