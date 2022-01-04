@@ -1,0 +1,404 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "tsvEQZhmJylxNuDKw0BbMdGIwY0",
+    "items": [
+        {
+            "kind": "youtube#video",
+            "etag": "V07GF24otMevv_bcMrocj9ENqUg",
+            "id": "TmWih4XfRWY",
+            "snippet": {
+                "publishedAt": "2020-05-15T04:00:09Z",
+                "channelId": "UCYpVqLSvfseUqb2URAkexlw",
+                "title": "Kygo, OneRepublic - Lose Somebody (Audio)",
+                "description": "Kygo x OneRepublic - “Lose Somebody” \nMulti: https://smarturl.it/LoseSomebody \n\nGolden Hour – The new album from Kygo – Available 5.29.20 \nPre-Order Now: https://smarturl.it/xGoldenHour \n\nEnjoy more videos by Kygo: \nFreedom with Zak Abel: https://smarturl.it/xFreedom \nI’ll Wait with Sasha Sloan (Lyric): https://smarturl.it/IllWait/youtube \nLike It Is ft. Zara Larsson & Tyga: https://smarturl.it/LikeItIs/youtube \nHigher Love ft. Whitney Houston: https://smarturl.it/xHigherLove/youtube \nHappy Now (Avicii tribute) ft. Sandro Cavazza: https://smarturl.it/xHappyNow/youtube \nThink About You ft. Valerie Broussard: https://smarturl.it/xThinkAboutYou/youtube \n\nSUBSCRIBE to Kygo’s Youtube Channel: http://smarturl.it/KygoYTSubscribe \n\nFollow Kygo: \nhttp://www.soundcloud.com/kygo \nhttps://www.facebook.com/kygoofficial/ \nhttp://www.instagram.com/kygomusic \nhttps://twitter.com/kygomusic\nhttps://kygomusic.com \n\nFollow OneRepublic: \nhttps://www.facebook.com/OneRepublic \nhttps://twitter.com/OneRepublic \nhttps://www.instagram.com/onerepublic \nhttps://www.youtube.com/OneRepublic \n\nApple Music: https://smarturl.it/LoseSomebody/applemusic \nSpotify: https://smarturl.it/LoseSomebody/spotify \nAmazon Music: https://smarturl.it/LoseSomebody/az \nYouTube Music: https://smarturl.it/LoseSomebody/youtubemusic \niTunes: https://smarturl.it/LoseSomebody/itunes \nGoogle Play: https://smarturl.it/LoseSomebody/googleplay \nDeezer: https://smarturl.it/LoseSomebody/deezer \nPandora: https://smarturl.it/LoseSomebody/pandora \niHeart Radio: https://smarturl.it/LoseSomebody/iheartradio \nSoundcloud: https://smarturl.it/LoseSomebody/soundcloud \nTidal: https://smarturl.it/LoseSomebody/tidal \n\n#Kygo #OneRepublic #LoseSomebody",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TmWih4XfRWY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TmWih4XfRWY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TmWih4XfRWY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/TmWih4XfRWY/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/TmWih4XfRWY/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "KygoOfficialVEVO",
+                "tags": [
+                    "kygo",
+                    "onerepublic",
+                    "lose somebody",
+                    "kygo lose somebody",
+                    "onerepublic lose somebody",
+                    "ryan tedder",
+                    "kygo ryan tedder",
+                    "ryan tedder lose somebody",
+                    "kygo 2020",
+                    "kygo lyrics",
+                    "kygo remix",
+                    "stranger things",
+                    "kygo stranger things",
+                    "higher love",
+                    "kygo higher love",
+                    "kygo freedom",
+                    "kygo stole the show",
+                    "like it is",
+                    "kygo i’ll wait",
+                    "think about you",
+                    "born to be yours",
+                    "firestone",
+                    "permanent",
+                    "i’ll wait",
+                    "stop and stare",
+                    "counting stars",
+                    "onerepublic counting stars",
+                    "better days"
+                ],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Kygo, OneRepublic - Lose Somebody (Audio)",
+                    "description": "Kygo x OneRepublic - “Lose Somebody” \nMulti: https://smarturl.it/LoseSomebody \n\nGolden Hour – The new album from Kygo – Available 5.29.20 \nPre-Order Now: https://smarturl.it/xGoldenHour \n\nEnjoy more videos by Kygo: \nFreedom with Zak Abel: https://smarturl.it/xFreedom \nI’ll Wait with Sasha Sloan (Lyric): https://smarturl.it/IllWait/youtube \nLike It Is ft. Zara Larsson & Tyga: https://smarturl.it/LikeItIs/youtube \nHigher Love ft. Whitney Houston: https://smarturl.it/xHigherLove/youtube \nHappy Now (Avicii tribute) ft. Sandro Cavazza: https://smarturl.it/xHappyNow/youtube \nThink About You ft. Valerie Broussard: https://smarturl.it/xThinkAboutYou/youtube \n\nSUBSCRIBE to Kygo’s Youtube Channel: http://smarturl.it/KygoYTSubscribe \n\nFollow Kygo: \nhttp://www.soundcloud.com/kygo \nhttps://www.facebook.com/kygoofficial/ \nhttp://www.instagram.com/kygomusic \nhttps://twitter.com/kygomusic\nhttps://kygomusic.com \n\nFollow OneRepublic: \nhttps://www.facebook.com/OneRepublic \nhttps://twitter.com/OneRepublic \nhttps://www.instagram.com/onerepublic \nhttps://www.youtube.com/OneRepublic \n\nApple Music: https://smarturl.it/LoseSomebody/applemusic \nSpotify: https://smarturl.it/LoseSomebody/spotify \nAmazon Music: https://smarturl.it/LoseSomebody/az \nYouTube Music: https://smarturl.it/LoseSomebody/youtubemusic \niTunes: https://smarturl.it/LoseSomebody/itunes \nGoogle Play: https://smarturl.it/LoseSomebody/googleplay \nDeezer: https://smarturl.it/LoseSomebody/deezer \nPandora: https://smarturl.it/LoseSomebody/pandora \niHeart Radio: https://smarturl.it/LoseSomebody/iheartradio \nSoundcloud: https://smarturl.it/LoseSomebody/soundcloud \nTidal: https://smarturl.it/LoseSomebody/tidal \n\n#Kygo #OneRepublic #LoseSomebody"
+                }
+            },
+            "contentDetails": {
+                "duration": "PT3M22S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": true,
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "TFcCeRn0e2VukJdTvBiaHxYpxZE",
+            "id": "G6vMXTYZJz0",
+            "snippet": {
+                "publishedAt": "2020-05-29T04:03:04Z",
+                "channelId": "UCCFJeI-2sT_cWgz-QJRgbCw",
+                "title": "Kygo - Lose Somebody w/ OneRepublic (Official Audio)",
+                "description": "Kygo’s Golden Hour available everywhere now https://smarturl.it/xGoldenHour\n\nEnjoy more videos by Kygo: \nFreedom with Zak Abel: https://smarturl.it/xFreedom \nI’ll Wait with Sasha Sloan (Lyric): https://smarturl.it/IllWait/youtube \nLike It Is ft. Zara Larsson & Tyga: https://smarturl.it/LikeItIs/youtube \nHigher Love ft. Whitney Houston: https://smarturl.it/xHigherLove/youtube \nHappy Now (Avicii tribute) ft. Sandro Cavazza: https://smarturl.it/xHappyNow/youtube \nThink About You ft. Valerie Broussard: https://smarturl.it/xThinkAboutYou/youtube \n\nSUBSCRIBE to Kygo’s Youtube Channel: http://smarturl.it/KygoYTSubscribe \n\nFollow Kygo: \nhttp://www.soundcloud.com/kygo \nhttps://www.facebook.com/kygoofficial/ \nhttp://www.instagram.com/kygomusic \nhttps://twitter.com/kygomusic\nhttps://kygomusic.com \n\nFollow OneRepublic: \nhttps://www.facebook.com/OneRepublic \nhttps://twitter.com/OneRepublic \nhttps://www.instagram.com/onerepublic \nhttps://www.youtube.com/OneRepublic \n\nApple Music: https://smarturl.it/LoseSomebody/applemusic \nSpotify: https://smarturl.it/LoseSomebody/spotify \nAmazon Music: https://smarturl.it/LoseSomebody/az \nYouTube Music: https://smarturl.it/LoseSomebody/youtubemusic \niTunes: https://smarturl.it/LoseSomebody/itunes \nGoogle Play: https://smarturl.it/LoseSomebody/googleplay \nDeezer: https://smarturl.it/LoseSomebody/deezer \nPandora: https://smarturl.it/LoseSomebody/pandora \niHeart Radio: https://smarturl.it/LoseSomebody/iheartradio \nSoundcloud: https://smarturl.it/LoseSomebody/soundcloud \nTidal: https://smarturl.it/LoseSomebody/tidal \n\n#Kygo #OneRepublic #LoseSomebody",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G6vMXTYZJz0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G6vMXTYZJz0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G6vMXTYZJz0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/G6vMXTYZJz0/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/G6vMXTYZJz0/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "KygoMusic",
+                "tags": [
+                    "Kygo",
+                    "Kygo Music",
+                    "Tropical House",
+                    "Firestone",
+                    "Stole the Show",
+                    "Nothing Left",
+                    "kygo",
+                    "onerepublic",
+                    "lose somebody",
+                    "kygo lose somebody",
+                    "onerepublic lose somebody",
+                    "ryan tedder",
+                    "kygo lyrics",
+                    "stranger things",
+                    "kygo freedom",
+                    "think about you",
+                    "firestone",
+                    "permanent",
+                    "stop and stare",
+                    "counting stars",
+                    "onerepublic counting stars",
+                    "better days",
+                    "rescue me",
+                    "wherever i go",
+                    "love runs out",
+                    "stay home",
+                    "stole the show",
+                    "kygo mix",
+                    "golden hour",
+                    "kygo whitney Houston",
+                    "dance music",
+                    "remind me to forget"
+                ],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Kygo - Lose Somebody w/ OneRepublic (Official Audio)",
+                    "description": "Kygo’s Golden Hour available everywhere now https://smarturl.it/xGoldenHour\n\nEnjoy more videos by Kygo: \nFreedom with Zak Abel: https://smarturl.it/xFreedom \nI’ll Wait with Sasha Sloan (Lyric): https://smarturl.it/IllWait/youtube \nLike It Is ft. Zara Larsson & Tyga: https://smarturl.it/LikeItIs/youtube \nHigher Love ft. Whitney Houston: https://smarturl.it/xHigherLove/youtube \nHappy Now (Avicii tribute) ft. Sandro Cavazza: https://smarturl.it/xHappyNow/youtube \nThink About You ft. Valerie Broussard: https://smarturl.it/xThinkAboutYou/youtube \n\nSUBSCRIBE to Kygo’s Youtube Channel: http://smarturl.it/KygoYTSubscribe \n\nFollow Kygo: \nhttp://www.soundcloud.com/kygo \nhttps://www.facebook.com/kygoofficial/ \nhttp://www.instagram.com/kygomusic \nhttps://twitter.com/kygomusic\nhttps://kygomusic.com \n\nFollow OneRepublic: \nhttps://www.facebook.com/OneRepublic \nhttps://twitter.com/OneRepublic \nhttps://www.instagram.com/onerepublic \nhttps://www.youtube.com/OneRepublic \n\nApple Music: https://smarturl.it/LoseSomebody/applemusic \nSpotify: https://smarturl.it/LoseSomebody/spotify \nAmazon Music: https://smarturl.it/LoseSomebody/az \nYouTube Music: https://smarturl.it/LoseSomebody/youtubemusic \niTunes: https://smarturl.it/LoseSomebody/itunes \nGoogle Play: https://smarturl.it/LoseSomebody/googleplay \nDeezer: https://smarturl.it/LoseSomebody/deezer \nPandora: https://smarturl.it/LoseSomebody/pandora \niHeart Radio: https://smarturl.it/LoseSomebody/iheartradio \nSoundcloud: https://smarturl.it/LoseSomebody/soundcloud \nTidal: https://smarturl.it/LoseSomebody/tidal \n\n#Kygo #OneRepublic #LoseSomebody"
+                }
+            },
+            "contentDetails": {
+                "duration": "PT3M20S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": false,
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "Hz6mnJKBTCCeP7uv1khdpJMFoT4",
+            "id": "uruccxh9bkQ",
+            "snippet": {
+                "publishedAt": "2020-06-08T16:00:09Z",
+                "channelId": "UCYpVqLSvfseUqb2URAkexlw",
+                "title": "Kygo, OneRepublic - Lose Somebody",
+                "description": "Kygo x OneRepublic - “Lose Somebody” Out Now https://smarturl.it/LoseSomebody\nKygo’s Golden Hour Now Available Everywhere https://smarturl.it/xGoldenHour\n\nProduction Company - Palm Tree Crew\nDirector - Christian Lamb\n2nd Unit Director (Norway) - Johannes Lovund\nExecutive Producer - Myles Shear\nExecutive Producer - Molly Bohas\nProducer - Stephan Bielecki\nDP - Corey Parsons\nEditor - Taylor Brusky\nVFX Supervisor - Tim Hendrix\n\nEnjoy more videos by Kygo: \nFreedom with Zak Abel: https://smarturl.it/xFreedom \nI’ll Wait with Sasha Sloan (Lyric): https://smarturl.it/IllWait/youtube \nLike It Is ft. Zara Larsson & Tyga: https://smarturl.it/LikeItIs/youtube \nHigher Love ft. Whitney Houston: https://smarturl.it/xHigherLove/youtube \nHappy Now (Avicii tribute) ft. Sandro Cavazza: https://smarturl.it/xHappyNow/youtube \nThink About You ft. Valerie Broussard: https://smarturl.it/xThinkAboutYou/youtube \n\nSUBSCRIBE to Kygo’s Youtube Channel: http://smarturl.it/KygoYTSubscribe \n\nFollow Kygo: \nhttp://www.soundcloud.com/kygo \nhttps://www.facebook.com/kygoofficial/ \nhttp://www.instagram.com/kygomusic \nhttps://twitter.com/kygomusic\nhttps://kygomusic.com \n\nFollow OneRepublic: \nhttps://www.facebook.com/OneRepublic \nhttps://twitter.com/OneRepublic \nhttps://www.instagram.com/onerepublic \nhttps://www.youtube.com/OneRepublic \n\nApple Music: https://smarturl.it/LoseSomebody/applemusic \nSpotify: https://smarturl.it/LoseSomebody/spotify \nAmazon Music: https://smarturl.it/LoseSomebody/az \nYouTube Music: https://smarturl.it/LoseSomebody/youtubemusic \niTunes: https://smarturl.it/LoseSomebody/itunes \nGoogle Play: https://smarturl.it/LoseSomebody/googleplay \nDeezer: https://smarturl.it/LoseSomebody/deezer \nPandora: https://smarturl.it/LoseSomebody/pandora \niHeart Radio: https://smarturl.it/LoseSomebody/iheartradio \nSoundcloud: https://smarturl.it/LoseSomebody/soundcloud \nTidal: https://smarturl.it/LoseSomebody/tidal \n\n#Kygo #OneRepublic #LoseSomebody",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uruccxh9bkQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uruccxh9bkQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uruccxh9bkQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/uruccxh9bkQ/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/uruccxh9bkQ/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "KygoOfficialVEVO",
+                "tags": [
+                    "kygo",
+                    "onerepublic",
+                    "lose somebody",
+                    "kygo lose somebody",
+                    "lose somebody official video",
+                    "onerepublic lose somebody",
+                    "ryan tedder",
+                    "kygo ryan tedder",
+                    "ryan tedder lose somebody",
+                    "kygo 2020",
+                    "kygo lyrics",
+                    "kygo remix",
+                    "stranger things",
+                    "kygo stranger things",
+                    "higher love",
+                    "kygo higher love",
+                    "kygo freedom",
+                    "kygo stole the show",
+                    "like it is",
+                    "kygo i’ll wait",
+                    "think about you",
+                    "born to be yours",
+                    "firestone",
+                    "permanent",
+                    "i’ll wait",
+                    "stop and stare",
+                    "counting stars",
+                    "counting"
+                ],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Kygo, OneRepublic - Lose Somebody",
+                    "description": "Kygo x OneRepublic - “Lose Somebody” Out Now https://smarturl.it/LoseSomebody\nKygo’s Golden Hour Now Available Everywhere https://smarturl.it/xGoldenHour\n\nProduction Company - Palm Tree Crew\nDirector - Christian Lamb\n2nd Unit Director (Norway) - Johannes Lovund\nExecutive Producer - Myles Shear\nExecutive Producer - Molly Bohas\nProducer - Stephan Bielecki\nDP - Corey Parsons\nEditor - Taylor Brusky\nVFX Supervisor - Tim Hendrix\n\nEnjoy more videos by Kygo: \nFreedom with Zak Abel: https://smarturl.it/xFreedom \nI’ll Wait with Sasha Sloan (Lyric): https://smarturl.it/IllWait/youtube \nLike It Is ft. Zara Larsson & Tyga: https://smarturl.it/LikeItIs/youtube \nHigher Love ft. Whitney Houston: https://smarturl.it/xHigherLove/youtube \nHappy Now (Avicii tribute) ft. Sandro Cavazza: https://smarturl.it/xHappyNow/youtube \nThink About You ft. Valerie Broussard: https://smarturl.it/xThinkAboutYou/youtube \n\nSUBSCRIBE to Kygo’s Youtube Channel: http://smarturl.it/KygoYTSubscribe \n\nFollow Kygo: \nhttp://www.soundcloud.com/kygo \nhttps://www.facebook.com/kygoofficial/ \nhttp://www.instagram.com/kygomusic \nhttps://twitter.com/kygomusic\nhttps://kygomusic.com \n\nFollow OneRepublic: \nhttps://www.facebook.com/OneRepublic \nhttps://twitter.com/OneRepublic \nhttps://www.instagram.com/onerepublic \nhttps://www.youtube.com/OneRepublic \n\nApple Music: https://smarturl.it/LoseSomebody/applemusic \nSpotify: https://smarturl.it/LoseSomebody/spotify \nAmazon Music: https://smarturl.it/LoseSomebody/az \nYouTube Music: https://smarturl.it/LoseSomebody/youtubemusic \niTunes: https://smarturl.it/LoseSomebody/itunes \nGoogle Play: https://smarturl.it/LoseSomebody/googleplay \nDeezer: https://smarturl.it/LoseSomebody/deezer \nPandora: https://smarturl.it/LoseSomebody/pandora \niHeart Radio: https://smarturl.it/LoseSomebody/iheartradio \nSoundcloud: https://smarturl.it/LoseSomebody/soundcloud \nTidal: https://smarturl.it/LoseSomebody/tidal \n\n#Kygo #OneRepublic #LoseSomebody"
+                }
+            },
+            "contentDetails": {
+                "duration": "PT3M42S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "true",
+                "licensedContent": true,
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "QprCg25qVbnH6ub722sNi4aBvyw",
+            "id": "8HVho89lDkg",
+            "snippet": {
+                "publishedAt": "2020-05-15T04:51:41Z",
+                "channelId": "UC9jQoxksa5ZL5SytgkCOycA",
+                "title": "Kygo & OneRepublic - Lose Somebody (Lyrics)",
+                "description": "Subscribe and press (🔔) to join the Notification Squad and stay updated with new uploads\n\nFollow Kygo:\nhttp://www.soundcloud.com/kygo\nhttps://www.facebook.com/kygoofficial/\nhttp://www.instagram.com/kygomusic\nhttps://www.twitter.com/kygo\nhttps://kygomusic.com\n\nFollow OneRepublic:\nhttps://www.facebook.com/OneRepublic\nhttps://twitter.com/OneRepublic\nhttps://www.instagram.com/onerepublic\nhttps://www.youtube.com/OneRepublic\n\n©️If any producer or label has an issue with this song or picture, please get in contact with us and we will delete it immediately.\n\nLyrics\n\nIt's a classic \"me\" mistake\nSomeone gives me love and I throw it all away\nTell me have I gone insane?\nTalkin' to myself but I don't know what to say\n\n'Cause you let go\nAnd now I'm holdin' on\nI guess you don't know what you got\nUntil it's gone\n\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, and I do, and I do, and I do, yeah\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, yeah\nSometimes you gotta lose somebody\n\nSo don't tell me it's too late\nHearts are made to bend, baby, please don't let me break, yeah\nI knew I should've stayed\n'Cause now you're movin' on and I don't know what to say\n\n'Cause you let go (Yeah, you let go)\nAnd now I'm holdin' on (I'm holdin' on)\nI guess you don't know what you got\nUntil it's gone\n\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, and I do, and I do, and I do, yeah\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, yeah\nSometimes you gotta lose somebody\n\nSometimes you gotta lose somebody, yeah\nSometimes you gotta lose somebody, yeah\nSometimes you gotta lose somebody, yeah\nSometimes you gotta lose somebody, yeah\n\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, and I do, and I do, and I do, yeah\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, yeah\nSometimes you gotta lose somebody\n\nOoh\nSometimes you gotta lose some\nYou gotta lose somebody\n\nTags 📝\nKygo, Onerepublic, Lose Somebody, kygo Lose Somebody, onerepublic Lose Somebody, Lose Somebody lyrics, kygo Lose Somebody lyrics, onerepublic Lose Somebody lyrics, kygo onerepublic Lose Somebody lyrics, Lose Somebody lyrics kygo onerepublic, Lose Somebody lyrics kygo,",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8HVho89lDkg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8HVho89lDkg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8HVho89lDkg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/8HVho89lDkg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/8HVho89lDkg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Lazy Fox",
+                "tags": [
+                    "Kygo",
+                    "Onerepublic",
+                    "Lose Somebody",
+                    "kygo Lose Somebody",
+                    "onerepublic Lose Somebody",
+                    "Lose Somebody lyrics",
+                    "kygo Lose Somebody lyrics",
+                    "onerepublic Lose Somebody lyrics",
+                    "kygo onerepublic Lose Somebody lyrics",
+                    "Lose Somebody lyrics kygo onerepublic",
+                    "Lose Somebody lyrics kygo",
+                    "james arthur train wreck lyrics",
+                    "Lazy Fox"
+                ],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Kygo & OneRepublic - Lose Somebody (Lyrics)",
+                    "description": "Subscribe and press (🔔) to join the Notification Squad and stay updated with new uploads\n\nFollow Kygo:\nhttp://www.soundcloud.com/kygo\nhttps://www.facebook.com/kygoofficial/\nhttp://www.instagram.com/kygomusic\nhttps://www.twitter.com/kygo\nhttps://kygomusic.com\n\nFollow OneRepublic:\nhttps://www.facebook.com/OneRepublic\nhttps://twitter.com/OneRepublic\nhttps://www.instagram.com/onerepublic\nhttps://www.youtube.com/OneRepublic\n\n©️If any producer or label has an issue with this song or picture, please get in contact with us and we will delete it immediately.\n\nLyrics\n\nIt's a classic \"me\" mistake\nSomeone gives me love and I throw it all away\nTell me have I gone insane?\nTalkin' to myself but I don't know what to say\n\n'Cause you let go\nAnd now I'm holdin' on\nI guess you don't know what you got\nUntil it's gone\n\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, and I do, and I do, and I do, yeah\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, yeah\nSometimes you gotta lose somebody\n\nSo don't tell me it's too late\nHearts are made to bend, baby, please don't let me break, yeah\nI knew I should've stayed\n'Cause now you're movin' on and I don't know what to say\n\n'Cause you let go (Yeah, you let go)\nAnd now I'm holdin' on (I'm holdin' on)\nI guess you don't know what you got\nUntil it's gone\n\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, and I do, and I do, and I do, yeah\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, yeah\nSometimes you gotta lose somebody\n\nSometimes you gotta lose somebody, yeah\nSometimes you gotta lose somebody, yeah\nSometimes you gotta lose somebody, yeah\nSometimes you gotta lose somebody, yeah\n\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, and I do, and I do, and I do, yeah\nSometimes you gotta lose somebody\nJust to find out you really love someone\nOh-oh, yeah\nSometimes you gotta lose somebody\n\nOoh\nSometimes you gotta lose some\nYou gotta lose somebody\n\nTags 📝\nKygo, Onerepublic, Lose Somebody, kygo Lose Somebody, onerepublic Lose Somebody, Lose Somebody lyrics, kygo Lose Somebody lyrics, onerepublic Lose Somebody lyrics, kygo onerepublic Lose Somebody lyrics, Lose Somebody lyrics kygo onerepublic, Lose Somebody lyrics kygo,"
+                }
+            },
+            "contentDetails": {
+                "duration": "PT3M20S",
+                "dimension": "2d",
+                "definition": "sd",
+                "caption": "false",
+                "licensedContent": true,
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "h8Z-rY2D2yxDopt9bYJ90mnFzHw",
+            "id": "r2urnIACIlA",
+            "snippet": {
+                "publishedAt": "2020-05-15T05:03:56Z",
+                "channelId": "UCFkks7PrvTihvjgshtIT5Og",
+                "title": "Kygo & OneRepublic - Lose Somebody // Sub Español",
+                "description": "• Suscribete si te gustó el vídeo y activa la campanita para que te lleguen todas las notificaciones! 🔔\n\n• Negocios / Promociones Musicales! (por comisión) 📨\n    [ contactovirtuau@gmail.com ]\n   \n• Business / Promotions Musicals! (by commission) 📨\n    [ contactovirtuau@gmail.com ]\n\n• Únete al discord del canal! 📢\nhttps://discord.gg/7Y5M2VsHaZ\n\n• Mi Canal de Música en Español! ✨\nhttps://www.youtube.com/channel/UCjd83gckxxur3ifNJMCnQOg\n\n• Sígueme en Instagram! 🎨\nhttps://www.instagram.com/virtuau_yt/\n\n• Playlist del Canal en Spotify! 🎵\nhttps://open.spotify.com/user/f72ln7ztkm9g1rkbahf2uqnw1/playlist/2vcmoVap7J9FUDa9F8TUxJ?si=kUMI_R_HQGSjzLsPhSKlqg\n\n\n• Apoya a Kygo!\nhttp://www.soundcloud.com/kygo \nhttps://www.facebook.com/kygoofficial/ \nhttp://www.instagram.com/kygomusic \nhttps://twitter.com/kygomusic\nhttps://kygomusic.com \n\n• Apoya a OneRepublic! \nhttps://www.facebook.com/OneRepublic \nhttps://twitter.com/OneRepublic \nhttps://www.instagram.com/onerepublic \nhttps://www.youtube.com/OneRepublic \n\n\nLyrics 📝\n\nIt's a classic \"me\" mistake\n Someone gives me love and I throw it all away\n Tell me have I gone insane?\n Talkin' to myself but I don't know what to say\n\n 'Cause you let go\n And now I'm holdin' on\n I guess you don't know what you got\n Until it's gone\n\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, and I do, and I do, and I do, yeah\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, yeah\n Sometimes you gotta lose somebody\n\n So don't tell me it's too late\n Hearts are made to bend, baby, please don't let me break, yeah\n I knew I should've stayed\n 'Cause now you're movin' on and I don't know what to say\n\n 'Cause you let go (Yeah, you let go)\n And now I'm holdin' on (I'm holdin' on)\n I guess you don't know what you got\n Until it's gone\n\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, and I do, and I do, and I do, yeah\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, yeah\n Sometimes you gotta lose somebody\n\n Sometimes you gotta lose somebody, yeah\n Sometimes you gotta lose somebody, yeah\n Sometimes you gotta lose somebody, yeah\n Sometimes you gotta lose somebody, yeah\n\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, and I do, and I do, and I do, yeah\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, yeah\n Sometimes you gotta lose somebody\n\n Ooh\n Sometimes you gotta lose some\n You gotta lose somebody\n\n\n\n\n\n\n\n\n\nCantidad de suscriptores: 108.000 ✨\n#Kygo #OneRepublic #LoseSomebody",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/r2urnIACIlA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/r2urnIACIlA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/r2urnIACIlA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/r2urnIACIlA/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/r2urnIACIlA/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Virtuau",
+                "tags": [
+                    "kygo",
+                    "kygo & OneRepublic",
+                    "kygo lose somebody",
+                    "kygo lose somebody español",
+                    "kygo lose somebody sub español",
+                    "kygo lose somebody traducida al español",
+                    "kygo lose somebody subtitulada al español",
+                    "kygo onerepublic lose somebody español",
+                    "kygo español",
+                    "lose somebody",
+                    "lose somebody español",
+                    "OneRepublic lose somebody",
+                    "OneRepublic lose somebody español"
+                ],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Kygo & OneRepublic - Lose Somebody // Sub Español",
+                    "description": "• Suscribete si te gustó el vídeo y activa la campanita para que te lleguen todas las notificaciones! 🔔\n\n• Negocios / Promociones Musicales! (por comisión) 📨\n    [ contactovirtuau@gmail.com ]\n   \n• Business / Promotions Musicals! (by commission) 📨\n    [ contactovirtuau@gmail.com ]\n\n• Únete al discord del canal! 📢\nhttps://discord.gg/7Y5M2VsHaZ\n\n• Mi Canal de Música en Español! ✨\nhttps://www.youtube.com/channel/UCjd83gckxxur3ifNJMCnQOg\n\n• Sígueme en Instagram! 🎨\nhttps://www.instagram.com/virtuau_yt/\n\n• Playlist del Canal en Spotify! 🎵\nhttps://open.spotify.com/user/f72ln7ztkm9g1rkbahf2uqnw1/playlist/2vcmoVap7J9FUDa9F8TUxJ?si=kUMI_R_HQGSjzLsPhSKlqg\n\n\n• Apoya a Kygo!\nhttp://www.soundcloud.com/kygo \nhttps://www.facebook.com/kygoofficial/ \nhttp://www.instagram.com/kygomusic \nhttps://twitter.com/kygomusic\nhttps://kygomusic.com \n\n• Apoya a OneRepublic! \nhttps://www.facebook.com/OneRepublic \nhttps://twitter.com/OneRepublic \nhttps://www.instagram.com/onerepublic \nhttps://www.youtube.com/OneRepublic \n\n\nLyrics 📝\n\nIt's a classic \"me\" mistake\n Someone gives me love and I throw it all away\n Tell me have I gone insane?\n Talkin' to myself but I don't know what to say\n\n 'Cause you let go\n And now I'm holdin' on\n I guess you don't know what you got\n Until it's gone\n\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, and I do, and I do, and I do, yeah\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, yeah\n Sometimes you gotta lose somebody\n\n So don't tell me it's too late\n Hearts are made to bend, baby, please don't let me break, yeah\n I knew I should've stayed\n 'Cause now you're movin' on and I don't know what to say\n\n 'Cause you let go (Yeah, you let go)\n And now I'm holdin' on (I'm holdin' on)\n I guess you don't know what you got\n Until it's gone\n\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, and I do, and I do, and I do, yeah\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, yeah\n Sometimes you gotta lose somebody\n\n Sometimes you gotta lose somebody, yeah\n Sometimes you gotta lose somebody, yeah\n Sometimes you gotta lose somebody, yeah\n Sometimes you gotta lose somebody, yeah\n\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, and I do, and I do, and I do, yeah\n Sometimes you gotta lose somebody\n Just to find out you really love someone\n Oh-oh, yeah\n Sometimes you gotta lose somebody\n\n Ooh\n Sometimes you gotta lose some\n You gotta lose somebody\n\n\n\n\n\n\n\n\n\nCantidad de suscriptores: 108.000 ✨\n#Kygo #OneRepublic #LoseSomebody"
+                }
+            },
+            "contentDetails": {
+                "duration": "PT3M24S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": false,
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 5,
+        "resultsPerPage": 5
+    }
+}

@@ -3260,7 +3260,7 @@
     },
     "headers": {
         "content-type": "application/json; charset=utf-8",
-        "cache-control": "public, max-age=72120",
+        "cache-control": "public, max-age=72908",
         "x-robots-tag": "noindex, nofollow",
         "access-control-allow-origin": "*",
         "access-control-allow-headers": "Accept, App-Platform, Authorization, Content-Type, Origin, Retry-After, Spotify-App-Version, X-Cloud-Trace-Context, client-token, content-access-token",
@@ -3270,7 +3270,7 @@
         "content-encoding": "gzip",
         "strict-transport-security": "max-age=31536000",
         "x-content-type-options": "nosniff",
-        "date": "Sun, 12 Dec 2021 15:17:33 GMT",
+        "date": "Sun, 02 Jan 2022 11:40:39 GMT",
         "server": "envoy",
         "via": "HTTP/2 edgeproxy, 1.1 google",
         "alt-svc": "clear",

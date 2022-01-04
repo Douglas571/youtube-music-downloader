@@ -1,0 +1,100 @@
+{
+    "name": "If I Can’t Have Love, I Want Power",
+    "artist": "Halsey",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2731f9f8d93bf43b569817af0a4",
+    "year": "2021",
+    "totalTracks": 13,
+    "tracks": [
+        {
+            "id": "3e2bWR3uFw1utzl37g4z3S",
+            "title": "The Tradition",
+            "track_number": 1,
+            "artists": "Halsey",
+            "duration_sec": 226.373
+        },
+        {
+            "id": "1Knd3MtE5sEQMh6txcg0k0",
+            "title": "Bells in Santa Fe",
+            "track_number": 2,
+            "artists": "Halsey",
+            "duration_sec": 217.653
+        },
+        {
+            "id": "7N1TIml2jRQRgXUrpXgXrk",
+            "title": "Easier than Lying",
+            "track_number": 3,
+            "artists": "Halsey",
+            "duration_sec": 206.346
+        },
+        {
+            "id": "5pteD2j5hzE9qeP8BrVT1o",
+            "title": "Lilith",
+            "track_number": 4,
+            "artists": "Halsey",
+            "duration_sec": 167.24
+        },
+        {
+            "id": "5sTsbKMuBuIZoGHfoFXdwU",
+            "title": "Girl is a Gun",
+            "track_number": 5,
+            "artists": "Halsey",
+            "duration_sec": 146.546
+        },
+        {
+            "id": "1JbS3r3gT4pK5qWBEShIJU",
+            "title": "You asked for this",
+            "track_number": 6,
+            "artists": "Halsey",
+            "duration_sec": 265.52
+        },
+        {
+            "id": "39nc7C7C7iIJtVAlNznst7",
+            "title": "Darling",
+            "track_number": 7,
+            "artists": "Halsey",
+            "duration_sec": 182
+        },
+        {
+            "id": "0O6SiaA3cBp24ZYnPX2GVQ",
+            "title": "1121",
+            "track_number": 8,
+            "artists": "Halsey",
+            "duration_sec": 162.52
+        },
+        {
+            "id": "7p58AJeuaFSUHTnPe5NFaf",
+            "title": "honey",
+            "track_number": 9,
+            "artists": "Halsey",
+            "duration_sec": 173.84
+        },
+        {
+            "id": "50wqN28Ca3fJGddi95GaSc",
+            "title": "Whispers",
+            "track_number": 10,
+            "artists": "Halsey",
+            "duration_sec": 191.693
+        },
+        {
+            "id": "5RhFmJifQe83FpQ6ZFFTZ5",
+            "title": "I am not a woman, I'm a god",
+            "track_number": 11,
+            "artists": "Halsey",
+            "duration_sec": 176.413
+        },
+        {
+            "id": "0AMKBZBzdgp0054s9DORsv",
+            "title": "The Lighthouse",
+            "track_number": 12,
+            "artists": "Halsey",
+            "duration_sec": 273.386
+        },
+        {
+            "id": "6PkHFPxrvlXXVnJTONwsjc",
+            "title": "Ya'aburnee",
+            "track_number": 13,
+            "artists": "Halsey",
+            "duration_sec": 188.413
+        }
+    ]
+}

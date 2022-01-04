@@ -6,119 +6,119 @@
     "totalTracks": 16,
     "tracks": [
         {
+            "id": "6KL88T4Ma4ABXqzgUoEwkd",
             "title": "Run",
-            "trackNumber": 1,
+            "track_number": 1,
             "artists": "OneRepublic",
-            "duration_sec": 168.259,
-            "duration_sec_r": 168.259
+            "duration_sec": 168.259
         },
         {
+            "id": "2l3gQ8Zv1KlGqyE6B4ntPC",
             "title": "Distance",
-            "trackNumber": 2,
+            "track_number": 2,
             "artists": "OneRepublic",
-            "duration_sec": 180.352,
-            "duration_sec_r": 180.352
+            "duration_sec": 180.352
         },
         {
+            "id": "6aDsgHPZsMztSbZernzlF8",
             "title": "Someday",
-            "trackNumber": 3,
+            "track_number": 3,
             "artists": "OneRepublic",
-            "duration_sec": 187.888,
-            "duration_sec_r": 187.888
+            "duration_sec": 187.888
         },
         {
+            "id": "2IpeTEPICyB66jjg2hU4Vg",
             "title": "Didn't I",
-            "trackNumber": 4,
+            "track_number": 4,
             "artists": "OneRepublic",
-            "duration_sec": 207.616,
-            "duration_sec_r": 207.616
+            "duration_sec": 207.616
         },
         {
+            "id": "37LNNQNbL1YLyutBG6aWRx",
             "title": "Rescue Me",
-            "trackNumber": 5,
+            "track_number": 5,
             "artists": "OneRepublic",
-            "duration_sec": 159.65,
-            "duration_sec_r": 159.65
+            "duration_sec": 159.65
         },
         {
+            "id": "4VhR9r9zgzikeruUScgj8A",
             "title": "Savior",
-            "trackNumber": 6,
+            "track_number": 6,
             "artists": "OneRepublic",
-            "duration_sec": 181.358,
-            "duration_sec_r": 181.358
+            "duration_sec": 181.358
         },
         {
+            "id": "2ExaKO7GhafvrUHOjWxjgC",
             "title": "Take Care Of You",
-            "trackNumber": 7,
+            "track_number": 7,
             "artists": "OneRepublic",
-            "duration_sec": 228.364,
-            "duration_sec_r": 228.364
+            "duration_sec": 228.364
         },
         {
+            "id": "73xYQWRzImNfVHhz0x9ETV",
             "title": "Forgot About You",
-            "trackNumber": 8,
+            "track_number": 8,
             "artists": "OneRepublic",
-            "duration_sec": 173.249,
-            "duration_sec_r": 173.249
+            "duration_sec": 173.249
         },
         {
+            "id": "2z8S9ARUXOXWT9h0PdF4yP",
             "title": "Somebody To Love",
-            "trackNumber": 9,
+            "track_number": 9,
             "artists": "OneRepublic",
-            "duration_sec": 181.408,
-            "duration_sec_r": 181.408
+            "duration_sec": 181.408
         },
         {
+            "id": "3fT6xqEkC1jm4mHjOyXbKw",
             "title": "Wanted",
-            "trackNumber": 10,
+            "track_number": 10,
             "artists": "OneRepublic",
-            "duration_sec": 136.247,
-            "duration_sec_r": 136.247
+            "duration_sec": 136.247
         },
         {
+            "id": "7lISY14A9I1w3m7to2kWv1",
             "title": "Take It Out On Me",
-            "trackNumber": 11,
+            "track_number": 11,
             "artists": "OneRepublic",
-            "duration_sec": 147.8,
-            "duration_sec_r": 147.8
+            "duration_sec": 147.8
         },
         {
+            "id": "2SLxgJ2YFohfd8KwuJZTUE",
             "title": "Better Days",
-            "trackNumber": 12,
+            "track_number": 12,
             "artists": "OneRepublic",
-            "duration_sec": 144.545,
-            "duration_sec_r": 144.545
+            "duration_sec": 144.545
         },
         {
+            "id": "4zD9RBG51Lj8bnQwolLnyu",
             "title": "Wild Life",
-            "trackNumber": 13,
+            "track_number": 13,
             "artists": "OneRepublic",
-            "duration_sec": 267.117,
-            "duration_sec_r": 267.117
+            "duration_sec": 267.117
         },
         {
+            "id": "0GUncXNah8KoaErnDd7H1L",
             "title": "Ships + Tides",
-            "trackNumber": 14,
+            "track_number": 14,
             "artists": "OneRepublic",
-            "duration_sec": 296.424,
-            "duration_sec_r": 296.424
+            "duration_sec": 296.424
         },
         {
+            "id": "5CJQMw0y824OWaQJSlszY5",
             "title": "Someday - Acoustic",
-            "trackNumber": 15,
+            "track_number": 15,
             "artists": "OneRepublic",
-            "duration_sec": 185.55,
-            "duration_sec_r": 185.55
+            "duration_sec": 185.55
         },
         {
+            "id": "5JAQXve1J0iUpslwMI3J7C",
             "title": "Lose Somebody",
-            "trackNumber": 16,
+            "track_number": 16,
             "artists": [
                 "OneRepublic",
                 "Kygo"
             ],
-            "duration_sec": 199.549,
-            "duration_sec_r": 199.549
+            "duration_sec": 199.549
         }
     ]
 }

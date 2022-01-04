@@ -58,10 +58,12 @@ async function get_album_track_list(search) {
 			artists = artists.join('')
 		}
 
+		const duration_sec = track.duration_ms / 1000
 		album_track_list.push({
 			title: track.name,
 			trackNumber: track.track_number,
-			artists
+			artists,
+			duration_sec
 		})
 	})
 
@@ -230,6 +232,7 @@ const main = async (appdata) => {
 	}
 
 	console.log(`the album track list is: ${JSON.stringify(album, null, 4)}`)
+	fs.writeFileSync('album.json', JSON.stringify(album, null, 4))
 
 	let pending_videos = []
 
@@ -266,4 +269,38 @@ const main = async (appdata) => {
 		// buscar el tracklist
 }
 
-main()
+async function onlySpf() {
+	const global_cache = 'global.json'//path.join(appdata, 'global.json')
+
+	const search = 'artist:OneRepublic album:Human'
+	console.log(`finding ${search}`)
+
+	let access_token = get_cached_access_token(global_cache)
+	if (access_token == '') {
+		access_token = await fetch_access_token()
+		save_cache_access_token(access_token, global_cache)
+	}
+
+	console.log(`the access_token is: ${access_token}`)
+	spotify.setAccessToken(access_token)
+
+	let album
+	try {
+		album = await get_album_track_list(search)
+
+	} catch (err) {
+		// lo más probable es que el access token esté vencido
+		console.log(err)
+
+		access_token = await fetch_access_token()
+		save_cache_access_token(access_token, global_cache)
+		spotify.setAccessToken(access_token)
+
+		album = await get_album_track_list(search)
+	}
+
+	console.log(`the album track list is: ${JSON.stringify(album, null, 4)}`)
+	fs.writeFileSync('album.json', JSON.stringify(album, null, 4))
+}
+
+onlySpf()

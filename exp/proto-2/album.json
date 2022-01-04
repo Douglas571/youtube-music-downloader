@@ -1,0 +1,131 @@
+{
+    "name": "Manic",
+    "artist": "Halsey",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2737636e1c9e67eaafc9f49aefd",
+    "year": "2020",
+    "totalTracks": 16,
+    "tracks": [
+        {
+            "id": "55ZcA6PazdlXjE1jO5GrzJ",
+            "title": "Ashley",
+            "track_number": 1,
+            "artists": "Halsey",
+            "duration_sec": 186.187
+        },
+        {
+            "id": "66c7n8ZXmYQQeXyNVfiArc",
+            "title": "clementine",
+            "track_number": 2,
+            "artists": "Halsey",
+            "duration_sec": 234.41
+        },
+        {
+            "id": "2ufmtcIFdFpuUYBPXK5f67",
+            "title": "Graveyard",
+            "track_number": 3,
+            "artists": "Halsey",
+            "duration_sec": 181.805
+        },
+        {
+            "id": "7lidXGPXPYLNThITAOTlkK",
+            "title": "You should be sad",
+            "track_number": 4,
+            "artists": "Halsey",
+            "duration_sec": 205.473
+        },
+        {
+            "id": "6BORJ0ZazxMBpM3cWg79Id",
+            "title": "Forever ... (is a long time)",
+            "track_number": 5,
+            "artists": "Halsey",
+            "duration_sec": 167.904
+        },
+        {
+            "id": "2sOOXgEGB7nhKO8mmc1GhI",
+            "title": "Dominic’s Interlude",
+            "track_number": 6,
+            "artists": [
+                "Halsey",
+                "Dominic Fike"
+            ],
+            "duration_sec": 76.48
+        },
+        {
+            "id": "35FjZytt5TukIgJD86UybL",
+            "title": "I HATE EVERYBODY",
+            "track_number": 7,
+            "artists": "Halsey",
+            "duration_sec": 171.015
+        },
+        {
+            "id": "1OfLNb6dQ9dra1B58iT9Ex",
+            "title": "3am",
+            "track_number": 8,
+            "artists": "Halsey",
+            "duration_sec": 234.858
+        },
+        {
+            "id": "6FZDfxM3a3UCqtzo5pxSLZ",
+            "title": "Without Me",
+            "track_number": 9,
+            "artists": "Halsey",
+            "duration_sec": 201.66
+        },
+        {
+            "id": "42SOtYBdnfj9zEdZSlAq5k",
+            "title": "Finally // beautiful stranger",
+            "track_number": 10,
+            "artists": "Halsey",
+            "duration_sec": 221.095
+        },
+        {
+            "id": "6ZmwwHYtun94UOdFWWgdif",
+            "title": "Alanis’ Interlude",
+            "track_number": 11,
+            "artists": [
+                "Halsey",
+                "Alanis Morissette"
+            ],
+            "duration_sec": 161.155
+        },
+        {
+            "id": "1H3Okhf16ttAICZF7zgDko",
+            "title": "killing boys",
+            "track_number": 12,
+            "artists": "Halsey",
+            "duration_sec": 143.364
+        },
+        {
+            "id": "1ZoQVu9XBssJBdeKMgF2eV",
+            "title": "SUGA's Interlude",
+            "track_number": 13,
+            "artists": [
+                "Halsey",
+                "SUGA",
+                "BTS"
+            ],
+            "duration_sec": 138.204
+        },
+        {
+            "id": "3jgHKbpswygyOMipFz06RQ",
+            "title": "More",
+            "track_number": 14,
+            "artists": "Halsey",
+            "duration_sec": 153.089
+        },
+        {
+            "id": "2Mfv5HaqnI18Q9JRv9hqnn",
+            "title": "Still Learning",
+            "track_number": 15,
+            "artists": "Halsey",
+            "duration_sec": 211.784
+        },
+        {
+            "id": "1ed6Wdjk7gkxI2lIYjAoJ2",
+            "title": "929",
+            "track_number": 16,
+            "artists": "Halsey",
+            "duration_sec": 174.806
+        }
+    ]
+}
