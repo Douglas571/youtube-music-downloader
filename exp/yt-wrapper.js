@@ -97,6 +97,7 @@ async function fetch_videos_details(ids) {
 						return {
 							id: v.id,
 							title: v.snippet.title,
+							channel: v.snippet.channelTitle,
 							duration_sec: v.duration_sec
 						}
 					})

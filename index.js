@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-//require('dotenv').config()
+require('dotenv').config()
 
-console.log(process.env)
+//console.log(process.env)
 
 const fs = require('fs-extra')
 const readline = require('readline')
@@ -23,7 +23,13 @@ DIR.DOWNLOADS = path.join(DIR.HOME, 'downloads', 'youtube-music-downloader')
 
 function get_instruction_file(instruction_file_path) {
 	const full_path = path.join(DIR.YMD, instruction_file_path)
-	const data = YAML.parse(fs.readFileSync(full_path, 'utf-8'))
+	let data
+
+	if (instruction_file_path.split('.')[1] == 'yaml') {
+		data = YAML.parse(fs.readFileSync(full_path, 'utf-8'))
+	} else {
+		data = JSON.parse(fs.readFileSync(full_path, 'utf-8'))
+	}
 
 	return data
 }
@@ -147,6 +153,7 @@ async function exec(argv) {
 	console.log(argv)
 
 	const data = get_instruction_file(argv[0])
+	//console.log(data)
 	//console.log(DATA_FILE)
 
 	let DOWNLOAD_FOLDER = (data.type == 'album')
@@ -187,8 +194,8 @@ async function exec(argv) {
 
 	// Download videos
 	console.log('downloading videos...')
-	for (let item of data.items) {
-		
+	for (let item of data.tracks) {
+
 		let id = item.youtube_id
 
 		// TO-DO: Write a function for ensure that id is asigned.
@@ -209,7 +216,7 @@ async function exec(argv) {
 
 	// Convert videos
 	console.log('Converting videos...')
-	for (let item of data.items) {
+	for (let item of data.tracks) {
 		let id = item.youtube_id
 
 		if (id && (!cache.audios.includes(id))) {
@@ -228,7 +235,7 @@ async function exec(argv) {
 		// TO-DO: Write a single cover
 
 	} else {
-		for (let item of data.items) {
+		for (let item of data.tracks) {
 			// find cover url
 			const id = item.youtube_id
 			let search = (item.title)? `${item.title}`: ''
@@ -272,7 +279,7 @@ async function exec(argv) {
 
 	// Write metadata
 	console.log('Writing metadata...')
-	for (let item of data.items) {
+	for (let item of data.tracks) {
 		const id = item.youtube_id
 
 		if (id) {
@@ -324,7 +331,7 @@ async function exec(argv) {
 
 if (module === require.main) {
 	const argv = process.argv.slice(2)
-	const input = ['gits.yaml']
+	const input = ['orh.json']
 	exec(input)
 }
 

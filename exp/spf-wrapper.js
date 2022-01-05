@@ -38,7 +38,8 @@ exports.fetch_album_meta = async (query) => {
 	let cover = album.images.filter( img => img.height >= 500 )[0].url
 	let year = album.release_date.split('-')[0]
 
-	clean_album = {
+	clean_data = {
+		type: 'album',
 		name: album.name,
 		artist: album.artists[0].name,
 		cover,
@@ -47,7 +48,7 @@ exports.fetch_album_meta = async (query) => {
 		tracks: album_track_list,
 	}
 
-	return clean_album
+	return clean_data
 	/*
 		Should return the album meta:
 			{
