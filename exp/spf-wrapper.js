@@ -128,6 +128,47 @@ function save_cache_access_token(access_token, global_cache = GLOBAL_CACHE) {
 	fs.writeFileSync(global_cache, JSON.stringify({ access_token }, null, 4))
 }
 
+async function get_album_track_list(id) {
+	const res = await spotify.getAlbumTracks(id)
+
+	//console.log(JSON.stringify(res.body, null, 4))
+	fs.writeFileSync(`proto/s-tracks.json`, JSON.stringify(res.body, null, 4))	
+
+	const album_track_list = []
+
+	// extract pertinent data for each track
+	res.body.items.forEach( track => {
+		let artists = track.artists.map( artist => artist.name )
+
+		if (artists.length === 1) {
+			artists = artists.join('')
+		}
+
+		const duration_sec = track.duration_ms / 1000
+		album_track_list.push({
+			id: track.id,
+			title: track.name,
+			track_number: track.track_number,
+			artists,
+			duration_sec
+		})
+	})
+
+	return album_track_list
+
+	/*
+		Should return a list of tracks without videos [
+			{
+				id
+				track_number
+				title
+				artists
+				duration_sec
+			}
+		]
+	*/
+}
+
 function debug(msg, obj) {
 	console.log(`DEBUG: ${msg}`)
 

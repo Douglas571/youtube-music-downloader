@@ -1,0 +1,428 @@
+{
+    "kind": "youtube#videoListResponse",
+    "etag": "Cu9KkCU27bVhtQIw7difpWxXKJc",
+    "items": [
+        {
+            "kind": "youtube#video",
+            "etag": "4A3wyuPAtLd46d3LEoGtmMyoUhA",
+            "id": "xQOO2xGQ1Pc",
+            "snippet": {
+                "publishedAt": "2020-10-16T04:00:08Z",
+                "channelId": "UCHkj014U2CQ2Nv0UZeYpE_A",
+                "title": "Justin Bieber & benny blanco - Lonely (Official Music Video)",
+                "description": "Lonely is out now: http://smarturl.it/imsolonely\nStarring Jacob Tremblay and directed by Jake Schreier\n \nIf you're feeling Lonely or know someone who is struggling, you can find resources and more at http://activeminds.org/lonely   \n \nSubscribe to benny blanco’s youtube: http://smarturl.it/bennyblancoYT\n \nFollow Justin:\nhttp://facebook.com/justinbieber\nhttp://twitter.com/justinbieber\nhttp://instagram.com/justinbieber \n \nFollow benny blanco:\nhttp://www.instagram.com/itsbennyblanco\nhttp://www.facebook.com/itsbennyblanco\nhttp://www.twitter.com/itsbennyblanco\n \nSign up for Justin’s newsletter: http://justinbiebermusic.com\n \nProduced by Park Pictures\nExecutive Producer Jackie Kelman Bisbee\nProducer Cody Ryder\nDP - Jason McCormick\nSteadicam - Dana Morris\nProduction Designer - Scott Falconer\nVFX - Chris Buongiorno\nColor Grading - Michael Rossiter @ The Mill\n  \n#Lonely #ImSoLonely #JustinBieber #bennyblanco\n\nMusic video by Justin Bieber, benny blanco performing Lonely. © 2020 Friends Keep Secrets/Interscope Records",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xQOO2xGQ1Pc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xQOO2xGQ1Pc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xQOO2xGQ1Pc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/xQOO2xGQ1Pc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/xQOO2xGQ1Pc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "JustinBieberVEVO",
+                "tags": [
+                    "Justin",
+                    "Bieber",
+                    "benny",
+                    "blanco",
+                    "Lonely",
+                    "Friends",
+                    "Keep",
+                    "Secrets/Def",
+                    "Jam",
+                    "Recordings/Interscope",
+                    "Records",
+                    "Pop"
+                ],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Justin Bieber & benny blanco - Lonely (Official Music Video)",
+                    "description": "Lonely is out now: http://smarturl.it/imsolonely\nStarring Jacob Tremblay and directed by Jake Schreier\n \nIf you're feeling Lonely or know someone who is struggling, you can find resources and more at http://activeminds.org/lonely   \n \nSubscribe to benny blanco’s youtube: http://smarturl.it/bennyblancoYT\n \nFollow Justin:\nhttp://facebook.com/justinbieber\nhttp://twitter.com/justinbieber\nhttp://instagram.com/justinbieber \n \nFollow benny blanco:\nhttp://www.instagram.com/itsbennyblanco\nhttp://www.facebook.com/itsbennyblanco\nhttp://www.twitter.com/itsbennyblanco\n \nSign up for Justin’s newsletter: http://justinbiebermusic.com\n \nProduced by Park Pictures\nExecutive Producer Jackie Kelman Bisbee\nProducer Cody Ryder\nDP - Jason McCormick\nSteadicam - Dana Morris\nProduction Designer - Scott Falconer\nVFX - Chris Buongiorno\nColor Grading - Michael Rossiter @ The Mill\n  \n#Lonely #ImSoLonely #JustinBieber #bennyblanco\n\nMusic video by Justin Bieber, benny blanco performing Lonely. © 2020 Friends Keep Secrets/Interscope Records"
+                },
+                "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+                "duration": "PT2M38S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "true",
+                "licensedContent": true,
+                "regionRestriction": {
+                    "blocked": [
+                        "IO",
+                        "KP",
+                        "SS"
+                    ]
+                },
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "_q_0w6085s_rntXwGqV4FdkeHe8",
+            "id": "968Q_YsGXIs",
+            "snippet": {
+                "publishedAt": "2020-10-16T04:05:56Z",
+                "channelId": "UCGvj8kfUV5Q6lzECIrGY19g",
+                "title": "Lonely",
+                "description": "Provided to YouTube by Universal Music Group\n\nLonely · Justin Bieber · benny blanco\n\nLonely\n\n℗ 2020 Friends Keep Secrets/Interscope Records\n\nReleased on: 2020-10-16\n\nProducer, Associated  Performer, Programming, Keyboards, Studio  Personnel, Engineer: benny blanco\nProducer, Associated  Performer, Programming, Keyboards, Studio  Personnel, Engineer: FINNEAS\nStudio  Personnel, Mixer, Vocal  Engineer, Engineer, Associated  Performer, Vocal  Producer: Josh Gudwin\nAssociated  Performer, Vocal  Producer, Studio  Personnel, Vocal  Engineer: Chris 'TEK' O'Ryan\nStudio  Personnel, Engineer: Devin Nakao\nStudio  Personnel, Production  Coordinator: Andrew Luftman\nStudio  Personnel, Production  Coordinator: Scooter Braun\nStudio  Personnel, Production  Coordinator: Sarah Shelton\nStudio  Personnel, Assistant  Mixer: Elijah Marrett-Hitch\nStudio  Personnel, Mastering  Engineer: Chris Gehringer\nComposer  Lyricist: Benjamin Levin\nComposer  Lyricist: Finneas O'Connell\nComposer  Lyricist: Justin Bieber\n\nAuto-generated by YouTube.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/968Q_YsGXIs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/968Q_YsGXIs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/968Q_YsGXIs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/968Q_YsGXIs/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/968Q_YsGXIs/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Justin Bieber - Topic",
+                "tags": [
+                    "Justin Bieber",
+                    "ジャスティンビーバー",
+                    "ジャスティン・ビーバー",
+                    "benny blanco",
+                    "ベニーブランコ",
+                    "ベニー・ブランコ",
+                    "Lonely"
+                ],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Lonely",
+                    "description": "Provided to YouTube by Universal Music Group\n\nLonely · Justin Bieber · benny blanco\n\nLonely\n\n℗ 2020 Friends Keep Secrets/Interscope Records\n\nReleased on: 2020-10-16\n\nProducer, Associated  Performer, Programming, Keyboards, Studio  Personnel, Engineer: benny blanco\nProducer, Associated  Performer, Programming, Keyboards, Studio  Personnel, Engineer: FINNEAS\nStudio  Personnel, Mixer, Vocal  Engineer, Engineer, Associated  Performer, Vocal  Producer: Josh Gudwin\nAssociated  Performer, Vocal  Producer, Studio  Personnel, Vocal  Engineer: Chris 'TEK' O'Ryan\nStudio  Personnel, Engineer: Devin Nakao\nStudio  Personnel, Production  Coordinator: Andrew Luftman\nStudio  Personnel, Production  Coordinator: Scooter Braun\nStudio  Personnel, Production  Coordinator: Sarah Shelton\nStudio  Personnel, Assistant  Mixer: Elijah Marrett-Hitch\nStudio  Personnel, Mastering  Engineer: Chris Gehringer\nComposer  Lyricist: Benjamin Levin\nComposer  Lyricist: Finneas O'Connell\nComposer  Lyricist: Justin Bieber\n\nAuto-generated by YouTube."
+                }
+            },
+            "contentDetails": {
+                "duration": "PT2M30S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": true,
+                "regionRestriction": {
+                    "allowed": [
+                        "AE",
+                        "AR",
+                        "AS",
+                        "AT",
+                        "AU",
+                        "AW",
+                        "BA",
+                        "BE",
+                        "BG",
+                        "BH",
+                        "BM",
+                        "BO",
+                        "BR",
+                        "BY",
+                        "CA",
+                        "CH",
+                        "CL",
+                        "CO",
+                        "CR",
+                        "CY",
+                        "CZ",
+                        "DE",
+                        "DK",
+                        "DO",
+                        "DZ",
+                        "EC",
+                        "EE",
+                        "EG",
+                        "ES",
+                        "FI",
+                        "FR",
+                        "GB",
+                        "GF",
+                        "GP",
+                        "GR",
+                        "GT",
+                        "GU",
+                        "HK",
+                        "HN",
+                        "HR",
+                        "HU",
+                        "ID",
+                        "IE",
+                        "IL",
+                        "IN",
+                        "IS",
+                        "IT",
+                        "JO",
+                        "JP",
+                        "KE",
+                        "KR",
+                        "KW",
+                        "KY",
+                        "LB",
+                        "LI",
+                        "LT",
+                        "LU",
+                        "LV",
+                        "MA",
+                        "MK",
+                        "MP",
+                        "MQ",
+                        "MT",
+                        "MX",
+                        "MY",
+                        "NC",
+                        "NG",
+                        "NI",
+                        "NL",
+                        "NO",
+                        "NZ",
+                        "OM",
+                        "PA",
+                        "PE",
+                        "PF",
+                        "PG",
+                        "PH",
+                        "PL",
+                        "PR",
+                        "PT",
+                        "PY",
+                        "QA",
+                        "RO",
+                        "RS",
+                        "RU",
+                        "SA",
+                        "SE",
+                        "SG",
+                        "SI",
+                        "SK",
+                        "SV",
+                        "TC",
+                        "TH",
+                        "TR",
+                        "TW",
+                        "UA",
+                        "US",
+                        "UY",
+                        "VE",
+                        "VI",
+                        "VN",
+                        "YT",
+                        "ZA"
+                    ]
+                },
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "TVloqUZ_HUFIp-QJDDTOgQWUfzg",
+            "id": "t8jmcCQAbQM",
+            "snippet": {
+                "publishedAt": "2020-10-16T04:59:41Z",
+                "channelId": "UCbIlRhJ2HX6sLW48qU63GIQ",
+                "title": "Lonely - Justin Bieber & benny blanco || Subtitulado Español",
+                "description": "Traducción de Lonely - Justin Bieber & benny blanco\n\nEspero les guste el vídeo\n\n¡SUSCRIBETE! https://www.youtube.com/channel/UCbIlRhJ2HX6sLW48qU63GIQ/?sub_confirmation=1\n\nNuevo Instagram https://www.instagram.com/SunshinelyricsYT/\n\nLes dejo mi playlist de spotify, escúchenla https://open.spotify.com/playlist/7mRGDZsAEaMHs7mjfaVYvz\n\nEl 16 de octubre de 2020, se lanzó oficialmente \"Lonely\" junto con el video musical oficial en el canal de YouTube de Justin, protagonizado tanto por artistas como por su compañero actor canadiense, Jacob Tremblay. Este último actúa como la versión más joven de Justin a lo largo del video, incluso rehaciendo el viejo peinado que solía tener.\n\n↪ si el vídeo contiene errores ortográficos o de edición pido disculpas. Siempre trato de que la traducción sea la mas exacta pero lo presentado aquí es adecuándose lo mas posible al español, las frases o palabras pueden contener diferentes significados, lo cual lleve a creer que la traducción es errónea por lo tanto pido se respete este trabajo y el resto del contenido ↩\n\nGracias\n-🌞\n\nLyrics\n\nEverybody knows my name now\nBut something 'bout it still feels strange\nLike looking in the mirror\nTryna steady yourself and seeing somebody else\nAnd everything is not the same now\nIt feels like all our lives have changed\nMaybe when I'm older, it'll all calm down\nBut it's killing me now\n\n[Pre-Chorus]\nWhat if you had it all but nobody to call?\nMaybe then you'd know me\n'Cause I've had everything\nBut no one's listening\nAnd that's just fucking lonely\n\n[Chorus]\nI'm so lo-o-o-onely\nLo-o-o-onely\n\n[Verse 2]\nEverybody knows my past now\nLike my house was always made of glass\nAnd maybe that's the price you pay\nFor the money and fame at an early age\nAnd everybody saw me sick\nAnd it felt like no one gave a shit\nThey criticized the things I did\nAs an idiot kid\n\n\n[Pre-Chorus]\nWhat if you had it all but nobody to call?\nMaybe then you'd know me\n'Cause I've had everything\nBut no one's listening\nAnd that's just fucking lonely\n\n[Chorus]\nI'm so lo-o-o-onely\nLo-o-o-onely\nI'm so lo-o-o-onely\nLo-o-o-onely\n\n\n#Lonely #Justin Bieber #benny blanco",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/t8jmcCQAbQM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/t8jmcCQAbQM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/t8jmcCQAbQM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/t8jmcCQAbQM/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/t8jmcCQAbQM/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Sunshine",
+                "tags": [
+                    "subtitulado español",
+                    "sunshine",
+                    "lyrics",
+                    "letra",
+                    "traducido",
+                    "traducción"
+                ],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Lonely - Justin Bieber & benny blanco || Subtitulado Español",
+                    "description": "Traducción de Lonely - Justin Bieber & benny blanco\n\nEspero les guste el vídeo\n\n¡SUSCRIBETE! https://www.youtube.com/channel/UCbIlRhJ2HX6sLW48qU63GIQ/?sub_confirmation=1\n\nNuevo Instagram https://www.instagram.com/SunshinelyricsYT/\n\nLes dejo mi playlist de spotify, escúchenla https://open.spotify.com/playlist/7mRGDZsAEaMHs7mjfaVYvz\n\nEl 16 de octubre de 2020, se lanzó oficialmente \"Lonely\" junto con el video musical oficial en el canal de YouTube de Justin, protagonizado tanto por artistas como por su compañero actor canadiense, Jacob Tremblay. Este último actúa como la versión más joven de Justin a lo largo del video, incluso rehaciendo el viejo peinado que solía tener.\n\n↪ si el vídeo contiene errores ortográficos o de edición pido disculpas. Siempre trato de que la traducción sea la mas exacta pero lo presentado aquí es adecuándose lo mas posible al español, las frases o palabras pueden contener diferentes significados, lo cual lleve a creer que la traducción es errónea por lo tanto pido se respete este trabajo y el resto del contenido ↩\n\nGracias\n-🌞\n\nLyrics\n\nEverybody knows my name now\nBut something 'bout it still feels strange\nLike looking in the mirror\nTryna steady yourself and seeing somebody else\nAnd everything is not the same now\nIt feels like all our lives have changed\nMaybe when I'm older, it'll all calm down\nBut it's killing me now\n\n[Pre-Chorus]\nWhat if you had it all but nobody to call?\nMaybe then you'd know me\n'Cause I've had everything\nBut no one's listening\nAnd that's just fucking lonely\n\n[Chorus]\nI'm so lo-o-o-onely\nLo-o-o-onely\n\n[Verse 2]\nEverybody knows my past now\nLike my house was always made of glass\nAnd maybe that's the price you pay\nFor the money and fame at an early age\nAnd everybody saw me sick\nAnd it felt like no one gave a shit\nThey criticized the things I did\nAs an idiot kid\n\n\n[Pre-Chorus]\nWhat if you had it all but nobody to call?\nMaybe then you'd know me\n'Cause I've had everything\nBut no one's listening\nAnd that's just fucking lonely\n\n[Chorus]\nI'm so lo-o-o-onely\nLo-o-o-onely\nI'm so lo-o-o-onely\nLo-o-o-onely\n\n\n#Lonely #Justin Bieber #benny blanco"
+                },
+                "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+                "duration": "PT2M28S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": false,
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "iBF7SeNZv5X2r7f75-rH0P16Obw",
+            "id": "7rqOXFXxOt4",
+            "snippet": {
+                "publishedAt": "2020-10-17T17:00:53Z",
+                "channelId": "UCqrBKQHQVEvD2Q9FP0DCP2g",
+                "title": "Justin Bieber & benny blanco - Lonely (Official Lyric Video)",
+                "description": "Lonely is out now: http://smarturl.it/imsolonely\nDirected by Dessert \n \nIf you're feeling Lonely or know someone who is struggling, you can find resources and more at http://activeminds.org/lonely   \n \nSubscribe to benny blanco’s youtube: http://smarturl.it/bennyblancoYT\n \nFollow Justin:\nhttp://facebook.com/justinbieber\nhttp://twitter.com/justinbieber\nhttp://instagram.com/justinbieber \n \nFollow benny blanco:\nhttp://www.instagram.com/itsbennyblanco\nhttp://www.facebook.com/itsbennyblanco\nhttp://www.twitter.com/itsbennyblanco\n \nSign up for Justin’s newsletter: http://justinbiebermusic.com\n  \n#Lonely #ImSoLonely #JustinBieber #bennyblanco",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/7rqOXFXxOt4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/7rqOXFXxOt4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/7rqOXFXxOt4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/7rqOXFXxOt4/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    }
+                },
+                "channelTitle": "benny blanco",
+                "categoryId": "24",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Justin Bieber & benny blanco - Lonely (Official Lyric Video)",
+                    "description": "Lonely is out now: http://smarturl.it/imsolonely\nDirected by Dessert \n \nIf you're feeling Lonely or know someone who is struggling, you can find resources and more at http://activeminds.org/lonely   \n \nSubscribe to benny blanco’s youtube: http://smarturl.it/bennyblancoYT\n \nFollow Justin:\nhttp://facebook.com/justinbieber\nhttp://twitter.com/justinbieber\nhttp://instagram.com/justinbieber \n \nFollow benny blanco:\nhttp://www.instagram.com/itsbennyblanco\nhttp://www.facebook.com/itsbennyblanco\nhttp://www.twitter.com/itsbennyblanco\n \nSign up for Justin’s newsletter: http://justinbiebermusic.com\n  \n#Lonely #ImSoLonely #JustinBieber #bennyblanco"
+                }
+            },
+            "contentDetails": {
+                "duration": "PT2M30S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": false,
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "efOmYdd3NZUMgwqX-CZHUkBI9co",
+            "id": "YFBCcnjL5Fg",
+            "snippet": {
+                "publishedAt": "2020-10-16T04:14:11Z",
+                "channelId": "UClrX9QbUqQI1t7ILyGVKfrg",
+                "title": "Justin Bieber & benny blanco - Lonely (Official Audio)",
+                "description": "Pre-save Lonely: https://smarturl.it/imsolonely\n\nFollow Justin\nhttp://facebook.com/justinbieber\nhttp://twitter.com/justinbieber\nhttp://instagram.com/justinbieber\n\nFollow benny blanco\nhttp://www.instagram.com/itsbennyblanco\nhttp://www.facebook.com/itsbennyblanco\nhttp://www.twitter.com/itsbennyblanco\n\nSign up for Justin’s newsletter: http://justinbiebermusic.com\n\n#bennyblanco  #JustinBieber  #Lonely\n\nMusic video by Justin Bieber, benny blanco performing Lonely. © 2020 Friends Keep Secrets/Interscope Records",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/YFBCcnjL5Fg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/YFBCcnjL5Fg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/YFBCcnjL5Fg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/YFBCcnjL5Fg/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/YFBCcnjL5Fg/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "Justin Bieber World",
+                "tags": [
+                    "lonely official audio",
+                    "lonely justin bieber",
+                    "lonely audio"
+                ],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "Justin Bieber & benny blanco - Lonely (Official Audio)",
+                    "description": "Pre-save Lonely: https://smarturl.it/imsolonely\n\nFollow Justin\nhttp://facebook.com/justinbieber\nhttp://twitter.com/justinbieber\nhttp://instagram.com/justinbieber\n\nFollow benny blanco\nhttp://www.instagram.com/itsbennyblanco\nhttp://www.facebook.com/itsbennyblanco\nhttp://www.twitter.com/itsbennyblanco\n\nSign up for Justin’s newsletter: http://justinbiebermusic.com\n\n#bennyblanco  #JustinBieber  #Lonely\n\nMusic video by Justin Bieber, benny blanco performing Lonely. © 2020 Friends Keep Secrets/Interscope Records"
+                },
+                "defaultAudioLanguage": "en"
+            },
+            "contentDetails": {
+                "duration": "PT2M30S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "true",
+                "licensedContent": false,
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        }
+    ],
+    "pageInfo": {
+        "totalResults": 5,
+        "resultsPerPage": 5
+    }
+}

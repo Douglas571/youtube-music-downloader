@@ -1,0 +1,149 @@
+{
+    "name": "Justice",
+    "artist": "Justin Bieber",
+    "cover": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431",
+    "year": "2021",
+    "totalTracks": 16,
+    "tracks": [
+        {
+            "id": "0oaY19dUwZimIgzn3ZZLZO",
+            "title": "2 Much",
+            "track_number": 1,
+            "artists": "Justin Bieber",
+            "duration_sec": 152.796
+        },
+        {
+            "id": "5NU40QTlXrDUJzDBdv79bg",
+            "title": "Deserve You",
+            "track_number": 2,
+            "artists": "Justin Bieber",
+            "duration_sec": 187.238
+        },
+        {
+            "id": "6F2r4HgpJnvKDmkN6JEN6J",
+            "title": "As I Am (feat. Khalid)",
+            "track_number": 3,
+            "artists": [
+                "Justin Bieber",
+                "Khalid"
+            ],
+            "duration_sec": 174.406
+        },
+        {
+            "id": "3T03rPwlL8NVk1yIaxeD8U",
+            "title": "Off My Face",
+            "track_number": 4,
+            "artists": "Justin Bieber",
+            "duration_sec": 156.467
+        },
+        {
+            "id": "6Xgq7MvZiet0hVi3KaDSgJ",
+            "title": "Holy (feat. Chance The Rapper)",
+            "track_number": 5,
+            "artists": [
+                "Justin Bieber",
+                "Chance the Rapper"
+            ],
+            "duration_sec": 212.093
+        },
+        {
+            "id": "137mSruegm1u6x9NvwiagR",
+            "title": "Unstable (feat. The Kid LAROI)",
+            "track_number": 6,
+            "artists": [
+                "Justin Bieber",
+                "The Kid LAROI"
+            ],
+            "duration_sec": 158.324
+        },
+        {
+            "id": "680qLWCMRfR6evrNNBCE9e",
+            "title": "MLK Interlude",
+            "track_number": 7,
+            "artists": [
+                "Justin Bieber",
+                "-"
+            ],
+            "duration_sec": 104.007
+        },
+        {
+            "id": "7aely3H8kMj9o0gt6vXHE1",
+            "title": "Die For You (feat. Dominic Fike)",
+            "track_number": 8,
+            "artists": [
+                "Justin Bieber",
+                "Dominic Fike"
+            ],
+            "duration_sec": 198.425
+        },
+        {
+            "id": "1nahzW3kfMuwReTka28tH5",
+            "title": "Hold On",
+            "track_number": 9,
+            "artists": "Justin Bieber",
+            "duration_sec": 170.813
+        },
+        {
+            "id": "3buwFfY33H32wfZ6X9poV3",
+            "title": "Somebody",
+            "track_number": 10,
+            "artists": "Justin Bieber",
+            "duration_sec": 179.414
+        },
+        {
+            "id": "6I3mqTwhRpn34SLVafSH7G",
+            "title": "Ghost",
+            "track_number": 11,
+            "artists": "Justin Bieber",
+            "duration_sec": 153.19
+        },
+        {
+            "id": "4iJyoBOLtHqaGxP12qzhQI",
+            "title": "Peaches (feat. Daniel Caesar & Giveon)",
+            "track_number": 12,
+            "artists": [
+                "Justin Bieber",
+                "Daniel Caesar",
+                "Giveon"
+            ],
+            "duration_sec": 198.081
+        },
+        {
+            "id": "27UcQ6dAvQrgH9C880rCM3",
+            "title": "Love You Different (feat. BEAM)",
+            "track_number": 13,
+            "artists": [
+                "Justin Bieber",
+                "BEAM"
+            ],
+            "duration_sec": 186.695
+        },
+        {
+            "id": "2tB9OFgAHjAds3cqquLlvp",
+            "title": "Loved By You (feat. Burna Boy)",
+            "track_number": 14,
+            "artists": [
+                "Justin Bieber",
+                "Burna Boy"
+            ],
+            "duration_sec": 159.25
+        },
+        {
+            "id": "2WnAKZefdRHxtBEkRjFOHC",
+            "title": "Anyone",
+            "track_number": 15,
+            "artists": "Justin Bieber",
+            "duration_sec": 190.779
+        },
+        {
+            "id": "3S8jK1mGzQi24ilFb45DAZ",
+            "title": "Lonely (with benny blanco)",
+            "track_number": 16,
+            "artists": [
+                "Justin Bieber",
+                "benny blanco"
+            ],
+            "duration_sec": 149.189
+        }
+    ]
+}
