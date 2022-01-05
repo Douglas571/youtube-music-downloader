@@ -131,9 +131,11 @@ async function fetch_ids(query) {
 	} catch(err) {
 		console.log(err)
 
-		if (err.errors.some(e => e.reason === "quotaExceeded")) {
-			console.log('Cuota de peticiones excedida')
-			return []
+		if (err.errors) {
+			if (err.errors.some(e => e.reason === "quotaExceeded")) {
+				console.log('Cuota de peticiones excedida')
+				return []
+			}
 		}
 
 		console.log("retriying fetch_ids")
@@ -151,7 +153,8 @@ async function fetch_ids(query) {
 
 function parse_duration(v) {
 	// parsear la duración del video y trasformarla a Segundos
-	const duration = v.contentDetails.duration
+	const v_copy = _.cloneDeep(v)
+	const duration = v_copy.contentDetails.duration
 
 	const min = Number(duration.slice(
 		duration.indexOf('PT') + 2, 
@@ -165,16 +168,18 @@ function parse_duration(v) {
 
 	const total = min * 60 + sec
 
-	return {
-		id: v.id,
-		title: v.snippet.title,
-		duration_sec: total
-	}
+	v_copy.duration_sec = total
+
+	return v_copy
 }
 
 async function fetch_videos_details(ids) {
 	// buscar los detalles de cada video
 	console.log('getting details...')
+
+	if (_.isEmpty(ids)) {
+		return {}
+	}
 
 	let res
 	let vds
@@ -193,12 +198,33 @@ async function fetch_videos_details(ids) {
 	}
 
 	fs.writeFileSync('proto/d-videos.json', JSON.stringify(res.data, null, 4))
-	vds = res.data.items.map(parse_duration)
+	vds = res.data.items
+					.map(parse_duration)
+					.map( v => {
+						return {
+							id: v.id,
+							title: v.snippet.title,
+							duration_sec: v.duration_sec
+						}
+					})
 
 	return vds
 }
 
 async function fetch_videos(tracks) {
+	/*
+		TO-DO: Agregar alguna forma de buscar todos los videos
+		de una sola vez, tal vez
+			ejemplo:
+				mapear cada vide a su correspondiente id de track
+				colocar todos los video junto de 50 en 50
+				buscar los detalles
+				procesas los detalles
+				asigar videos nuevamente al id de cada track
+				escoger video preferido
+
+	*/
+
 	let videos = {}
 
 	for (let t of tracks) {
