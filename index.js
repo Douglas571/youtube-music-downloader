@@ -4,6 +4,7 @@ require('dotenv').config()
 //console.log(process.env)
 
 const fs = require('fs-extra')
+const _ = require('lodash')
 const readline = require('readline')
 const path = require('path')
 const os = require('os')
@@ -25,7 +26,7 @@ function get_instruction_file(instruction_file_path) {
 	const full_path = path.join(DIR.YMD, instruction_file_path)
 	let data
 
-	if (instruction_file_path.split('.')[1] == 'yaml') {
+	if (instruction_file_path.endsWith('yaml')) {
 		data = YAML.parse(fs.readFileSync(full_path, 'utf-8'))
 	} else {
 		data = JSON.parse(fs.readFileSync(full_path, 'utf-8'))
@@ -75,25 +76,40 @@ function extract_id(url) {
 	return id	
 }
 
-function download_video(id, folder) {
+function old_$download_video(id, folder, op={}) {
+
+	if (_.isEmpty(op.timeout)) {
+		console.log('set timeout');
+		op.timeout = 1 * 60 * 1000
+		console.log(`here: ${JSON.stringify(op, null, 4)}`)
+	} else {
+		console.log
+		op.timeout = op.timeout * 60 * 1000
+	}
+
 	return new Promise((res, rej) => {
 		const video_path = path.join(folder, `${id}.mp4`)
 		const video = ytdl(id, {
 		  	quality: 'highestaudio',
 		})
 
+		//res(video_path)
+
 		//let starttime;
 		video.pipe(fs.createWriteStream(video_path))
 
 		// --------------------------
 
-		video.once('response', () => {
-		    //starttime = Date.now();
-		})
+		let timeout_id = setTimeout(() => {
+			console.log('destroying');
+			video.destroy()
+			rej(new Error(`timeout: ${id}`))
+		}, op.timeout)
 
 		video.once('response', () => {
 		    //starttime = Date.now();
-		    console.log(`downloading ${id}...`)
+		    clearTimeout(timeout_id)
+		    console.log(`response downloading ${id}...`)
 		})
 
 		video.on('progress', (chunkLength, downloaded, total) => {
@@ -149,13 +165,19 @@ function read_meta(audio_path) {
 	return meta
 }
 
-async function exec(argv) {
-	console.log(argv)
+async function prepare_folders(data) {
+	let DOWNLOAD_FOLDER = (data.type == 'album')
+		? path.join(DIR.DOWNLOADS, `${data.name}-${data.artist}`)
+		: path.join(DIR.DOWNLOADS, `${data.name}`)
 
-	const data = get_instruction_file(argv[0])
-	//console.log(data)
-	//console.log(DATA_FILE)
+	let temp_folder = path.join(DIR.APPDATA, `${data.name}`)
+	let temp_covers_folder = path.join(temp_folder, 'covers')
+	let temp_videos_folder = path.join(temp_folder, 'videos')
+	let temp_audios_folder = path.join(temp_folder, 'audios')
+	let temp_cache = path.join(temp_folder, 'cache.json')
+}
 
+async function download_playlist(data) {
 	let DOWNLOAD_FOLDER = (data.type == 'album')
 		? path.join(DIR.DOWNLOADS, `${data.name}-${data.artist}`)
 		: path.join(DIR.DOWNLOADS, `${data.name}`)
@@ -326,13 +348,212 @@ async function exec(argv) {
 			cache: temp_cache
 		}
 	}
+}
 
+async function download_video({ids, folder, cache, timeout}, retries = 0) {
+	let video_path
+	let results = {}
+
+	try {
+		console.log(`starting download ${ids.video}`)
+		video_path = await old_$download_video(ids.video, folder, {timeout})
+		results = {
+			video_path,
+			ids
+		}
+
+		cache.videos.push(ids.video)
+
+	} catch(err) {
+		if (retries <= 2) {
+			console.log(`retrying download ${ids.video}, retry# ${retries + 1}`)
+			results = await download_video({ids, folder, cache, timeout}, retries + 1)
+		} else {
+			//console.log(`timeout, retries exceded for ${ids.video}`)
+			throw new Error(`timeout, retries exceded for ${ids.video}`)
+		}
+	}
+
+	return results
+}
+
+async function download_all_videos({album, folder, timeout}, cache = {}) {
+	// TO-DO: cazar el error no atrapada en promsa :'(
+
+	const pending_videos = []
+	const downloaded = 0
+	for (let idx = 4; idx <= 8; idx++) {
+		let track = album.tracks[idx]
+		const ids = {
+			track: track.id,
+			video: track.preferred_video.id
+		}
+
+		if (!cache.videos.includes(ids.video)) {
+			pending_videos.push(new Promise((res, rej) => {
+				setTimeout(() => {
+					download_video({ids, folder, cache, timeout})
+						.then( results => res(results))
+						.catch( err => rej(err))
+				}, (idx * 3 * 1000))
+			}))
+		}
+	}
+
+	const video_results = await Promise.allSettled(pending_videos)
+	console.log(video_results)
+
+	return video_results
+}
+
+async function convert_all_videos(options) {
+	let results
+	const { album,
+			folders,
+			cache } = options
+
+	console.log('Converting videos...')
+	for (let track of album.tracks) {
+		let id = track.preferred_video.id
+
+		if (cache.videos.includes(id) && 
+			!cache.audios.includes(id)) {
+			console.log(`converting ${id}`)
+			await convert_video_to_mp3(
+				path.join(folders.videos, `${id}.mp4`), 
+				path.join(folders.audios, `${id}.mp3`))
+
+			cache.audios.push(id)
+			save_cache(cache, folders.cache)
+		}
+
+	}
+
+	results = 'convertion good'
+
+	return results
+}
+
+async function set_all_metadata(album, folders, cache = {}) {
+	let results
+
+	let destiny_path = track => {
+		let file_name = `${track.track_number}.${track.title}.mp3`
+		let out = path.join(folders.downloads, file_name)
+
+		return out
+	}
+
+	let pending_writting = []
+
+	for (let t of album.tracks) {
+		const meta = {
+		    title: t.title,
+		    artist: album.artist,
+		    //performerInfo: performerArtist,
+		    APIC: cache.covers[album.cover],
+		    trackNumber: t.track_number,
+		    year: album.year,
+		    genre: t.genre,
+		}
+
+		let id = t.preferred_video.id
+		if (cache.audios.includes(id)) {
+			let audio_path = path.join(folders.temp.audios, `${id}.mp3`)
+			pending_writting.push(new Promise((resolve, rej) => {
+				write_meta(meta, audio_path)
+					.then(res => {
+						fs.copy(audio_path, destiny_path(t), 
+							{ overwrite: true })
+						.then(res => resolve('good'))
+					})
+			}))
+		}
+	}	
+
+	let writting_results = await Promise.allSettled(pending_writting)
+		console.log(writting_results)
+
+	results = 'good copy writting'
+	return results	
+}
+
+async function download_album(album, op) {
+	let results = {}
+
+	let folders = {
+		downloads: path.join(DIR.DOWNLOADS, `${album.name}-${album.artist}`),
+		temp: {
+			root: path.join(DIR.APPDATA, `${album.name}`)
+		},
+	}
+
+	folders.temp.videos = path.join(folders.temp.root, 'videos')
+	folders.temp.audios = path.join(folders.temp.root, 'audios')
+	folders.temp.covers = path.join(folders.temp.root, 'covers')
+	folders.temp.cache  = path.join(folders.temp.root, 'cache.json')
+
+	console.log(`downloading album: ${album.name}`)
+
+	console.log('downloading videos')
+	const cache = get_cache(folders.temp.cache)
+
+	const video_results = await download_all_videos(
+			{ 
+				album, 
+				folder: folders.temp.videos,
+				timeout: op.video_timeout
+			},
+			cache)
+
+	const audio_results = await convert_all_videos(
+		{
+			album,
+			folders: folders.temp,
+			cache
+		})
+	console.log(audio_results)
+	console.log('downloading cover')
+	if(_.isEmpty(cache.covers[album.cover])) {
+		let cover_results = await Covers.download(
+			album.cover, 
+			path.join(folders.temp.covers, 'cover.png'))
+		console.log(cover_results)
+		cache.covers[album.cover] = cover_results
+	}
+
+	console.log('setting metadata')
+	const meta_results = await set_all_metadata(album, folders, cache)
+
+	save_cache(cache, folders.temp.cache)
+	results.folders = folders
+	return results
+}
+
+async function exec(argv) {
+	console.log(argv)
+
+	const data = get_instruction_file(argv[0])
+	//console.log(data)
+	//console.log(DATA_FILE)
+
+	let results
+	if (data.type == 'album') {
+		results = await download_album(data, { video_timeout: 2})
+	} else {
+		results = await download_playlist(data)
+	}
+
+	console.log(`the results are: ${JSON.stringify(results, null, 4)}`)
+
+	return results
 }
 
 if (module === require.main) {
 	const argv = process.argv.slice(2)
 	const input = ['orh.json']
-	exec(input)
+	exec(input).then( res => {process.exit(1)})
+	
 }
 
 module.exports = {

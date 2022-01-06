@@ -42,6 +42,12 @@ function download(url, file_path) {
 				console.log('finish downloaded: ', url)
 				res(file_path)
 			})
+		}).catch( err => {
+			console.log(err)
+			console.log('retrying: url')
+
+			download(url, file_path).then(img_path => res(img_path))
+
 		})
 	})
 }
