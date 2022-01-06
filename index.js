@@ -79,9 +79,7 @@ function extract_id(url) {
 function old_$download_video(id, folder, op={}) {
 
 	if (_.isEmpty(op.timeout)) {
-		console.log('set timeout');
-		op.timeout = 1 * 60 * 1000
-		console.log(`here: ${JSON.stringify(op, null, 4)}`)
+		op.timeout = 1.5 * 60 * 1000
 	} else {
 		console.log
 		op.timeout = op.timeout * 60 * 1000
@@ -377,12 +375,25 @@ async function download_video({ids, folder, cache, timeout}, retries = 0) {
 	return results
 }
 
-async function download_all_videos({album, folder, timeout}, cache = {}) {
+async function download_all_videos({album, folder, timeout, skip, steps}, cache = {}) {
 	// TO-DO: cazar el error no atrapada en promsa :'(
 
+	skip = (skip)? skip : 0
+	steps = (steps)? steps : 4
+
+	if(!steps) {
+		steps = 4
+	}
+
+	if((skip + steps) > album.totalTracks) {
+		let downloaded = cache.videos.length
+		steps = album.totalTracks - downloaded
+	}
+
 	const pending_videos = []
-	const downloaded = 0
-	for (let idx = 4; idx <= 8; idx++) {
+
+	let idx = skip
+	while(pending_videos.length < steps) {
 		let track = album.tracks[idx]
 		const ids = {
 			track: track.id,
@@ -390,14 +401,19 @@ async function download_all_videos({album, folder, timeout}, cache = {}) {
 		}
 
 		if (!cache.videos.includes(ids.video)) {
+			//console.log(`added ${ids.video}\nidx:${idx}`)
 			pending_videos.push(new Promise((res, rej) => {
 				setTimeout(() => {
 					download_video({ids, folder, cache, timeout})
 						.then( results => res(results))
 						.catch( err => rej(err))
-				}, (idx * 3 * 1000))
+				}, ((pending_videos.length - 1) * 3 * 1000))
 			}))
 		}
+
+		idx += 1
+
+
 	}
 
 	const video_results = await Promise.allSettled(pending_videos)
@@ -478,7 +494,7 @@ async function set_all_metadata(album, folders, cache = {}) {
 	return results	
 }
 
-async function download_album(album, op) {
+async function download_album(album, op = {}) {
 	let results = {}
 
 	let folders = {
@@ -502,7 +518,8 @@ async function download_album(album, op) {
 			{ 
 				album, 
 				folder: folders.temp.videos,
-				timeout: op.video_timeout
+				timeout: op.video_timeout,
+				steps: 3
 			},
 			cache)
 
@@ -539,7 +556,7 @@ async function exec(argv) {
 
 	let results
 	if (data.type == 'album') {
-		results = await download_album(data, { video_timeout: 2})
+		results = await download_album(data)
 	} else {
 		results = await download_playlist(data)
 	}
