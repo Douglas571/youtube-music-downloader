@@ -1,17 +1,17 @@
 {
-    "href": "https://api.spotify.com/v1/albums/5dGWwsZ9iB2Xc3UKR0gif2/tracks?offset=0&limit=20",
+    "href": "https://api.spotify.com/v1/albums/0JGOiO34nwfUdDrD612dOp/tracks?offset=0&limit=20",
     "items": [
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -201,31 +201,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 152796,
+            "duration_ms": 244221,
             "explicit": false,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/0oaY19dUwZimIgzn3ZZLZO"
+                "spotify": "https://open.spotify.com/track/4HOryCnbme0zBnF8LWij3f"
             },
-            "href": "https://api.spotify.com/v1/tracks/0oaY19dUwZimIgzn3ZZLZO",
-            "id": "0oaY19dUwZimIgzn3ZZLZO",
+            "href": "https://api.spotify.com/v1/tracks/4HOryCnbme0zBnF8LWij3f",
+            "id": "4HOryCnbme0zBnF8LWij3f",
             "is_local": false,
-            "name": "2 Much",
+            "name": "Getting Older",
             "preview_url": null,
             "track_number": 1,
             "type": "track",
-            "uri": "spotify:track:0oaY19dUwZimIgzn3ZZLZO"
+            "uri": "spotify:track:4HOryCnbme0zBnF8LWij3f"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -415,41 +415,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 187238,
-            "explicit": false,
+            "duration_ms": 158463,
+            "explicit": true,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/5NU40QTlXrDUJzDBdv79bg"
+                "spotify": "https://open.spotify.com/track/7bcy34fBT2ap1L4bfPsl9q"
             },
-            "href": "https://api.spotify.com/v1/tracks/5NU40QTlXrDUJzDBdv79bg",
-            "id": "5NU40QTlXrDUJzDBdv79bg",
+            "href": "https://api.spotify.com/v1/tracks/7bcy34fBT2ap1L4bfPsl9q",
+            "id": "7bcy34fBT2ap1L4bfPsl9q",
             "is_local": false,
-            "name": "Deserve You",
+            "name": "I Didn't Change My Number",
             "preview_url": null,
             "track_number": 2,
             "type": "track",
-            "uri": "spotify:track:5NU40QTlXrDUJzDBdv79bg"
+            "uri": "spotify:track:7bcy34fBT2ap1L4bfPsl9q"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
-                },
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/6LuN9FCkKOj5PcnpouEgny"
-                    },
-                    "href": "https://api.spotify.com/v1/artists/6LuN9FCkKOj5PcnpouEgny",
-                    "id": "6LuN9FCkKOj5PcnpouEgny",
-                    "name": "Khalid",
-                    "type": "artist",
-                    "uri": "spotify:artist:6LuN9FCkKOj5PcnpouEgny"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -639,31 +629,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 174406,
+            "duration_ms": 196730,
             "explicit": false,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/6F2r4HgpJnvKDmkN6JEN6J"
+                "spotify": "https://open.spotify.com/track/2KnuaZYoGzDoHiBTNYOTXG"
             },
-            "href": "https://api.spotify.com/v1/tracks/6F2r4HgpJnvKDmkN6JEN6J",
-            "id": "6F2r4HgpJnvKDmkN6JEN6J",
+            "href": "https://api.spotify.com/v1/tracks/2KnuaZYoGzDoHiBTNYOTXG",
+            "id": "2KnuaZYoGzDoHiBTNYOTXG",
             "is_local": false,
-            "name": "As I Am (feat. Khalid)",
+            "name": "Billie Bossa Nova",
             "preview_url": null,
             "track_number": 3,
             "type": "track",
-            "uri": "spotify:track:6F2r4HgpJnvKDmkN6JEN6J"
+            "uri": "spotify:track:2KnuaZYoGzDoHiBTNYOTXG"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -853,41 +843,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 156467,
+            "duration_ms": 210005,
             "explicit": false,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/3T03rPwlL8NVk1yIaxeD8U"
+                "spotify": "https://open.spotify.com/track/3YUMWmx8EJq0DurfuIwoGh"
             },
-            "href": "https://api.spotify.com/v1/tracks/3T03rPwlL8NVk1yIaxeD8U",
-            "id": "3T03rPwlL8NVk1yIaxeD8U",
+            "href": "https://api.spotify.com/v1/tracks/3YUMWmx8EJq0DurfuIwoGh",
+            "id": "3YUMWmx8EJq0DurfuIwoGh",
             "is_local": false,
-            "name": "Off My Face",
+            "name": "my future",
             "preview_url": null,
             "track_number": 4,
             "type": "track",
-            "uri": "spotify:track:3T03rPwlL8NVk1yIaxeD8U"
+            "uri": "spotify:track:3YUMWmx8EJq0DurfuIwoGh"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
-                },
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1anyVhU62p31KFi8MEzkbf"
-                    },
-                    "href": "https://api.spotify.com/v1/artists/1anyVhU62p31KFi8MEzkbf",
-                    "id": "1anyVhU62p31KFi8MEzkbf",
-                    "name": "Chance the Rapper",
-                    "type": "artist",
-                    "uri": "spotify:artist:1anyVhU62p31KFi8MEzkbf"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -1077,41 +1057,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 212093,
+            "duration_ms": 210232,
             "explicit": false,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/6Xgq7MvZiet0hVi3KaDSgJ"
+                "spotify": "https://open.spotify.com/track/4t2OeILB07eMGTXSUbMPEu"
             },
-            "href": "https://api.spotify.com/v1/tracks/6Xgq7MvZiet0hVi3KaDSgJ",
-            "id": "6Xgq7MvZiet0hVi3KaDSgJ",
+            "href": "https://api.spotify.com/v1/tracks/4t2OeILB07eMGTXSUbMPEu",
+            "id": "4t2OeILB07eMGTXSUbMPEu",
             "is_local": false,
-            "name": "Holy (feat. Chance The Rapper)",
+            "name": "Oxytocin",
             "preview_url": null,
             "track_number": 5,
             "type": "track",
-            "uri": "spotify:track:6Xgq7MvZiet0hVi3KaDSgJ"
+            "uri": "spotify:track:4t2OeILB07eMGTXSUbMPEu"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
-                },
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/2tIP7SsRs7vjIcLrU85W8J"
-                    },
-                    "href": "https://api.spotify.com/v1/artists/2tIP7SsRs7vjIcLrU85W8J",
-                    "id": "2tIP7SsRs7vjIcLrU85W8J",
-                    "name": "The Kid LAROI",
-                    "type": "artist",
-                    "uri": "spotify:artist:2tIP7SsRs7vjIcLrU85W8J"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -1301,41 +1271,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 158324,
+            "duration_ms": 151536,
             "explicit": false,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/137mSruegm1u6x9NvwiagR"
+                "spotify": "https://open.spotify.com/track/0FfqyjhB6Kspvit1oOo7ax"
             },
-            "href": "https://api.spotify.com/v1/tracks/137mSruegm1u6x9NvwiagR",
-            "id": "137mSruegm1u6x9NvwiagR",
+            "href": "https://api.spotify.com/v1/tracks/0FfqyjhB6Kspvit1oOo7ax",
+            "id": "0FfqyjhB6Kspvit1oOo7ax",
             "is_local": false,
-            "name": "Unstable (feat. The Kid LAROI)",
+            "name": "GOLDWING",
             "preview_url": null,
             "track_number": 6,
             "type": "track",
-            "uri": "spotify:track:137mSruegm1u6x9NvwiagR"
+            "uri": "spotify:track:0FfqyjhB6Kspvit1oOo7ax"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
-                },
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1jAC8IeyIj2ItNCJdGaUv7"
-                    },
-                    "href": "https://api.spotify.com/v1/artists/1jAC8IeyIj2ItNCJdGaUv7",
-                    "id": "1jAC8IeyIj2ItNCJdGaUv7",
-                    "name": "-",
-                    "type": "artist",
-                    "uri": "spotify:artist:1jAC8IeyIj2ItNCJdGaUv7"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -1525,41 +1485,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 104007,
-            "explicit": false,
+            "duration_ms": 212496,
+            "explicit": true,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/680qLWCMRfR6evrNNBCE9e"
+                "spotify": "https://open.spotify.com/track/4191RXFPa7Ge9XkA4cWlna"
             },
-            "href": "https://api.spotify.com/v1/tracks/680qLWCMRfR6evrNNBCE9e",
-            "id": "680qLWCMRfR6evrNNBCE9e",
+            "href": "https://api.spotify.com/v1/tracks/4191RXFPa7Ge9XkA4cWlna",
+            "id": "4191RXFPa7Ge9XkA4cWlna",
             "is_local": false,
-            "name": "MLK Interlude",
+            "name": "Lost Cause",
             "preview_url": null,
             "track_number": 7,
             "type": "track",
-            "uri": "spotify:track:680qLWCMRfR6evrNNBCE9e"
+            "uri": "spotify:track:4191RXFPa7Ge9XkA4cWlna"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
-                },
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/6USv9qhCn6zfxlBQIYJ9qs"
-                    },
-                    "href": "https://api.spotify.com/v1/artists/6USv9qhCn6zfxlBQIYJ9qs",
-                    "id": "6USv9qhCn6zfxlBQIYJ9qs",
-                    "name": "Dominic Fike",
-                    "type": "artist",
-                    "uri": "spotify:artist:6USv9qhCn6zfxlBQIYJ9qs"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -1749,31 +1699,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 198425,
+            "duration_ms": 234761,
             "explicit": false,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/7aely3H8kMj9o0gt6vXHE1"
+                "spotify": "https://open.spotify.com/track/5XsAal7ZcWg1I5T4NcRjkv"
             },
-            "href": "https://api.spotify.com/v1/tracks/7aely3H8kMj9o0gt6vXHE1",
-            "id": "7aely3H8kMj9o0gt6vXHE1",
+            "href": "https://api.spotify.com/v1/tracks/5XsAal7ZcWg1I5T4NcRjkv",
+            "id": "5XsAal7ZcWg1I5T4NcRjkv",
             "is_local": false,
-            "name": "Die For You (feat. Dominic Fike)",
+            "name": "Halley's Comet",
             "preview_url": null,
             "track_number": 8,
             "type": "track",
-            "uri": "spotify:track:7aely3H8kMj9o0gt6vXHE1"
+            "uri": "spotify:track:5XsAal7ZcWg1I5T4NcRjkv"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -1963,31 +1913,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 170813,
+            "duration_ms": 227679,
             "explicit": false,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/1nahzW3kfMuwReTka28tH5"
+                "spotify": "https://open.spotify.com/track/4T2zre0jqstNJ5Gt0WG9lz"
             },
-            "href": "https://api.spotify.com/v1/tracks/1nahzW3kfMuwReTka28tH5",
-            "id": "1nahzW3kfMuwReTka28tH5",
+            "href": "https://api.spotify.com/v1/tracks/4T2zre0jqstNJ5Gt0WG9lz",
+            "id": "4T2zre0jqstNJ5Gt0WG9lz",
             "is_local": false,
-            "name": "Hold On",
+            "name": "Not My Responsibility",
             "preview_url": null,
             "track_number": 9,
             "type": "track",
-            "uri": "spotify:track:1nahzW3kfMuwReTka28tH5"
+            "uri": "spotify:track:4T2zre0jqstNJ5Gt0WG9lz"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -2177,31 +2127,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 179414,
-            "explicit": false,
+            "duration_ms": 214058,
+            "explicit": true,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/3buwFfY33H32wfZ6X9poV3"
+                "spotify": "https://open.spotify.com/track/5uSG6fUPRaehaV820zcpsK"
             },
-            "href": "https://api.spotify.com/v1/tracks/3buwFfY33H32wfZ6X9poV3",
-            "id": "3buwFfY33H32wfZ6X9poV3",
+            "href": "https://api.spotify.com/v1/tracks/5uSG6fUPRaehaV820zcpsK",
+            "id": "5uSG6fUPRaehaV820zcpsK",
             "is_local": false,
-            "name": "Somebody",
+            "name": "OverHeated",
             "preview_url": null,
             "track_number": 10,
             "type": "track",
-            "uri": "spotify:track:3buwFfY33H32wfZ6X9poV3"
+            "uri": "spotify:track:5uSG6fUPRaehaV820zcpsK"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -2391,51 +2341,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 153190,
+            "duration_ms": 206622,
             "explicit": false,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/6I3mqTwhRpn34SLVafSH7G"
+                "spotify": "https://open.spotify.com/track/5jhBwnqzNNrENXnYrAdoCe"
             },
-            "href": "https://api.spotify.com/v1/tracks/6I3mqTwhRpn34SLVafSH7G",
-            "id": "6I3mqTwhRpn34SLVafSH7G",
+            "href": "https://api.spotify.com/v1/tracks/5jhBwnqzNNrENXnYrAdoCe",
+            "id": "5jhBwnqzNNrENXnYrAdoCe",
             "is_local": false,
-            "name": "Ghost",
+            "name": "Everybody Dies",
             "preview_url": null,
             "track_number": 11,
             "type": "track",
-            "uri": "spotify:track:6I3mqTwhRpn34SLVafSH7G"
+            "uri": "spotify:track:5jhBwnqzNNrENXnYrAdoCe"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
-                },
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/20wkVLutqVOYrc0kxFs7rA"
-                    },
-                    "href": "https://api.spotify.com/v1/artists/20wkVLutqVOYrc0kxFs7rA",
-                    "id": "20wkVLutqVOYrc0kxFs7rA",
-                    "name": "Daniel Caesar",
-                    "type": "artist",
-                    "uri": "spotify:artist:20wkVLutqVOYrc0kxFs7rA"
-                },
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/4fxd5Ee7UefO4CUXgwJ7IP"
-                    },
-                    "href": "https://api.spotify.com/v1/artists/4fxd5Ee7UefO4CUXgwJ7IP",
-                    "id": "4fxd5Ee7UefO4CUXgwJ7IP",
-                    "name": "Giveon",
-                    "type": "artist",
-                    "uri": "spotify:artist:4fxd5Ee7UefO4CUXgwJ7IP"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -2625,41 +2555,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 198081,
-            "explicit": true,
+            "duration_ms": 245896,
+            "explicit": false,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/4iJyoBOLtHqaGxP12qzhQI"
+                "spotify": "https://open.spotify.com/track/042Sl6Mn83JHyLEqdK7uI0"
             },
-            "href": "https://api.spotify.com/v1/tracks/4iJyoBOLtHqaGxP12qzhQI",
-            "id": "4iJyoBOLtHqaGxP12qzhQI",
+            "href": "https://api.spotify.com/v1/tracks/042Sl6Mn83JHyLEqdK7uI0",
+            "id": "042Sl6Mn83JHyLEqdK7uI0",
             "is_local": false,
-            "name": "Peaches (feat. Daniel Caesar & Giveon)",
+            "name": "Your Power",
             "preview_url": null,
             "track_number": 12,
             "type": "track",
-            "uri": "spotify:track:4iJyoBOLtHqaGxP12qzhQI"
+            "uri": "spotify:track:042Sl6Mn83JHyLEqdK7uI0"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
-                },
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/46MWeeHNVMYRIIofQBEX98"
-                    },
-                    "href": "https://api.spotify.com/v1/artists/46MWeeHNVMYRIIofQBEX98",
-                    "id": "46MWeeHNVMYRIIofQBEX98",
-                    "name": "BEAM",
-                    "type": "artist",
-                    "uri": "spotify:artist:46MWeeHNVMYRIIofQBEX98"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -2849,41 +2769,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 186695,
-            "explicit": false,
+            "duration_ms": 195776,
+            "explicit": true,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/27UcQ6dAvQrgH9C880rCM3"
+                "spotify": "https://open.spotify.com/track/38GBNKZUhfBkk3oNlWzRYd"
             },
-            "href": "https://api.spotify.com/v1/tracks/27UcQ6dAvQrgH9C880rCM3",
-            "id": "27UcQ6dAvQrgH9C880rCM3",
+            "href": "https://api.spotify.com/v1/tracks/38GBNKZUhfBkk3oNlWzRYd",
+            "id": "38GBNKZUhfBkk3oNlWzRYd",
             "is_local": false,
-            "name": "Love You Different (feat. BEAM)",
+            "name": "NDA",
             "preview_url": null,
             "track_number": 13,
             "type": "track",
-            "uri": "spotify:track:27UcQ6dAvQrgH9C880rCM3"
+            "uri": "spotify:track:38GBNKZUhfBkk3oNlWzRYd"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
-                },
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/3wcj11K77LjEY1PkEazffa"
-                    },
-                    "href": "https://api.spotify.com/v1/artists/3wcj11K77LjEY1PkEazffa",
-                    "id": "3wcj11K77LjEY1PkEazffa",
-                    "name": "Burna Boy",
-                    "type": "artist",
-                    "uri": "spotify:artist:3wcj11K77LjEY1PkEazffa"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -3073,31 +2983,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 159250,
+            "duration_ms": 173539,
             "explicit": false,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/2tB9OFgAHjAds3cqquLlvp"
+                "spotify": "https://open.spotify.com/track/20R4HfKloPKgXDqU7UKk3x"
             },
-            "href": "https://api.spotify.com/v1/tracks/2tB9OFgAHjAds3cqquLlvp",
-            "id": "2tB9OFgAHjAds3cqquLlvp",
+            "href": "https://api.spotify.com/v1/tracks/20R4HfKloPKgXDqU7UKk3x",
+            "id": "20R4HfKloPKgXDqU7UKk3x",
             "is_local": false,
-            "name": "Loved By You (feat. Burna Boy)",
+            "name": "Therefore I Am",
             "preview_url": null,
             "track_number": 14,
             "type": "track",
-            "uri": "spotify:track:2tB9OFgAHjAds3cqquLlvp"
+            "uri": "spotify:track:20R4HfKloPKgXDqU7UKk3x"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -3287,41 +3197,31 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 190779,
-            "explicit": false,
+            "duration_ms": 298899,
+            "explicit": true,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/2WnAKZefdRHxtBEkRjFOHC"
+                "spotify": "https://open.spotify.com/track/4RVwu0g32PAqgUiJoXsdF8"
             },
-            "href": "https://api.spotify.com/v1/tracks/2WnAKZefdRHxtBEkRjFOHC",
-            "id": "2WnAKZefdRHxtBEkRjFOHC",
+            "href": "https://api.spotify.com/v1/tracks/4RVwu0g32PAqgUiJoXsdF8",
+            "id": "4RVwu0g32PAqgUiJoXsdF8",
             "is_local": false,
-            "name": "Anyone",
+            "name": "Happier Than Ever",
             "preview_url": null,
             "track_number": 15,
             "type": "track",
-            "uri": "spotify:track:2WnAKZefdRHxtBEkRjFOHC"
+            "uri": "spotify:track:4RVwu0g32PAqgUiJoXsdF8"
         },
         {
             "artists": [
                 {
                     "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/1uNFoZAHBGtllmzznpCI3s"
+                        "spotify": "https://open.spotify.com/artist/6qqNVTkY8uBg9cP3Jd7DAH"
                     },
-                    "href": "https://api.spotify.com/v1/artists/1uNFoZAHBGtllmzznpCI3s",
-                    "id": "1uNFoZAHBGtllmzznpCI3s",
-                    "name": "Justin Bieber",
+                    "href": "https://api.spotify.com/v1/artists/6qqNVTkY8uBg9cP3Jd7DAH",
+                    "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+                    "name": "Billie Eilish",
                     "type": "artist",
-                    "uri": "spotify:artist:1uNFoZAHBGtllmzznpCI3s"
-                },
-                {
-                    "external_urls": {
-                        "spotify": "https://open.spotify.com/artist/5CiGnKThu5ctn9pBxv7DGa"
-                    },
-                    "href": "https://api.spotify.com/v1/artists/5CiGnKThu5ctn9pBxv7DGa",
-                    "id": "5CiGnKThu5ctn9pBxv7DGa",
-                    "name": "benny blanco",
-                    "type": "artist",
-                    "uri": "spotify:artist:5CiGnKThu5ctn9pBxv7DGa"
+                    "uri": "spotify:artist:6qqNVTkY8uBg9cP3Jd7DAH"
                 }
             ],
             "available_markets": [
@@ -3511,19 +3411,19 @@
                 "ZW"
             ],
             "disc_number": 1,
-            "duration_ms": 149189,
-            "explicit": true,
+            "duration_ms": 194886,
+            "explicit": false,
             "external_urls": {
-                "spotify": "https://open.spotify.com/track/3S8jK1mGzQi24ilFb45DAZ"
+                "spotify": "https://open.spotify.com/track/4ak9GGe6afmi2HbxEjvhIC"
             },
-            "href": "https://api.spotify.com/v1/tracks/3S8jK1mGzQi24ilFb45DAZ",
-            "id": "3S8jK1mGzQi24ilFb45DAZ",
+            "href": "https://api.spotify.com/v1/tracks/4ak9GGe6afmi2HbxEjvhIC",
+            "id": "4ak9GGe6afmi2HbxEjvhIC",
             "is_local": false,
-            "name": "Lonely (with benny blanco)",
+            "name": "Male Fantasy",
             "preview_url": null,
             "track_number": 16,
             "type": "track",
-            "uri": "spotify:track:3S8jK1mGzQi24ilFb45DAZ"
+            "uri": "spotify:track:4ak9GGe6afmi2HbxEjvhIC"
         }
     ],
     "limit": 20,

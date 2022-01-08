@@ -49,6 +49,7 @@ function ensure_cache_file(cache_path) {
 
 function get_cache(cache_path) {
 	console.log(cache_path)
+	ensure_cache_file(cache_path)
 	const rawStr = fs.readFileSync(cache_path, 'utf-8')
 	console.log(rawStr)
 
@@ -68,6 +69,7 @@ function get_cache(cache_path) {
 }
 
 function save_cache(data, cache_path) {
+	console.log(`the cache in save_cache is: ${cache_path}`)
 	fs.writeFileSync(cache_path, JSON.stringify(data, null, 4))
 }
 
@@ -87,6 +89,7 @@ function old_$download_video(id, folder, op={}) {
 
 	return new Promise((res, rej) => {
 		const video_path = path.join(folder, `${id}.mp4`)
+
 		const video = ytdl(id, {
 		  	quality: 'highestaudio',
 		})
@@ -101,8 +104,14 @@ function old_$download_video(id, folder, op={}) {
 		let timeout_id = setTimeout(() => {
 			console.log('destroying');
 			video.destroy()
-			rej(new Error(`timeout: ${id}`))
+			let err = new Error(`timeout: ${id}`)
+			err.name = ('timeout')
+			rej(err)
 		}, op.timeout)
+
+		video.on('error', (err) => {
+			rej(err)
+		})
 
 		video.once('response', () => {
 		    //starttime = Date.now();
@@ -194,7 +203,6 @@ async function download_playlist(data) {
 		temp_audios_folder,
 		temp_covers_folder
 	])
-	ensure_cache_file(temp_cache)
 	const cache = get_cache(temp_cache)
 
 	const path_to_cover = id => path.join(temp_covers_folder, `${id}.png`)
@@ -348,7 +356,15 @@ async function download_playlist(data) {
 	}
 }
 
-async function download_video({ids, folder, cache, timeout}, retries = 0) {
+async function download_video(op, retries = 0) {
+	const {
+		ids, 
+		folder, 
+		cache, 
+		timeout, 
+		cache_path
+	} = op
+
 	let video_path
 	let results = {}
 
@@ -361,11 +377,17 @@ async function download_video({ids, folder, cache, timeout}, retries = 0) {
 		}
 
 		cache.videos.push(ids.video)
+		console.log(`the cache path in videos is: ${cache_path}`)
+		save_cache(cache, cache_path)
 
 	} catch(err) {
+		if (err.name !== 'timeout') {
+			console.log(err)
+		}
+
 		if (retries <= 2) {
 			console.log(`retrying download ${ids.video}, retry# ${retries + 1}`)
-			results = await download_video({ids, folder, cache, timeout}, retries + 1)
+			results = await download_video({ids, folder, cache, timeout, cache_path}, retries + 1)
 		} else {
 			//console.log(`timeout, retries exceded for ${ids.video}`)
 			throw new Error(`timeout, retries exceded for ${ids.video}`)
@@ -375,7 +397,7 @@ async function download_video({ids, folder, cache, timeout}, retries = 0) {
 	return results
 }
 
-async function download_all_videos({album, folder, timeout, skip, steps}, cache = {}) {
+async function download_all_videos({album, folder, timeout, skip, steps, cache_path}, cache = {}) {
 	// TO-DO: cazar el error no atrapada en promsa :'(
 
 	skip = (skip)? skip : 0
@@ -394,6 +416,10 @@ async function download_all_videos({album, folder, timeout, skip, steps}, cache 
 
 	let idx = skip
 	while(pending_videos.length < steps) {
+		if(_.isEmpty(album.tracks[idx])) {
+			break
+		}
+
 		let track = album.tracks[idx]
 		const ids = {
 			track: track.id,
@@ -404,7 +430,7 @@ async function download_all_videos({album, folder, timeout, skip, steps}, cache 
 			//console.log(`added ${ids.video}\nidx:${idx}`)
 			pending_videos.push(new Promise((res, rej) => {
 				setTimeout(() => {
-					download_video({ids, folder, cache, timeout})
+					download_video({ids, folder, cache, timeout, cache_path})
 						.then( results => res(results))
 						.catch( err => rej(err))
 				}, ((pending_videos.length - 1) * 3 * 1000))
@@ -454,7 +480,11 @@ async function set_all_metadata(album, folders, cache = {}) {
 	let results
 
 	let destiny_path = track => {
-		let file_name = `${track.track_number}.${track.title}.mp3`
+		let number = (track.track_number < 10)
+			? `0${track.track_number}`
+			: track.track_number
+
+		let file_name = `${number}.${track.title}.mp3`
 		let out = path.join(folders.downloads, file_name)
 
 		return out
@@ -463,10 +493,15 @@ async function set_all_metadata(album, folders, cache = {}) {
 	let pending_writting = []
 
 	for (let t of album.tracks) {
+		let artist = (Array.isArray(t.artists))
+						? t.artists.join(', ')
+						: t.artists
+
 		const meta = {
 		    title: t.title,
-		    artist: album.artist,
-		    //performerInfo: performerArtist,
+		    album: album.name,
+		    artist: artist,
+		    performerInfo: album.artist,
 		    APIC: cache.covers[album.cover],
 		    trackNumber: t.track_number,
 		    year: album.year,
@@ -498,7 +533,7 @@ async function download_album(album, op = {}) {
 	let results = {}
 
 	let folders = {
-		downloads: path.join(DIR.DOWNLOADS, `${album.name}-${album.artist}`),
+		downloads: path.join(DIR.DOWNLOADS, `${album.artist} - ${album.name}`),
 		temp: {
 			root: path.join(DIR.APPDATA, `${album.name}`)
 		},
@@ -508,6 +543,13 @@ async function download_album(album, op = {}) {
 	folders.temp.audios = path.join(folders.temp.root, 'audios')
 	folders.temp.covers = path.join(folders.temp.root, 'covers')
 	folders.temp.cache  = path.join(folders.temp.root, 'cache.json')
+
+	ensure_dirs([
+		folders.downloads,
+		folders.temp.videos,
+		folders.temp.audios,
+		folders.temp.covers
+	])
 
 	console.log(`downloading album: ${album.name}`)
 
@@ -519,7 +561,8 @@ async function download_album(album, op = {}) {
 				album, 
 				folder: folders.temp.videos,
 				timeout: op.video_timeout,
-				steps: 3
+				steps: 5,
+				cache_path: folders.temp.cache
 			},
 			cache)
 
@@ -568,7 +611,7 @@ async function exec(argv) {
 
 if (module === require.main) {
 	const argv = process.argv.slice(2)
-	const input = ['orh.json']
+	const input = ['behte.json']
 	exec(input).then( res => {process.exit(1)})
 	
 }

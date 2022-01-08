@@ -1,149 +1,122 @@
 {
-    "name": "Justice",
-    "artist": "Justin Bieber",
-    "cover": "https://i.scdn.co/image/ab67616d0000b273e6f407c7f3a0ec98845e4431",
+    "type": "album",
+    "name": "Happier Than Ever",
+    "artist": "Billie Eilish",
+    "cover": "https://i.scdn.co/image/ab67616d0000b2732a038d3bf875d23e4aeaa84e",
     "year": "2021",
     "totalTracks": 16,
     "tracks": [
         {
-            "id": "0oaY19dUwZimIgzn3ZZLZO",
-            "title": "2 Much",
+            "id": "4HOryCnbme0zBnF8LWij3f",
+            "title": "Getting Older",
             "track_number": 1,
-            "artists": "Justin Bieber",
-            "duration_sec": 152.796
+            "artists": "Billie Eilish",
+            "duration_sec": 244.221
         },
         {
-            "id": "5NU40QTlXrDUJzDBdv79bg",
-            "title": "Deserve You",
+            "id": "7bcy34fBT2ap1L4bfPsl9q",
+            "title": "I Didn't Change My Number",
             "track_number": 2,
-            "artists": "Justin Bieber",
-            "duration_sec": 187.238
+            "artists": "Billie Eilish",
+            "duration_sec": 158.463
         },
         {
-            "id": "6F2r4HgpJnvKDmkN6JEN6J",
-            "title": "As I Am (feat. Khalid)",
+            "id": "2KnuaZYoGzDoHiBTNYOTXG",
+            "title": "Billie Bossa Nova",
             "track_number": 3,
-            "artists": [
-                "Justin Bieber",
-                "Khalid"
-            ],
-            "duration_sec": 174.406
+            "artists": "Billie Eilish",
+            "duration_sec": 196.73
         },
         {
-            "id": "3T03rPwlL8NVk1yIaxeD8U",
-            "title": "Off My Face",
+            "id": "3YUMWmx8EJq0DurfuIwoGh",
+            "title": "my future",
             "track_number": 4,
-            "artists": "Justin Bieber",
-            "duration_sec": 156.467
+            "artists": "Billie Eilish",
+            "duration_sec": 210.005
         },
         {
-            "id": "6Xgq7MvZiet0hVi3KaDSgJ",
-            "title": "Holy (feat. Chance The Rapper)",
+            "id": "4t2OeILB07eMGTXSUbMPEu",
+            "title": "Oxytocin",
             "track_number": 5,
-            "artists": [
-                "Justin Bieber",
-                "Chance the Rapper"
-            ],
-            "duration_sec": 212.093
+            "artists": "Billie Eilish",
+            "duration_sec": 210.232
         },
         {
-            "id": "137mSruegm1u6x9NvwiagR",
-            "title": "Unstable (feat. The Kid LAROI)",
+            "id": "0FfqyjhB6Kspvit1oOo7ax",
+            "title": "GOLDWING",
             "track_number": 6,
-            "artists": [
-                "Justin Bieber",
-                "The Kid LAROI"
-            ],
-            "duration_sec": 158.324
+            "artists": "Billie Eilish",
+            "duration_sec": 151.536
         },
         {
-            "id": "680qLWCMRfR6evrNNBCE9e",
-            "title": "MLK Interlude",
+            "id": "4191RXFPa7Ge9XkA4cWlna",
+            "title": "Lost Cause",
             "track_number": 7,
-            "artists": [
-                "Justin Bieber",
-                "-"
-            ],
-            "duration_sec": 104.007
+            "artists": "Billie Eilish",
+            "duration_sec": 212.496
         },
         {
-            "id": "7aely3H8kMj9o0gt6vXHE1",
-            "title": "Die For You (feat. Dominic Fike)",
+            "id": "5XsAal7ZcWg1I5T4NcRjkv",
+            "title": "Halley's Comet",
             "track_number": 8,
-            "artists": [
-                "Justin Bieber",
-                "Dominic Fike"
-            ],
-            "duration_sec": 198.425
+            "artists": "Billie Eilish",
+            "duration_sec": 234.761
         },
         {
-            "id": "1nahzW3kfMuwReTka28tH5",
-            "title": "Hold On",
+            "id": "4T2zre0jqstNJ5Gt0WG9lz",
+            "title": "Not My Responsibility",
             "track_number": 9,
-            "artists": "Justin Bieber",
-            "duration_sec": 170.813
+            "artists": "Billie Eilish",
+            "duration_sec": 227.679
         },
         {
-            "id": "3buwFfY33H32wfZ6X9poV3",
-            "title": "Somebody",
+            "id": "5uSG6fUPRaehaV820zcpsK",
+            "title": "OverHeated",
             "track_number": 10,
-            "artists": "Justin Bieber",
-            "duration_sec": 179.414
+            "artists": "Billie Eilish",
+            "duration_sec": 214.058
         },
         {
-            "id": "6I3mqTwhRpn34SLVafSH7G",
-            "title": "Ghost",
+            "id": "5jhBwnqzNNrENXnYrAdoCe",
+            "title": "Everybody Dies",
             "track_number": 11,
-            "artists": "Justin Bieber",
-            "duration_sec": 153.19
+            "artists": "Billie Eilish",
+            "duration_sec": 206.622
         },
         {
-            "id": "4iJyoBOLtHqaGxP12qzhQI",
-            "title": "Peaches (feat. Daniel Caesar & Giveon)",
+            "id": "042Sl6Mn83JHyLEqdK7uI0",
+            "title": "Your Power",
             "track_number": 12,
-            "artists": [
-                "Justin Bieber",
-                "Daniel Caesar",
-                "Giveon"
-            ],
-            "duration_sec": 198.081
+            "artists": "Billie Eilish",
+            "duration_sec": 245.896
         },
         {
-            "id": "27UcQ6dAvQrgH9C880rCM3",
-            "title": "Love You Different (feat. BEAM)",
+            "id": "38GBNKZUhfBkk3oNlWzRYd",
+            "title": "NDA",
             "track_number": 13,
-            "artists": [
-                "Justin Bieber",
-                "BEAM"
-            ],
-            "duration_sec": 186.695
+            "artists": "Billie Eilish",
+            "duration_sec": 195.776
         },
         {
-            "id": "2tB9OFgAHjAds3cqquLlvp",
-            "title": "Loved By You (feat. Burna Boy)",
+            "id": "20R4HfKloPKgXDqU7UKk3x",
+            "title": "Therefore I Am",
             "track_number": 14,
-            "artists": [
-                "Justin Bieber",
-                "Burna Boy"
-            ],
-            "duration_sec": 159.25
+            "artists": "Billie Eilish",
+            "duration_sec": 173.539
         },
         {
-            "id": "2WnAKZefdRHxtBEkRjFOHC",
-            "title": "Anyone",
+            "id": "4RVwu0g32PAqgUiJoXsdF8",
+            "title": "Happier Than Ever",
             "track_number": 15,
-            "artists": "Justin Bieber",
-            "duration_sec": 190.779
+            "artists": "Billie Eilish",
+            "duration_sec": 298.899
         },
         {
-            "id": "3S8jK1mGzQi24ilFb45DAZ",
-            "title": "Lonely (with benny blanco)",
+            "id": "4ak9GGe6afmi2HbxEjvhIC",
+            "title": "Male Fantasy",
             "track_number": 16,
-            "artists": [
-                "Justin Bieber",
-                "benny blanco"
-            ],
-            "duration_sec": 149.189
+            "artists": "Billie Eilish",
+            "duration_sec": 194.886
         }
     ]
 }

@@ -1,17 +1,28 @@
 const readline = require('readline')
 const { stdin: input, stdout: output } = require('process');
 
-function render(data) {
-	readline.clearScreenDown(output)
+function render(data, back=0) {
+	return new Promise((resolve, resject) => {
+		if(back > 0) {
+			back
+		}
 
-	let rendered_lines = 0
-	for (let t of data.tracks) {
-		output.write(`${t.title}: ${t.state}\n`)		
-		rendered_lines++
-	}
+		readline.moveCursor(output, 0, -back)
+		readline.clearScreenDown(output)
 
-	return rendered_lines
+		let lines = 0
+		for (let id in data) {
+			let t = data[id]
+			output.write(`${t.title}: ${t.state}\n`)		
+			lines++
+		}
+
+		resolve(lines)
+	})
+		
 }
+
+module.exports = render
 
 async function init() {
 	//let rl = readline.createInterface({ input, output })
@@ -68,4 +79,4 @@ async function init() {
 	console.log('good bye')
 }
 
-init()
+//init()
