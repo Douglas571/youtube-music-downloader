@@ -22,11 +22,16 @@ DIR.APPDATA = path.join(process.env.LOCALAPPDATA, 'ymd')
 DIR.YMD = path.join(DIR.HOME, 'ymd')
 DIR.DOWNLOADS = path.join(DIR.HOME, 'downloads', 'youtube-music-downloader')
 
-function get_instruction_file(instruction_file_path) {
-	const full_path = path.join(DIR.YMD, instruction_file_path)
+/**
+ * Retrive the file where is the music metadata
+ * and video ids
+ * @param String: Filename of instruction_file
+ */
+function get_instruction_file(instruction_file) {
+	const full_path = path.join(DIR.YMD, instruction_file)
 	let data
 
-	if (instruction_file_path.endsWith('yaml')) {
+	if (full_path.endsWith('yaml')) {
 		data = YAML.parse(fs.readFileSync(full_path, 'utf-8'))
 	} else {
 		data = JSON.parse(fs.readFileSync(full_path, 'utf-8'))
@@ -533,7 +538,7 @@ async function download_album(album, op = {}) {
 	let results = {}
 
 	let folders = {
-		downloads: path.join(DIR.DOWNLOADS, `${album.artist} - ${album.name}`),
+		downloads: path.join(DIR.DOWNLOADS, `${album.artist} - ${album.name}(${album.year})`),
 		temp: {
 			root: path.join(DIR.APPDATA, `${album.name}`)
 		},
@@ -561,7 +566,7 @@ async function download_album(album, op = {}) {
 				album, 
 				folder: folders.temp.videos,
 				timeout: op.video_timeout,
-				steps: 5,
+				steps: 10,
 				cache_path: folders.temp.cache
 			},
 			cache)
@@ -610,8 +615,8 @@ async function exec(argv) {
 }
 
 if (module === require.main) {
-	const argv = process.argv.slice(2)
-	const input = ['behte.json']
+	const argv = process.argv
+	const input = [argv[2]]
 	exec(input).then( res => {process.exit(1)})
 	
 }

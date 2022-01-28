@@ -109,8 +109,8 @@ if (require.main === module) {
 
 async function main() {
 	let album_query = {
-		artist: "billie eilish",
-		name: 'happier than ever'
+		artist: "",
+		name: 'euphoria'
 	}
 
 	let album = await get_album(album_query)
