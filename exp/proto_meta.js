@@ -109,7 +109,7 @@ if (require.main === module) {
 
 async function main() {
 	let album_query = {
-		artist: "",
+		//artist: "euphoria",
 		name: 'euphoria'
 	}
 
