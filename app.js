@@ -4,7 +4,6 @@ function download_album(album) {
 	download_videos()
 		.then( res => {
 
-
 		})
 
 	return results
