@@ -23,6 +23,7 @@
     "sanitize-filename": "^1.6.3",
     "spotify-web-api-node": "^5.0.2",
     "yaml": "^1.10.2",
+    "yargs": "^17.3.1",
     "ytdl-core": "^4.9.1"
   }
 }
