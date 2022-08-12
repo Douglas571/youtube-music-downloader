@@ -10,14 +10,26 @@
 
 */
 
+const Cache = require('./cache')
 const Spotify = require('./spotify')
 const ytdl = require('./ytdl')
 
-function main(op) {
+const yargs = require('yargs/yargs')
+const { hideBin } = require('yargs/helpers')
 
+function main(op) {
+	let cache = new Cache(op)
+
+	if (op.a) {
+		download_album(op, cache)
+	}
+
+	/*
+		commentary long...
+	
 	switch(op.type){
 		case '-a':
-			download_album()
+			download_album(op, cache)
 			break
 
 		case '-s':
@@ -35,16 +47,34 @@ function main(op) {
 			throw new Error(`Invalid operation`)
 			break
 	}
+	*/
 }
 
 if (module === require.main) {
-	const args = parse_args(process.argv)
-	main(args)
+	const argv = parse_args(process.argv)
+	console.log(argv)
+	main(argv)
 		.then( _ => process.exit(1))	
 }
 
 function parse_args(argv) {
-	const argv = process.argv
+	return yargs(hideBin(argv))
+		.command('album [name]', 'download and album', (yargs) => {
+			return yargs.positional({
+				describe: 'the album name',
+				default: ''
+			})
+		})
+		.alias('a', 'album')
+		.option('art', {
+			describe: 'artists',
+			alias: 'artist',
+		})
+		.option('st', {
+			default: 5,
+			alias: 'steps'
+		})
+		.parse()
 
 	// delete later...
 	return {
@@ -54,20 +84,15 @@ function parse_args(argv) {
 
 		how_many_songs: '5'
 	}
-
-	return {
-		op: argv[2]
-		input: argv
-	}
-
-	// TO-DO: find a way to parse complex args
 }
 
-function download_album(op) {
+function download_album(op, cache) {
+	console.log('downloading album')
 	return new Promise((resolve, reject) => {
 		let state = {
 			album: {},
-			op
+			op,
+			cache
 		}
 
 		find_album_metadata(state)

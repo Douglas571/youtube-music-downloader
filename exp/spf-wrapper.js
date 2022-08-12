@@ -7,7 +7,7 @@ const _ = require('lodash')
 const path = require('path')
 const axios = require('axios')
 
-exports.fetch_album_meta = async (query) => {
+exports.fetch_album_meta = async (query, testing_path_file="proto/s-album.json") => {
 	// Get the access token
 	const global_cache = GLOBAL_CACHE
 	let access_token = await get_access_token(global_cache)
@@ -30,7 +30,7 @@ exports.fetch_album_meta = async (query) => {
 
 	const album = res.body.albums.items[0]
 
-	fs.writeFileSync(`proto/s-album.json`, JSON.stringify(res.body, null, 4))
+	fs.writeFileSync(testing_path_file, JSON.stringify(res.body, null, 4))
 	const album_track_list = await get_album_track_list(album.id)
 
 	let clean_album = {}

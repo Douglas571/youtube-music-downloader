@@ -241,7 +241,15 @@ async function download_playlist(data) {
 		}
 
 		if (id && (!cache.videos.includes(id))) {
-			await download_video(id, temp_videos_folder)
+			// {ids, folder, cache, timeout, cache_path}
+			await download_video({
+				ids: {track: id, video: id},
+				folder: temp_videos_folder,
+				cache: cache,
+				timeout: 1.5,
+				cache_path: temp_cache
+
+			})
 			cache.videos.push(id)
 			save_cache(cache, temp_cache)
 		}
@@ -256,6 +264,7 @@ async function download_playlist(data) {
 			await convert_video_to_mp3(
 				path_to_video(id), 
 				path_to_audio(id))
+
 			cache.audios.push(id)
 			save_cache(cache, temp_cache)
 		}
@@ -390,7 +399,7 @@ async function download_video(op, retries = 0) {
 			console.log(err)
 		}
 
-		if (retries <= 2) {
+		if (retries <= 10) {
 			console.log(`retrying download ${ids.video}, retry# ${retries + 1}`)
 			results = await download_video({ids, folder, cache, timeout, cache_path}, retries + 1)
 		} else {
@@ -566,7 +575,7 @@ async function download_album(album, op = {}) {
 				album, 
 				folder: folders.temp.videos,
 				timeout: op.video_timeout,
-				steps: 10,
+				stesps: 3,//steps: 1,
 				cache_path: folders.temp.cache
 			},
 			cache)
@@ -610,6 +619,8 @@ async function exec(argv) {
 	}
 
 	console.log(`the results are: ${JSON.stringify(results, null, 4)}`)
+
+ 	//exec(argv) // don't do this :P
 
 	return results
 }

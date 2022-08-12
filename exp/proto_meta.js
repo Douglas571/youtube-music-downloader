@@ -108,13 +108,18 @@ if (require.main === module) {
 }
 
 async function main() {
+
+	console.log('Iniciando...')
+
 	let album_query = {
-		//artist: "euphoria",
-		name: 'euphoria'
+		artist: "harry styles",
+		name: "Harry's House"
 	}
 
+	fs.ensureFileSync('proto/global.json')
 	let album = await get_album(album_query)
+
 	console.log(`the album is: ${JSON.stringify(album, null, 4)}`)
-	fs.ensureDirSync('proto')
+	
 	fs.writeFileSync('proto/final-album.json', JSON.stringify(album, null, 4))
 }
