@@ -1,3 +1,28 @@
+/*
+	This script generate an instruction file for the ymd.
+	
+	(29-09-22) the program 
+
+
+*/
+
+// Config
+	
+	// https://open.spotify.com/playlist/7qV5puLDcA8EiPOMgwyVhH
+	// beginnings
+	// Girl in Red
+	
+	const album_query = {
+		artist: "Girl in Red",
+		name: "beginnings"
+	}
+
+	const type = "playlist"
+
+	const resultFileName = 'gir-b-playlist.json'
+	
+// ------------------------
+
 require('dotenv').config({ path: '../.env'})
 
 const fs = require('fs-extra')
@@ -101,25 +126,68 @@ async function get_album(album_query) {
 	*/	
 }
 
-module.exports = get_album
-if (require.main === module) {
-	console.log('executing from cms')
-	main()
+async function get_playlist(query) {
+	console.log('searching playlists: ', query)
+	
+	const results = await spt_wp.search_playlist(query)
+
+	if (!results.items) return {}
+
+	const playlist_id = results.items[0].id
+	const playlist = await spt_wp.fetch_playlist(playlist_id)
+
+	let videos = await yt_wp.fetch_videos(playlist.items)
+
+	/* for testing when have the caché
+	let playlist = JSON.parse(fs.readFileSync('proto/clean-playlist.json', 'utf-8'))
+	let videos = JSON.parse(fs.readFileSync('proto/ready-videos.json', 'utf-8'))
+	*/
+
+	// TO-DO: merge videos
+	playlist.items = merge_tracks_with_videos(playlist.items, videos)
+	log('merge', playlist)
+
+
+	return playlist
 }
 
 async function main() {
 
 	console.log('Iniciando...')
 
-	let album_query = {
-		artist: "harry styles",
-		name: "Harry's House"
+	// Ensure the folder to save spotify access token
+	fs.ensureFileSync('proto/global.json' )
+
+	let instructionFile = {}
+
+	switch(type) {
+		case 'playlist': 
+			let query = `${album_query.name} ${album_query.artist}`
+			instructionFile = await get_playlist(query)
+			break
+
+		case 'album':
+			console.log('searching album: ', album_query)
+			instructionFile = await get_album(album_query)
+			break
+
+		default:
+			console.log('Error: unknow type')
+			return
+			break
+
 	}
 
-	fs.ensureFileSync('proto/global.json')
-	let album = await get_album(album_query)
+	console.log({instructionFile})
 
-	console.log(`the album is: ${JSON.stringify(album, null, 4)}`)
+	console.log(`the album is: ${JSON.stringify(instructionFile, null, 4)}`)
 	
-	fs.writeFileSync('proto/final-album.json', JSON.stringify(album, null, 4))
+	fs.writeFileSync('proto/' + resultFileName , 
+		JSON.stringify(instructionFile, null, 4))
+}
+
+module.exports = get_album
+if (require.main === module) {
+	console.log('executing from cmd')
+	main()
 }

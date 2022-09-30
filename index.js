@@ -1,4 +1,13 @@
 #!/usr/bin/env node
+/* 
+	BIG NOTE: The program know what to download based on an "instruction file" 
+	that should be in "~home/ymd" folder saved in variable "DIR.YMD".
+ 	
+ 	Currently (29-09-22) I'm working in a script for generate that 
+ 	instruction file from a spotify playlist or album, and that script
+ 	is in "exp/proto_meta.js".
+*/
+
 require('dotenv').config()
 
 //console.log(process.env)
@@ -216,20 +225,25 @@ async function download_playlist(data) {
 	const path_to_mp3 = item => {
 		let file_name
 
-		let { track, title } = item
-		track = track || 0
-		file_name = (track < 10)
-			? `0${track}.${item.title}.mp3`
-			: `${track}.${item.title}.mp3`
+		let { track_number, title } = item
+		track_number = track_number || 0
+		file_name = (track_number < 10)
+			? `0${track_number}.${title}.mp3`
+			: `${track_number}.${title}.mp3`
 
 		return file_name
 	}
 
+	
 	// Download videos
+	let skip_vd = false
 	console.log('downloading videos...')
-	for (let item of data.tracks) {
+	for (let item of data.items) {
+		if (skip_vd) continue 
 
-		let id = item.youtube_id
+		console.log(item.id)
+
+		let id = item?.preferred_video.id
 
 		// TO-DO: Write a function for ensure that id is asigned.
 		// IMPORTANT: Ensure that id is asigned for posterior usage.
@@ -240,27 +254,42 @@ async function download_playlist(data) {
 			item.youtube_id = id
 		}
 
-		if (id && (!cache.videos.includes(id))) {
-			// {ids, folder, cache, timeout, cache_path}
-			await download_video({
-				ids: {track: id, video: id},
-				folder: temp_videos_folder,
-				cache: cache,
-				timeout: 1.5,
-				cache_path: temp_cache
+		if (id) {
+			console.log('check if: ', id, ' is in cache.')
+			if (!(cache.videos.includes(id))) {
+				console.log('download the video')
 
-			})
-			cache.videos.push(id)
-			save_cache(cache, temp_cache)
+				const op = {
+					ids: {video: id, track: id}, 
+					folder: temp_videos_folder, 
+					cache, 
+					timeout: 1.5, 
+					cache_path: temp_cache
+				}
+
+				await download_video(op)
+
+				cache.videos.push(id)
+				save_cache(cache, temp_cache)
+			} else {
+				console.log("the video alredy exists: ", id)
+			}
+			// {ids, folder, cache, timeout, cache_path}
+				
 		}
 	}
 
+	
 	// Convert videos
+	let skip_vc = true
 	console.log('Converting videos...')
-	for (let item of data.tracks) {
-		let id = item.youtube_id
+	for (let item of data.items) {
+		if (skip_vc) continue 
 
-		if (id && (!cache.audios.includes(id))) {
+		let id = item.preferred_video.id
+
+		if (id && !cache.audios.includes(id) && cache.videos.includes(id)) {
+			console.log('converting: ', id)
 			await convert_video_to_mp3(
 				path_to_video(id), 
 				path_to_audio(id))
@@ -268,7 +297,6 @@ async function download_playlist(data) {
 			cache.audios.push(id)
 			save_cache(cache, temp_cache)
 		}
-
 	}
 
 	// Download cover
@@ -277,14 +305,18 @@ async function download_playlist(data) {
 		// TO-DO: Write a single cover
 
 	} else {
-		for (let item of data.tracks) {
+		for (let item of data.items) {
 			// find cover url
-			const id = item.youtube_id
+			const l = item.cover.split('/').length
+			const id = item.cover.split('/')[(l-1)]
+
+			/* for now, the playlist form spotify should include cover
+
 			let search = (item.title)? `${item.title}`: ''
 			search += (item.artist)? ` ${item.artist}`: ''
 			search += (item.year)? ` ${item.year}`: ''
 			let url
-
+			
 			if(!item.cover) {
 				item.cover = {}
 
@@ -303,16 +335,22 @@ async function download_playlist(data) {
 				item.cover.url = url
 				save_cache(cache, temp_cache)
 			}
+			*/
 
 			// download the cover
-			if (!(cache.covers[search].hasOwnProperty('file_path'))) {
-				await Covers.download(url, path_to_cover(id))	
-				cache.covers[search].file_path = path_to_cover(id)
+			if (!cache.covers[id]) {
+				cache.covers[id] = {}
+			}
 
+			if (!(cache.covers[id].hasOwnProperty('file_path'))) {
+				console.log('cover not found: ', id)
+				await Covers.download(item.cover, path_to_cover(id))	
+				cache.covers[id].file_path = path_to_cover(id)
 			}
 			
 			// asigne the cover file path to item
-			item.cover.file_path = path_to_cover(id)
+			const cover = item.cover
+			item.cover = { cover, file_path: path_to_cover(id) }
 			save_cache(cache, temp_cache)
 		}
 
@@ -321,15 +359,16 @@ async function download_playlist(data) {
 
 	// Write metadata
 	console.log('Writing metadata...')
-	for (let item of data.tracks) {
-		const id = item.youtube_id
+	for (let item of data.items) {
+		const id = item.preferred_video.id
+		console.log('writing: ', id)
 
-		if (id) {
+		if (id && cache.videos.includes(id)) {
 
 			const meta = {
 			    title: item.title,
 			    artist: item.artist,
-			    //performerInfo: performerArtist,
+			    performerInfo: item.artist,
 			    APIC: item.cover.file_path,
 			    trackNumber: item.track,
 			    year: item.year,
@@ -339,14 +378,11 @@ async function download_playlist(data) {
 			// TO-DO: Escribir el nombre del album aparte,
 			//        dependiendo del tipo
 
-			meta.album = (data.type == 'album')
-				? data.name
-				: item.title
-
 			meta.album = item.album || meta.album
 
 			await write_meta(meta, path_to_audio(id))
 
+			console.log('copying: ', id)
 			fs.copySync(
 				path_to_audio(id), 
 				path.join(
@@ -355,6 +391,7 @@ async function download_playlist(data) {
 				{ overwrite: true })
 		}
 	}
+
 
 	save_cache(cache, temp_cache)
 
@@ -611,6 +648,12 @@ async function exec(argv) {
 	//console.log(data)
 	//console.log(DATA_FILE)
 
+	let c = 0;
+	setInterval(() => {
+		console.log(c)
+		c++
+	}, 1000)
+
 	let results
 	if (data.type == 'album') {
 		results = await download_album(data)
@@ -618,7 +661,8 @@ async function exec(argv) {
 		results = await download_playlist(data)
 	}
 
-	console.log(`the results are: ${JSON.stringify(results, null, 4)}`)
+	console.log('terminate!')
+	//console.log(`the results are: ${JSON.stringify(results, null, 4)}`)
 
  	//exec(argv) // don't do this :P
 
@@ -629,7 +673,6 @@ if (module === require.main) {
 	const argv = process.argv
 	const input = [argv[2]]
 	exec(input).then( res => {process.exit(1)})
-	
 }
 
 module.exports = {
@@ -638,53 +681,3 @@ module.exports = {
 	write_meta,
 	read_meta
 }
-
-// input - un archivo de instrucciónes
-
-// leer archivo de instrucciónes
-
-// si type es "album"
-	// crear capeta "temp/{album_title}/" "temp/{album_title}/videos" "temp/{album_title}/audios"
-	// Si no hay cache, crear caché en temp/{album_title}/cache.json
-	// si hay internet
-		// descargar cover y guardar en temp/{album_title}/cover.png
-		// tomar un item
-			 // si hay id y no está en caché
-			 	// si hay internet
-			 		// descargar video en la carpeta temp/{album_title}/videos/{id}.mp4
-			 			// si se descargó exitosamente
-			 				// cachear id en temp/{album_title}/cache.json
-			 		// si no
-			 			// repetir descarga
-			 	// si no hay internet
-			 		// saltar item
-		// repetir para cada item
-
-		// tomar un item
-			// si id del item está en caché
-				// buscar video correspondiente en temp/{album_title}/videos/{id}.mp4
-				// convertir a mp3 y guardar en temp/{album-title}/audios/{id}.mp3
-				// buscar cover en temp/{album_title}/cover.png
-				// colocar cover
-				// editar metadatos
-				// copiar a download/{album_title}-{main_artist}/0{track}.{title}.mp3
-			// saltar item
-
-// si type es "playlist"
-	// crear capeta "temp/folder/" "temp/folder/videos" "temp/folder/audios" "temp/folder/covers"
-	// si existe temp/folder/cache.json
-		// cargar cache
-
-	// si no, crear cache file en temp/folder/cache.json
-
-	// tomar un item
-		// si hay id
-			// si hay internet y no está en caché
-				// descargar video y guardar en temp/folder/videos/{id}.mp4
-				// descargar cover en temp/folder/covers/{id}.png
-				
-
-
-		// si no hay id
-
-// output - una carpeta en descargas/ymd con los audios formateados

@@ -7,67 +7,10 @@ const _ = require('lodash')
 const path = require('path')
 const axios = require('axios')
 
-exports.fetch_album_meta = async (query, testing_path_file="proto/s-album.json") => {
-	// Get the access token
-	const global_cache = GLOBAL_CACHE
-	let access_token = await get_access_token(global_cache)
-
-	console.log(`the access_token is: ${access_token}`)
-	spotify.setAccessToken(access_token)
-
-	let search = `artist:${query.artist} album:${query.name}`
-	let res
-	try {
-		res = await spotify.searchAlbums(search)
-
-	} catch(err) {
-		access_token = await fetch_access_token()
-		save_cache_access_token(access_token)
-		spotify.setAccessToken(access_token)
-
-		res = await spotify.searchAlbums(search)
-	}
-
-	const album = res.body.albums.items[0]
-
-	fs.writeFileSync(testing_path_file, JSON.stringify(res.body, null, 4))
-	const album_track_list = await get_album_track_list(album.id)
-
-	let clean_album = {}
-
-	let cover = album.images.filter( img => img.height >= 500 )[0].url
-	let year = album.release_date.split('-')[0]
-
-	clean_data = {
-		type: 'album',
-		name: album.name,
-		artist: album.artists[0].name,
-		cover,
-		year,
-		totalTracks: album.total_tracks,
-		tracks: album_track_list,
-	}
-
-	return clean_data
-	/*
-		Should return the album meta:
-			{
-				name,
-				artist,
-				tracks [
-					{
-						id
-						track_number
-						title
-						artist
-						duration_sec
-					}
-				]
-			}
-	*/
-}
-
 const GLOBAL_CACHE = path.join('proto', 'global.json')
+
+
+// # CONFIG AND AUTHENTICATION
 
 const spotify_op = {
   client_id: process.env.SPOTIFY_ID,
@@ -127,6 +70,152 @@ async function fetch_access_token() {
 
 function save_cache_access_token(access_token, global_cache = GLOBAL_CACHE) {
 	fs.writeFileSync(global_cache, JSON.stringify({ access_token }, null, 4))
+}
+
+const ensureAccessToken = async () => {
+	const global_cache = GLOBAL_CACHE
+	let access_token = await get_access_token(global_cache)
+
+	console.log(`the access_token is: ${access_token}`)
+	spotify.setAccessToken(access_token)
+}
+
+// # PLAYLIST STUF
+
+exports.search_playlist = async (query) => {
+	await ensureAccessToken()
+
+	if (!query) return {}
+
+	let res
+	
+	try {
+		res = await spotify.searchPlaylists(query)
+		fs.writeFileSync('proto/search-playlist-spotify-response.json', JSON.stringify(res.body, null, 4))
+	} catch (err) {
+		console.log(err)
+	}
+
+	return res?.body.playlists || {}
+}
+
+exports.fetch_playlist = async (playlist_id) => {
+	if (!playlist_id) return {}
+
+	let playlist = {}
+
+	await ensureAccessToken()
+
+	let res
+	try {
+		res = await spotify.getPlaylist(playlist_id)
+		fs.writeFileSync('proto/playlist-spotify-response.json', JSON.stringify(res.body, null, 4))
+
+		playlist = res.body
+		
+	} catch (err) {
+		console.log(err)
+	}
+
+	playlist = generate_playlist_instruction_file(playlist)
+	fs.writeFileSync('proto/clean-playlist.json', JSON.stringify(playlist, null, 4))
+
+	return playlist
+}
+
+function generate_playlist_instruction_file(playlist) {
+	let isntruction_file = {}
+
+	// for development offline purpose
+	//playlist = JSON.parse(fs.readFileSync('proto/playlist-spotify-response.json', 'utf-8'))
+
+	isntruction_file.type = 'playlist'
+	isntruction_file.name = playlist.name
+	isntruction_file.totalTracks = playlist.tracks.items.length
+
+	isntruction_file.items = playlist.tracks.items.map(({track}) => {
+		return {
+			id: track.id,
+			title: track.name,
+			album: track.album.name,
+			artists: track.artists[0].name, // to-do: extract all artists
+			track_number: track.track_number,
+			duration_sec: (track.duration_ms / 1000),
+			year: track.album.release_date.split('-')[0],
+			cover: track.album.images[0].url
+		}
+	})
+
+	return isntruction_file
+}
+
+// # ALBUM STAF
+
+exports.fetch_album_meta = async (query, testing_path_file="proto/s-album.json") => {
+	// Get the access token
+	const global_cache = GLOBAL_CACHE
+	let access_token = await get_access_token(global_cache)
+
+	console.log(`the access_token is: ${access_token}`)
+	spotify.setAccessToken(access_token)
+
+	let search = `artist:${query.artist} album:${query.name}`
+	let res
+	try {
+		console.log('finding album...')
+		console.log('search: ', search)
+		res = await spotify.searchAlbums(search)
+		console.log('response')
+
+	} catch(err) {
+		access_token = await fetch_access_token()
+		save_cache_access_token(access_token)
+		spotify.setAccessToken(access_token)
+
+		res = await spotify.searchAlbums(search)
+	}
+	const album = res.body.albums.items[0]
+
+	if (!album) {
+		console.log('album not found')
+		return
+	}
+
+	fs.writeFileSync(testing_path_file, JSON.stringify(res.body, null, 4))
+	const album_track_list = await get_album_track_list(album.id)
+
+	let clean_album = {}
+
+	let cover = album.images.filter( img => img.height >= 500 )[0].url
+	let year = album.release_date.split('-')[0]
+
+	clean_data = {
+		type: 'album',
+		name: album.name,
+		artist: album.artists[0].name,
+		cover,
+		year,
+		totalTracks: album.total_tracks,
+		tracks: album_track_list,
+	}
+
+	return clean_data
+	/*
+		Should return the album meta:
+			{
+				name,
+				artist,
+				tracks [
+					{
+						id
+						track_number
+						title
+						artist
+						duration_sec
+					}
+				]
+			}
+	*/
 }
 
 async function get_album_track_list(id) {

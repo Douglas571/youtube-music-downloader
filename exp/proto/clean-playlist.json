@@ -1,0 +1,107 @@
+{
+    "type": "playlist",
+    "name": "girl in red - BEGINNINGS",
+    "totalTracks": 10,
+    "items": [
+        {
+            "id": "4WZXCrp6Uk8oLHfIQgL9It",
+            "title": "i wanna be your girlfriend",
+            "album": "chapter 1",
+            "artists": "girl in red",
+            "track_number": 1,
+            "duration_sec": 204.99,
+            "year": "2018",
+            "cover": "https://i.scdn.co/image/ab67616d0000b273e03442745ed8727973a1ddbc"
+        },
+        {
+            "id": "7yLlKeRBJDkrHWFz4vTjHU",
+            "title": "say anything",
+            "album": "chapter 1",
+            "artists": "girl in red",
+            "track_number": 2,
+            "duration_sec": 142.7,
+            "year": "2018",
+            "cover": "https://i.scdn.co/image/ab67616d0000b273e03442745ed8727973a1ddbc"
+        },
+        {
+            "id": "1ZFKa5PXsgvDJF6l1xRm2w",
+            "title": "summer depression",
+            "album": "chapter 1",
+            "artists": "girl in red",
+            "track_number": 3,
+            "duration_sec": 151.693,
+            "year": "2018",
+            "cover": "https://i.scdn.co/image/ab67616d0000b273e03442745ed8727973a1ddbc"
+        },
+        {
+            "id": "2vL6DcxU0gU09b4FJ8X6KA",
+            "title": "4am",
+            "album": "chapter 1",
+            "artists": "girl in red",
+            "track_number": 4,
+            "duration_sec": 110.861,
+            "year": "2018",
+            "cover": "https://i.scdn.co/image/ab67616d0000b273e03442745ed8727973a1ddbc"
+        },
+        {
+            "id": "7ruJp2Et5P3szRC1QeGMy6",
+            "title": "girls",
+            "album": "chapter 1",
+            "artists": "girl in red",
+            "track_number": 5,
+            "duration_sec": 198.4,
+            "year": "2018",
+            "cover": "https://i.scdn.co/image/ab67616d0000b273e03442745ed8727973a1ddbc"
+        },
+        {
+            "id": "59jyP2quW3XCqwKs9B3XDF",
+            "title": "watch you sleep.",
+            "album": "chapter 2",
+            "artists": "girl in red",
+            "track_number": 1,
+            "duration_sec": 180.225,
+            "year": "2019",
+            "cover": "https://i.scdn.co/image/ab67616d0000b2735b4f10f5acc6422acf782c00"
+        },
+        {
+            "id": "6vlnmCrssHSxHpnKLEUwvb",
+            "title": "i need to be alone.",
+            "album": "chapter 2",
+            "artists": "girl in red",
+            "track_number": 2,
+            "duration_sec": 176.5,
+            "year": "2019",
+            "cover": "https://i.scdn.co/image/ab67616d0000b2735b4f10f5acc6422acf782c00"
+        },
+        {
+            "id": "1AONUpNlPBW2PhaGeBDA6v",
+            "title": "dead girl in the pool.",
+            "album": "chapter 2",
+            "artists": "girl in red",
+            "track_number": 3,
+            "duration_sec": 186.642,
+            "year": "2019",
+            "cover": "https://i.scdn.co/image/ab67616d0000b2735b4f10f5acc6422acf782c00"
+        },
+        {
+            "id": "0maSqwKd8PEvTh5qfz0yPL",
+            "title": "i'll die anyway.",
+            "album": "chapter 2",
+            "artists": "girl in red",
+            "track_number": 4,
+            "duration_sec": 192.612,
+            "year": "2019",
+            "cover": "https://i.scdn.co/image/ab67616d0000b2735b4f10f5acc6422acf782c00"
+        },
+        {
+            "id": "12fCqKoz3XXUgB5P8YWwOI",
+            "title": "bad idea!",
+            "album": "chapter 2",
+            "artists": "girl in red",
+            "track_number": 5,
+            "duration_sec": 219.638,
+            "year": "2019",
+            "cover": "https://i.scdn.co/image/ab67616d0000b2735b4f10f5acc6422acf782c00"
+        }
+    ]
+}

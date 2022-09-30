@@ -1,323 +1,370 @@
 {
     "kind": "youtube#videoListResponse",
-    "etag": "4JmPmzLOID1CsASuZXCkcBS2Em8",
+    "etag": "yeDCWKAznvpwOZllIxGtzrPAGHI",
     "items": [
         {
             "kind": "youtube#video",
-            "etag": "ch-dHTWRl0WwHWNEeQNfwj8YFo8",
-            "id": "hkK5e7CY_h0",
+            "etag": "h2Rea1TzODTMeBwNuiaKXBI8JOM",
+            "id": "eGAIqkjAtUQ",
             "snippet": {
-                "publishedAt": "2022-05-20T05:14:25Z",
-                "channelId": "UCZFWPqqPkFlNwIxcpsLOwew",
-                "title": "Harry Styles - Love Of My Life (Audio)",
-                "description": "Official Audio for \"Love Of My Life\" by Harry Styles.\nHarry's new album \"Harry's House\" out May 20th. Pre-save / Pre-add the album here: https://hstyles.co.uk\n \nFollow Harry Styles:\nFacebook: https://HarryStyles.lnk.to/followFI\nInstagram: https://HarryStyles.lnk.to/followII\nTwitter: https://HarryStyles.lnk.to/followTI\nWebsite: https://HarryStyles.lnk.to/followWI\nSpotify: https://HarryStyles.lnk.to/followSI\nYouTube: https://HarryStyles.lnk.to/subscribeYD\n \n#HarryStyles #HarrysHouse #LoveOfMyLife",
+                "publishedAt": "2019-09-04T10:10:19Z",
+                "channelId": "UCNYJOAz1J80HEJy2HSM772Q",
+                "title": "girl in red - bad idea!",
+                "description": "Follow girl in red:\nhttps://www.worldinred.com/\nhttps://www.instagram.com/girlin.red/\nhttps://girlinred.bandcamp.com/\nhttps://soundcloud.com/lyfsuxx\nhttps://open.spotify.com/artist/3uwAm6vQy7kWPS2bciKWx9\nhttps://www.youtube.com/channel/UCwlHDQ83jgF1crd6XXzSmIA\n\nFor more music, follow my weekly Spotify playlist \"Compact Cassette\" (https://open.spotify.com/user/daviddeanburkhart/playlist/6lzG8MsMBoVEpulGS747M6)\n\nMe:\nhttps://www.facebook.com/daviddeanburkhart\nhttps://open.spotify.com/user/daviddeanburkhart\nhttps://twitter.com/DavidDBurkhart",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/hkK5e7CY_h0/default.jpg",
+                        "url": "https://i.ytimg.com/vi/eGAIqkjAtUQ/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/hkK5e7CY_h0/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/eGAIqkjAtUQ/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/hkK5e7CY_h0/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/eGAIqkjAtUQ/hqdefault.jpg",
                         "width": 480,
                         "height": 360
                     },
                     "standard": {
-                        "url": "https://i.ytimg.com/vi/hkK5e7CY_h0/sddefault.jpg",
+                        "url": "https://i.ytimg.com/vi/eGAIqkjAtUQ/sddefault.jpg",
                         "width": 640,
                         "height": 480
                     },
                     "maxres": {
-                        "url": "https://i.ytimg.com/vi/hkK5e7CY_h0/maxresdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/eGAIqkjAtUQ/maxresdefault.jpg",
                         "width": 1280,
                         "height": 720
                     }
                 },
-                "channelTitle": "Harry Styles",
+                "channelTitle": "David Dean Burkhart",
+                "tags": [
+                    "girl in red",
+                    "bad idea",
+                    "girlinred",
+                    "girl in red bad",
+                    "girl in red bad idea",
+                    "girl in red bad ideas",
+                    "indie",
+                    "rock",
+                    "bedroom",
+                    "pop",
+                    "emo",
+                    "indie rock",
+                    "indie pop",
+                    "punk",
+                    "bedroom pop",
+                    "bedroom rock",
+                    "lofi",
+                    "lo fi",
+                    "lo-fi",
+                    "lazy",
+                    "girl in red bad idea lyrics",
+                    "beginnings",
+                    "girl in red beginnings",
+                    "new",
+                    "2019",
+                    "oslo",
+                    "norway",
+                    "singer",
+                    "music",
+                    "band",
+                    "topless photo",
+                    "sex",
+                    "indie sex",
+                    "indie sex music",
+                    "college",
+                    "hookup",
+                    "soundtrack",
+                    "marie ulven",
+                    "alternative",
+                    "altpop",
+                    "david",
+                    "dean",
+                    "burkhart",
+                    "indie music",
+                    "bedroom music",
+                    "drunk",
+                    "radio",
+                    "playlist"
+                ],
                 "categoryId": "10",
                 "liveBroadcastContent": "none",
                 "localized": {
-                    "title": "Harry Styles - Love Of My Life (Audio)",
-                    "description": "Official Audio for \"Love Of My Life\" by Harry Styles.\nHarry's new album \"Harry's House\" out May 20th. Pre-save / Pre-add the album here: https://hstyles.co.uk\n \nFollow Harry Styles:\nFacebook: https://HarryStyles.lnk.to/followFI\nInstagram: https://HarryStyles.lnk.to/followII\nTwitter: https://HarryStyles.lnk.to/followTI\nWebsite: https://HarryStyles.lnk.to/followWI\nSpotify: https://HarryStyles.lnk.to/followSI\nYouTube: https://HarryStyles.lnk.to/subscribeYD\n \n#HarryStyles #HarrysHouse #LoveOfMyLife"
+                    "title": "girl in red - bad idea!",
+                    "description": "Follow girl in red:\nhttps://www.worldinred.com/\nhttps://www.instagram.com/girlin.red/\nhttps://girlinred.bandcamp.com/\nhttps://soundcloud.com/lyfsuxx\nhttps://open.spotify.com/artist/3uwAm6vQy7kWPS2bciKWx9\nhttps://www.youtube.com/channel/UCwlHDQ83jgF1crd6XXzSmIA\n\nFor more music, follow my weekly Spotify playlist \"Compact Cassette\" (https://open.spotify.com/user/daviddeanburkhart/playlist/6lzG8MsMBoVEpulGS747M6)\n\nMe:\nhttps://www.facebook.com/daviddeanburkhart\nhttps://open.spotify.com/user/daviddeanburkhart\nhttps://twitter.com/DavidDBurkhart"
                 }
             },
             "contentDetails": {
-                "duration": "PT3M12S",
+                "duration": "PT3M41S",
                 "dimension": "2d",
                 "definition": "hd",
                 "caption": "false",
                 "licensedContent": false,
-                "regionRestriction": {
-                    "blocked": [
-                        "RU"
-                    ]
-                },
                 "contentRating": {},
                 "projection": "rectangular"
             }
         },
         {
             "kind": "youtube#video",
-            "etag": "eWCwWv5-63iUEs-JPKETuVDKz9U",
-            "id": "2F4nl4jHrJg",
+            "etag": "zv3rJjf2CDqzg4nYznrO2QyaN2A",
+            "id": "1f6GxS5uGXk",
             "snippet": {
-                "publishedAt": "2022-05-20T05:28:16Z",
-                "channelId": "UCFwS8sLuE4Du7VA_DDnhmeg",
-                "title": "Harry Styles - Love of My Life // Español",
-                "description": "Harry Styles - Love of My Life (Traducida/Subtitulada al Español)\nHarry Styles - Love of My Life (Traducida al Español)\nHarry Styles - Love of My Life (Sub Español)\n\nAdfdsngdkfjngjdkfh 💜🍐\nEsta canción me destruye lloro, espero disfruten el vídeo y stream Harry's House ♥\n#HarryStyles​ #LoveOfMyLife #HarrysHouse\n\n\"Love of My Life\" habla sobre recordar con cariño una relación pasada, a pesar de que ya no son cercanos como antes y esa persona ha tenido cambios en su vida, sigues pensando en ella y en las cosas que pudiste hacer mejor cuando estuvieron juntos.\n\n// Lyrics; Harry Styles - Love of My Life //\n[Intro]\nBaby, you were the love of my life\nWoah, maybe you don't know what's lost 'til you find it\n\n[Verse 1]\nTake a walk on Sunday through the afternoon\nWe can always find something for us to do\nWe don't really like what's on the news but it's on all the time\nI take you with me every time I go away\nIn a hotel using someone else's name\nI remember back at Johnny's place\nNot the same, anymore\n\n[Chorus]\n​Baby, you were the love of my life\nWoah, maybe you don't know what's lost 'til you find it\nIt's not what I wanted, to leave you behind\nDon't know where you land when you fly\nBut ​baby, you were the love of my life\n\n[Post-Chorus]\nIt's unfortunate (Ooh)\nJust coordinates (Ooh)\n\n[Verse 2]\nI don't know you half as well as all my friends\nI won't pretend I've been doing everything I can to get to know your creases and your ends\nAre they the same?\n\n[Chorus]\n​Baby, you were the love of my life\nWoah, maybe you don't know what's lost 'til you find it\nIt's not what I wanted, to leave you behind\nDon't know where you land when you fly\nBut ​baby, you were the love of my life\n\nEspero les haya encantado el vídeo, gracias a todos por ver y apoyar mi contenido, recuerden beber agua y respirar aire, los quiero mucho ♥\n\n▬ Escucha \"Love of My Life\" del nuevo álbum 'Harry's House':\nhttps://hstyles.co.uk\n\n▬ Sigue a Harry Styles:\nFacebook: https://HarryStyles.lnk.to/followFI\nInstagram: https://HarryStyles.lnk.to/followII\nTwitter: https://HarryStyles.lnk.to/followTI\nWebsite: https://HarryStyles.lnk.to/followWI\nSpotify: https://HarryStyles.lnk.to/followSI\nYouTube: https://HarryStyles.lnk.to/subscribeYD\n\n— ◊ BUSSINESS / PROMO / MUSIC SUBMISSIONS ◊ —\n💜 iperol20@hotmail.com 💜\n\n// aquí puedes seguirme en todas mis redes //\n♡ instagram: https://instagram.com/mr_iperol\n♡ tiktok: https://www.tiktok.com/@mr_iperol\n♡ playlist de spotify: https://open.spotify.com/playlist/1z7cFiBgBPcedni6i4ITv8?si=pCJRjeEATOaoRol5mP-MQg\n♡ facebook: https://www.facebook.com/iPerol/\n♡ twitter: https://twitter.com/mr_iperol\n♡ paypal/donaciones: https://www.paypal.me/iPerol\n\n// canal secundario //\n♡  https://youtube.com/iPerolII\n\n► vídeo con fines informativos y de entretenimiento.\n→ all the copyright goes to Harry Styles.\n\n\n\n[tags]\nharry styles, love of my life, harry styles love of my life, español, sub español, sub, traducida, subtitulada, traducción, subtitulos, letra, lyrics, al español, iperol, harry styles español, love of my life español, traducciones, translations, video, as it was, harry styles album, harry's house album, harry styles love of my life lyrics sub español, love of my life sub español, harry styles love of my life español",
+                "publishedAt": "2019-10-12T01:55:59Z",
+                "channelId": "UCky4SCe41m72qYCbhgrXaGw",
+                "title": "girl in red - bad idea!",
+                "description": "NOT my music NOR my art\noriginal video \nhttps://www.youtube.com/watch?v=Xo8QvY0jOOE\nCreated with http://tovid.io",
                 "thumbnails": {
                     "default": {
-                        "url": "https://i.ytimg.com/vi/2F4nl4jHrJg/default.jpg",
+                        "url": "https://i.ytimg.com/vi/1f6GxS5uGXk/default.jpg",
                         "width": 120,
                         "height": 90
                     },
                     "medium": {
-                        "url": "https://i.ytimg.com/vi/2F4nl4jHrJg/mqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/1f6GxS5uGXk/mqdefault.jpg",
                         "width": 320,
                         "height": 180
                     },
                     "high": {
-                        "url": "https://i.ytimg.com/vi/2F4nl4jHrJg/hqdefault.jpg",
+                        "url": "https://i.ytimg.com/vi/1f6GxS5uGXk/hqdefault.jpg",
                         "width": 480,
                         "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/1f6GxS5uGXk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/1f6GxS5uGXk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
                     }
                 },
-                "channelTitle": "iPerol",
+                "channelTitle": "nex lol",
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "girl in red - bad idea!",
+                    "description": "NOT my music NOR my art\noriginal video \nhttps://www.youtube.com/watch?v=Xo8QvY0jOOE\nCreated with http://tovid.io"
+                }
+            },
+            "contentDetails": {
+                "duration": "PT3M50S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": false,
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "UeF8--rESU5aokw329dxdCAVuE4",
+            "id": "Xo8QvY0jOOE",
+            "snippet": {
+                "publishedAt": "2019-09-11T18:00:11Z",
+                "channelId": "UCwlHDQ83jgF1crd6XXzSmIA",
+                "title": "girl in red - bad idea!",
+                "description": "thank you so much to my friend isak jenssen for helping me so much with this video. it was really cool to shoot on real film and a fun experience. \n\ninsta: @girlinred \n\nu can listen to bad idea! here \nhttps://open.spotify.com/track/1M4Ud66z18wuIq3oOxqVHa?si=W09B-h81TimrSFBSaarFIA",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Xo8QvY0jOOE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Xo8QvY0jOOE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Xo8QvY0jOOE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/Xo8QvY0jOOE/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/Xo8QvY0jOOE/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "girl in red",
                 "tags": [
-                    "harry styles",
-                    "love of my life",
-                    "harry styles love of my life",
-                    "español",
-                    "sub español",
-                    "sub",
-                    "traducida",
-                    "subtitulada",
-                    "traducción",
-                    "subtitulos",
-                    "letra",
+                    "Girl In Red",
+                    "Dead girl in the pool",
+                    "Girl in red Bad idea",
+                    "Girl in red beginnings",
+                    "Girl in red chapter 1",
+                    "Girl in red chapter two",
+                    "World in red GiR",
+                    "Girl in red I wanna be your girlfriend",
+                    "Girl in red We fell in love in October",
+                    "Summer depression",
+                    "Girl in red Girls",
+                    "Girl in red lyrics",
+                    "Girl in red homecoming",
+                    "Girl in red I need to be alone",
+                    "Girl in red interview",
+                    "Girl in red watch you sleep",
+                    "Girl in red live",
+                    "Girl in red rushed lovers",
+                    "Girl in red acoustic"
+                ],
+                "categoryId": "10",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "girl in red - bad idea!",
+                    "description": "thank you so much to my friend isak jenssen for helping me so much with this video. it was really cool to shoot on real film and a fun experience. \n\ninsta: @girlinred \n\nu can listen to bad idea! here \nhttps://open.spotify.com/track/1M4Ud66z18wuIq3oOxqVHa?si=W09B-h81TimrSFBSaarFIA"
+                }
+            },
+            "contentDetails": {
+                "duration": "PT3M47S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": false,
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "CE6tQRIF86KNEkK0iheCt8dLiGk",
+            "id": "1VWXdpmwwSc",
+            "snippet": {
+                "publishedAt": "2019-09-08T21:23:48Z",
+                "channelId": "UCTBxqvssDC3CD2so3jf5cmg",
+                "title": "girl in red - bad idea! (lyrics)",
+                "description": "girl in red - bad idea! (lyrics)\n\n\n\n｡ Follow our official Spotify Playlist! http://spoti.fi/2A40zDb \n｡ Join us on discord https://discord.gg/FfHyXph\nSubscribe http://bit.ly/2yoA3V3\n\n~ Follow Us ^^\nFacebook http://bit.ly/2CsZNwL\nSpotify http://spoti.fi/2i5eaCY\nInstagram https://www.instagram.com/peartrollnetwork/\nSoundcloud https://soundcloud.com/peartroll\nTwitter https://twitter.com/peartroll\n\n» girl in red\nhttps://girlinred.bandcamp.com/\nhttps://twitter.com/_girlinred_?lang=de\nhttps://www.instagram.com/girlinred/?hl=de\n\n📸Picture Credit\nhttps://www.flickr.com/photos/ladymorwen/23121516639/in/faves-156212136@N06/\n\n~~ LYRICS ~~\nbad idea:\n\n[Verse 1]\nIt was a bad idea calling you up\nWas such a bad idea 'cause now I'm even more lost\nIt was a bad idea to think you were the one\nWas such a bad idea 'cause now everything's wrong\n\n[Pre-Chorus]\nYou put your hands under my shirt\nUndid my bra and said these words\n\"Darling, you're so pretty, it hurts\"\nYou pushed me up against my wall\nThrew my clothes down on the floor\n\"Darling, are you ready for more?\"\n\n[Chorus]\nIt was a bad idea calling you up\nWas such a bad idea, I'm totally fucked\nIt was a bad idea to think I could stop\nWas such a bad idea, I can't get enough\n\n[Verse 2]\nIt was a bad idea meeting you so late\nWas such a bad idea 'cause I can't think straight\nIt was a bad idea to bring you back home\nWas such a bad idea, I need to be alone\n\n[Pre-Chorus]\nYou put your hands under my shirt\nUndid my bra and said these words\n\"Darling, you're so pretty, it hurts\"\nYou pushed me up against my wall\nThrew my clothes down on the floor\n\"Darling, are you ready for more?\"\n\n[Chorus]\nIt was a bad idea calling you up\nWas such a bad idea, I'm totally fucked\nIt was a bad idea to think I could stop\nWas such a bad idea, I can't get enough\n\n[Bridge]\nBad idea, bad idea\nBad idea, bad idea\n\n[Pre-Chorus]\nYou put your hands under my shirt\nUndid my bra and said these words\n\"Darling, you're so pretty, it hurts\"\nYou pushed me up against my wall\nThrew my clothes down on the floor\nYou said \"Darling, are you ready for more?\"\n\n[Chorus]\nIt was a bad idea calling you up\nWas such a bad idea, I'm totally fucked\nIt was a bad idea calling you up\nWas such a bad idea, I'm totally fucked\nIt was a bad idea to think I could stop\nWas such a bad idea, I can't get enough\n\n#girlinred #badidea #peartroll\n\n｡ contact us ｡\nhttps://www.submithub.com/blog/peartroll\npeartrollnetwork@gmail.com\n\nIf you are the owner of any content that has been uploaded on this channel and you want it removed please contact peartrollnetwork@gmail.com. No Copyright Infringement intended.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/1VWXdpmwwSc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/1VWXdpmwwSc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/1VWXdpmwwSc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/1VWXdpmwwSc/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/1VWXdpmwwSc/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                },
+                "channelTitle": "heartbroke corner",
+                "tags": [
+                    "peartroll",
+                    "peartrollnetwork",
                     "lyrics",
-                    "al español",
-                    "iperol",
-                    "harry styles español",
-                    "love of my life español",
-                    "traducciones",
-                    "translations",
-                    "video",
-                    "as it was",
-                    "harry styles album",
-                    "harry's house album",
-                    "harry styles love of my life lyrics sub español",
-                    "love of my life sub español",
-                    "harry styles love of my life español",
-                    "love of my life traducida al español"
+                    "girl in red",
+                    "girl in red bad idea lyrics",
+                    "girl in red bad ideas",
+                    "girl in red bad idea",
+                    "girl in red bad",
+                    "bad idea girl in red legendado",
+                    "girl in red beginnings",
+                    "billie eilish bad guy",
+                    "going bad",
+                    "bad liar",
+                    "imagine dragons bad liar lyrics",
+                    "bad liar lyrics",
+                    "billie eilish bad guy lyrics",
+                    "bad",
+                    "bad guy lyrics",
+                    "imagine dragons lyrics bad liar",
+                    "bad idea",
+                    "billie eilish bad guy lyric video"
                 ],
                 "categoryId": "10",
                 "liveBroadcastContent": "none",
+                "defaultLanguage": "en",
                 "localized": {
-                    "title": "Harry Styles - Love of My Life // Español",
-                    "description": "Harry Styles - Love of My Life (Traducida/Subtitulada al Español)\nHarry Styles - Love of My Life (Traducida al Español)\nHarry Styles - Love of My Life (Sub Español)\n\nAdfdsngdkfjngjdkfh 💜🍐\nEsta canción me destruye lloro, espero disfruten el vídeo y stream Harry's House ♥\n#HarryStyles​ #LoveOfMyLife #HarrysHouse\n\n\"Love of My Life\" habla sobre recordar con cariño una relación pasada, a pesar de que ya no son cercanos como antes y esa persona ha tenido cambios en su vida, sigues pensando en ella y en las cosas que pudiste hacer mejor cuando estuvieron juntos.\n\n// Lyrics; Harry Styles - Love of My Life //\n[Intro]\nBaby, you were the love of my life\nWoah, maybe you don't know what's lost 'til you find it\n\n[Verse 1]\nTake a walk on Sunday through the afternoon\nWe can always find something for us to do\nWe don't really like what's on the news but it's on all the time\nI take you with me every time I go away\nIn a hotel using someone else's name\nI remember back at Johnny's place\nNot the same, anymore\n\n[Chorus]\n​Baby, you were the love of my life\nWoah, maybe you don't know what's lost 'til you find it\nIt's not what I wanted, to leave you behind\nDon't know where you land when you fly\nBut ​baby, you were the love of my life\n\n[Post-Chorus]\nIt's unfortunate (Ooh)\nJust coordinates (Ooh)\n\n[Verse 2]\nI don't know you half as well as all my friends\nI won't pretend I've been doing everything I can to get to know your creases and your ends\nAre they the same?\n\n[Chorus]\n​Baby, you were the love of my life\nWoah, maybe you don't know what's lost 'til you find it\nIt's not what I wanted, to leave you behind\nDon't know where you land when you fly\nBut ​baby, you were the love of my life\n\nEspero les haya encantado el vídeo, gracias a todos por ver y apoyar mi contenido, recuerden beber agua y respirar aire, los quiero mucho ♥\n\n▬ Escucha \"Love of My Life\" del nuevo álbum 'Harry's House':\nhttps://hstyles.co.uk\n\n▬ Sigue a Harry Styles:\nFacebook: https://HarryStyles.lnk.to/followFI\nInstagram: https://HarryStyles.lnk.to/followII\nTwitter: https://HarryStyles.lnk.to/followTI\nWebsite: https://HarryStyles.lnk.to/followWI\nSpotify: https://HarryStyles.lnk.to/followSI\nYouTube: https://HarryStyles.lnk.to/subscribeYD\n\n— ◊ BUSSINESS / PROMO / MUSIC SUBMISSIONS ◊ —\n💜 iperol20@hotmail.com 💜\n\n// aquí puedes seguirme en todas mis redes //\n♡ instagram: https://instagram.com/mr_iperol\n♡ tiktok: https://www.tiktok.com/@mr_iperol\n♡ playlist de spotify: https://open.spotify.com/playlist/1z7cFiBgBPcedni6i4ITv8?si=pCJRjeEATOaoRol5mP-MQg\n♡ facebook: https://www.facebook.com/iPerol/\n♡ twitter: https://twitter.com/mr_iperol\n♡ paypal/donaciones: https://www.paypal.me/iPerol\n\n// canal secundario //\n♡  https://youtube.com/iPerolII\n\n► vídeo con fines informativos y de entretenimiento.\n→ all the copyright goes to Harry Styles.\n\n\n\n[tags]\nharry styles, love of my life, harry styles love of my life, español, sub español, sub, traducida, subtitulada, traducción, subtitulos, letra, lyrics, al español, iperol, harry styles español, love of my life español, traducciones, translations, video, as it was, harry styles album, harry's house album, harry styles love of my life lyrics sub español, love of my life sub español, harry styles love of my life español"
-                },
-                "defaultAudioLanguage": "es"
-            },
-            "contentDetails": {
-                "duration": "PT3M9S",
-                "dimension": "2d",
-                "definition": "hd",
-                "caption": "false",
-                "licensedContent": false,
-                "regionRestriction": {
-                    "blocked": [
-                        "RU"
-                    ]
-                },
-                "contentRating": {},
-                "projection": "rectangular"
-            }
-        },
-        {
-            "kind": "youtube#video",
-            "etag": "_r1EJKRhwNCZ8fiqoQlexI3H9gU",
-            "id": "EHZjmevb31s",
-            "snippet": {
-                "publishedAt": "2022-05-20T04:38:38Z",
-                "channelId": "UC2pdZndz_G2KPmLZHr-ObZA",
-                "title": "Harry Styles - Love Of My Life (Sub. Español)",
-                "description": "#harrystyles #HarrysHouse #LoveOfMyLife\ncopyright disclaimer under seccion 107\n\n\n\nHarry Styles - Love Of My Life\nHarry Styles - Love Of My Life sub español tik tok\nHarry Styles - Love Of My Life song\nHarry Styles - Love Of My Life\nHarry Styles - Love Of My Life español\nHarry Styles - Love Of My Life sub. español\nHarry Styles - Love Of My Life traducción \nHarry Styles - Love Of My Life español \nHarry Styles - Love Of My Life español\nHarry Styles - Love Of My Life lyrics\nHarry Styles - Love Of My Life español\nHarry Styles - Love Of My Life lyrics\nHarry Styles - Love Of My Life sub español\nHarry's House Album - Love Of My Life\n\nLove Of My Life - Harry Styles\nLove Of My Life - Harry Styles Español\nLove Of My Life - Harry Styles Sub Español \nLove Of My Life - Harry Styles Lyrics\nLove Of My Life - Harry Styles Traducido al Español \nLove Of My Life - Harry Styles Subtitulado al español \n\n\n\n\n\n\ntags: subtitulado al español, español, sub. español, traducción al español, lyrics, letra en español, English lyrics, Official Video, Official Music Video, video oficial, music video, Harry Styles Love Of My Life, audio, topic, hd, Álbum, 2021",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/EHZjmevb31s/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/EHZjmevb31s/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/EHZjmevb31s/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/EHZjmevb31s/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/EHZjmevb31s/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "tivs14",
-                "categoryId": "10",
-                "liveBroadcastContent": "none",
-                "localized": {
-                    "title": "Harry Styles - Love Of My Life (Sub. Español)",
-                    "description": "#harrystyles #HarrysHouse #LoveOfMyLife\ncopyright disclaimer under seccion 107\n\n\n\nHarry Styles - Love Of My Life\nHarry Styles - Love Of My Life sub español tik tok\nHarry Styles - Love Of My Life song\nHarry Styles - Love Of My Life\nHarry Styles - Love Of My Life español\nHarry Styles - Love Of My Life sub. español\nHarry Styles - Love Of My Life traducción \nHarry Styles - Love Of My Life español \nHarry Styles - Love Of My Life español\nHarry Styles - Love Of My Life lyrics\nHarry Styles - Love Of My Life español\nHarry Styles - Love Of My Life lyrics\nHarry Styles - Love Of My Life sub español\nHarry's House Album - Love Of My Life\n\nLove Of My Life - Harry Styles\nLove Of My Life - Harry Styles Español\nLove Of My Life - Harry Styles Sub Español \nLove Of My Life - Harry Styles Lyrics\nLove Of My Life - Harry Styles Traducido al Español \nLove Of My Life - Harry Styles Subtitulado al español \n\n\n\n\n\n\ntags: subtitulado al español, español, sub. español, traducción al español, lyrics, letra en español, English lyrics, Official Video, Official Music Video, video oficial, music video, Harry Styles Love Of My Life, audio, topic, hd, Álbum, 2021"
-                }
-            },
-            "contentDetails": {
-                "duration": "PT3M6S",
-                "dimension": "2d",
-                "definition": "hd",
-                "caption": "false",
-                "licensedContent": false,
-                "regionRestriction": {
-                    "blocked": [
-                        "RU"
-                    ]
-                },
-                "contentRating": {},
-                "projection": "rectangular"
-            }
-        },
-        {
-            "kind": "youtube#video",
-            "etag": "qVvAECHtmbehyPPssI5v0gmt3Do",
-            "id": "LJh2Mnu9EFE",
-            "snippet": {
-                "publishedAt": "2022-05-20T04:05:41Z",
-                "channelId": "UCOm6NTCz42G7heNdWuuTYaA",
-                "title": "Harry Styles - Love Of My Life (traducida al español)",
-                "description": "HARRY STYLES // LOVE OF MY LIFE (ESPAÑOL) \n\n\n\n[𝖙𝖆𝖌𝖘]\nharry styles, love of my life, harry styles love of my life, love of my life sub español, love of my life traducida al español, love of my life subtitulada, harry's house, letra, lyrics, canciones, songs\n\n\n#HarryStyles #LoveofMyLife  #HarrysHouse",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/LJh2Mnu9EFE/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/LJh2Mnu9EFE/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/LJh2Mnu9EFE/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    },
-                    "standard": {
-                        "url": "https://i.ytimg.com/vi/LJh2Mnu9EFE/sddefault.jpg",
-                        "width": 640,
-                        "height": 480
-                    },
-                    "maxres": {
-                        "url": "https://i.ytimg.com/vi/LJh2Mnu9EFE/maxresdefault.jpg",
-                        "width": 1280,
-                        "height": 720
-                    }
-                },
-                "channelTitle": "stephstyles1994",
-                "categoryId": "10",
-                "liveBroadcastContent": "none",
-                "localized": {
-                    "title": "Harry Styles - Love Of My Life (traducida al español)",
-                    "description": "HARRY STYLES // LOVE OF MY LIFE (ESPAÑOL) \n\n\n\n[𝖙𝖆𝖌𝖘]\nharry styles, love of my life, harry styles love of my life, love of my life sub español, love of my life traducida al español, love of my life subtitulada, harry's house, letra, lyrics, canciones, songs\n\n\n#HarryStyles #LoveofMyLife  #HarrysHouse"
-                }
-            },
-            "contentDetails": {
-                "duration": "PT3M12S",
-                "dimension": "2d",
-                "definition": "hd",
-                "caption": "false",
-                "licensedContent": false,
-                "regionRestriction": {
-                    "blocked": [
-                        "RU"
-                    ]
-                },
-                "contentRating": {},
-                "projection": "rectangular"
-            }
-        },
-        {
-            "kind": "youtube#video",
-            "etag": "bOPt--hPWCK1LhDmgVt-Xe6Z2ZE",
-            "id": "4JQNe1oPDHI",
-            "snippet": {
-                "publishedAt": "2022-05-20T04:00:12Z",
-                "channelId": "UCZA1hwpndZlarh5-MhbBl5w",
-                "title": "Harry Styles - Love Of My Life (Lyrics)",
-                "description": "Subscribe and press (🔔) to join the Notification Squad and stay updated with new uploads \n\n\n\n📷 Wallpaper: https://unsplash.com\n\n©️If any producer or label has an issue with this song or picture, please get in contact with us and we will delete it immediately.\n\nTags\nHarry Styles, Love Of My Life, Harry Styles Love Of My Life, Love Of My Life Harry Styles, Lyrics, Lyrics Love Of My Life, Harry Styles Love Of My Life Lyrics, Love Of My Life Harry Styles Lyrics, Harry Styles Lyrics, Love Of My Life Lyrics Harry Styles, Lyrics Harry Styles Love Of My Life, Lyrics Love Of My Life Harry Styles",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/4JQNe1oPDHI/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/4JQNe1oPDHI/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/4JQNe1oPDHI/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
-                },
-                "channelTitle": "Escape Music",
-                "tags": [
-                    "Escape Music",
-                    "Harry Styles",
-                    "Love Of My Life",
-                    "Harry Styles Love Of My Life",
-                    "Love Of My Life Harry Styles",
-                    "Lyrics",
-                    "Lyrics Love Of My Life",
-                    "Harry Styles Love Of My Life Lyrics",
-                    "Love Of My Life Harry Styles Lyrics",
-                    "Harry Styles Lyrics",
-                    "Love Of My Life Lyrics Harry Styles",
-                    "Lyrics Harry Styles Love Of My Life",
-                    "Lyrics Love Of My Life Harry Styles"
-                ],
-                "categoryId": "10",
-                "liveBroadcastContent": "none",
-                "localized": {
-                    "title": "Harry Styles - Love Of My Life (Lyrics)",
-                    "description": "Subscribe and press (🔔) to join the Notification Squad and stay updated with new uploads \n\n\n\n📷 Wallpaper: https://unsplash.com\n\n©️If any producer or label has an issue with this song or picture, please get in contact with us and we will delete it immediately.\n\nTags\nHarry Styles, Love Of My Life, Harry Styles Love Of My Life, Love Of My Life Harry Styles, Lyrics, Lyrics Love Of My Life, Harry Styles Love Of My Life Lyrics, Love Of My Life Harry Styles Lyrics, Harry Styles Lyrics, Love Of My Life Lyrics Harry Styles, Lyrics Harry Styles Love Of My Life, Lyrics Love Of My Life Harry Styles"
+                    "title": "girl in red - bad idea! (lyrics)",
+                    "description": "girl in red - bad idea! (lyrics)\n\n\n\n｡ Follow our official Spotify Playlist! http://spoti.fi/2A40zDb \n｡ Join us on discord https://discord.gg/FfHyXph\nSubscribe http://bit.ly/2yoA3V3\n\n~ Follow Us ^^\nFacebook http://bit.ly/2CsZNwL\nSpotify http://spoti.fi/2i5eaCY\nInstagram https://www.instagram.com/peartrollnetwork/\nSoundcloud https://soundcloud.com/peartroll\nTwitter https://twitter.com/peartroll\n\n» girl in red\nhttps://girlinred.bandcamp.com/\nhttps://twitter.com/_girlinred_?lang=de\nhttps://www.instagram.com/girlinred/?hl=de\n\n📸Picture Credit\nhttps://www.flickr.com/photos/ladymorwen/23121516639/in/faves-156212136@N06/\n\n~~ LYRICS ~~\nbad idea:\n\n[Verse 1]\nIt was a bad idea calling you up\nWas such a bad idea 'cause now I'm even more lost\nIt was a bad idea to think you were the one\nWas such a bad idea 'cause now everything's wrong\n\n[Pre-Chorus]\nYou put your hands under my shirt\nUndid my bra and said these words\n\"Darling, you're so pretty, it hurts\"\nYou pushed me up against my wall\nThrew my clothes down on the floor\n\"Darling, are you ready for more?\"\n\n[Chorus]\nIt was a bad idea calling you up\nWas such a bad idea, I'm totally fucked\nIt was a bad idea to think I could stop\nWas such a bad idea, I can't get enough\n\n[Verse 2]\nIt was a bad idea meeting you so late\nWas such a bad idea 'cause I can't think straight\nIt was a bad idea to bring you back home\nWas such a bad idea, I need to be alone\n\n[Pre-Chorus]\nYou put your hands under my shirt\nUndid my bra and said these words\n\"Darling, you're so pretty, it hurts\"\nYou pushed me up against my wall\nThrew my clothes down on the floor\n\"Darling, are you ready for more?\"\n\n[Chorus]\nIt was a bad idea calling you up\nWas such a bad idea, I'm totally fucked\nIt was a bad idea to think I could stop\nWas such a bad idea, I can't get enough\n\n[Bridge]\nBad idea, bad idea\nBad idea, bad idea\n\n[Pre-Chorus]\nYou put your hands under my shirt\nUndid my bra and said these words\n\"Darling, you're so pretty, it hurts\"\nYou pushed me up against my wall\nThrew my clothes down on the floor\nYou said \"Darling, are you ready for more?\"\n\n[Chorus]\nIt was a bad idea calling you up\nWas such a bad idea, I'm totally fucked\nIt was a bad idea calling you up\nWas such a bad idea, I'm totally fucked\nIt was a bad idea to think I could stop\nWas such a bad idea, I can't get enough\n\n#girlinred #badidea #peartroll\n\n｡ contact us ｡\nhttps://www.submithub.com/blog/peartroll\npeartrollnetwork@gmail.com\n\nIf you are the owner of any content that has been uploaded on this channel and you want it removed please contact peartrollnetwork@gmail.com. No Copyright Infringement intended."
                 },
                 "defaultAudioLanguage": "en"
             },
             "contentDetails": {
-                "duration": "PT4M2S",
+                "duration": "PT3M41S",
                 "dimension": "2d",
                 "definition": "hd",
                 "caption": "false",
                 "licensedContent": false,
-                "regionRestriction": {
-                    "blocked": [
-                        "RU"
-                    ]
+                "contentRating": {},
+                "projection": "rectangular"
+            }
+        },
+        {
+            "kind": "youtube#video",
+            "etag": "nwlQMm64wqbi3JwhuzYYEAW_6nM",
+            "id": "6jPTtNk--Gk",
+            "snippet": {
+                "publishedAt": "2019-09-03T22:49:47Z",
+                "channelId": "UCKgL0SJkciM_m6TFSArmxmg",
+                "title": "girl in red - bad idea! (Traducida al Español)",
+                "description": "No Copyright Infringement Intended\n\nLo siento si hay errores, haganmelo saber\nSi quieres una canción solo pidela 💌\n\nInstagram: https://www.instagram.com/rxxkiesubs\nTwitter: https://twitter.com/_thatrookie?s=09\n\n───────────────────.ೃ ༉₊\n\ngirl in red bad idea letra\ngirl in red bad idea en español\ngirl in red bad idea traducida al español\ngirl in red bad idea sub español\ngirl in red bad idea subtitulada\n\n#girlinred #badidea",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6jPTtNk--Gk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6jPTtNk--Gk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6jPTtNk--Gk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    },
+                    "standard": {
+                        "url": "https://i.ytimg.com/vi/6jPTtNk--Gk/sddefault.jpg",
+                        "width": 640,
+                        "height": 480
+                    },
+                    "maxres": {
+                        "url": "https://i.ytimg.com/vi/6jPTtNk--Gk/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
                 },
+                "channelTitle": "RookieSubs",
+                "categoryId": "22",
+                "liveBroadcastContent": "none",
+                "localized": {
+                    "title": "girl in red - bad idea! (Traducida al Español)",
+                    "description": "No Copyright Infringement Intended\n\nLo siento si hay errores, haganmelo saber\nSi quieres una canción solo pidela 💌\n\nInstagram: https://www.instagram.com/rxxkiesubs\nTwitter: https://twitter.com/_thatrookie?s=09\n\n───────────────────.ೃ ༉₊\n\ngirl in red bad idea letra\ngirl in red bad idea en español\ngirl in red bad idea traducida al español\ngirl in red bad idea sub español\ngirl in red bad idea subtitulada\n\n#girlinred #badidea"
+                },
+                "defaultAudioLanguage": "es-US"
+            },
+            "contentDetails": {
+                "duration": "PT3M47S",
+                "dimension": "2d",
+                "definition": "hd",
+                "caption": "false",
+                "licensedContent": false,
                 "contentRating": {},
                 "projection": "rectangular"
             }

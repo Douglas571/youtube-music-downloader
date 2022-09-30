@@ -1,0 +1,84 @@
+{
+    "playlists": {
+        "href": "https://api.spotify.com/v1/search?query=beginnings+Girl+in+Red&type=playlist&offset=0&limit=20",
+        "items": [
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/6RUOog2LFj2rkJ39ObHOMZ"
+                },
+                "href": "https://api.spotify.com/v1/playlists/6RUOog2LFj2rkJ39ObHOMZ",
+                "id": "6RUOog2LFj2rkJ39ObHOMZ",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706c0000bebbec96d681dcac3cfd0e5d3c45",
+                        "width": null
+                    }
+                ],
+                "name": "girl in red - BEGINNINGS",
+                "owner": {
+                    "display_name": "ally pitt",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/thechocolatemactop"
+                    },
+                    "href": "https://api.spotify.com/v1/users/thechocolatemactop",
+                    "id": "thechocolatemactop",
+                    "type": "user",
+                    "uri": "spotify:user:thechocolatemactop"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "NSwzYTkzZjRhNmE1MDU3YzlkYmIyYTIxZTljYjM3NzhhYWZiOThjM2Nh",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/6RUOog2LFj2rkJ39ObHOMZ/tracks",
+                    "total": 10
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:6RUOog2LFj2rkJ39ObHOMZ"
+            },
+            {
+                "collaborative": false,
+                "description": "",
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/playlist/3Ba5znZvk54QerIVuw6cF3"
+                },
+                "href": "https://api.spotify.com/v1/playlists/3Ba5znZvk54QerIVuw6cF3",
+                "id": "3Ba5znZvk54QerIVuw6cF3",
+                "images": [
+                    {
+                        "height": null,
+                        "url": "https://i.scdn.co/image/ab67706c0000bebbdc6ad131231a77d5fec3c302",
+                        "width": null
+                    }
+                ],
+                "name": "girl in red beginnings<3",
+                "owner": {
+                    "display_name": "sleepyheaaaad",
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/user/cu571kg3d2adt7g84hbhchpch"
+                    },
+                    "href": "https://api.spotify.com/v1/users/cu571kg3d2adt7g84hbhchpch",
+                    "id": "cu571kg3d2adt7g84hbhchpch",
+                    "type": "user",
+                    "uri": "spotify:user:cu571kg3d2adt7g84hbhchpch"
+                },
+                "primary_color": null,
+                "public": null,
+                "snapshot_id": "MTUsY2M1NjJjZmYwMDRkZWJiNmFjNzQ4MmU2MGNlMGE3YWM2NDVkNzcyOQ==",
+                "tracks": {
+                    "href": "https://api.spotify.com/v1/playlists/3Ba5znZvk54QerIVuw6cF3/tracks",
+                    "total": 21
+                },
+                "type": "playlist",
+                "uri": "spotify:playlist:3Ba5znZvk54QerIVuw6cF3"
+            }
+        ],
+        "limit": 20,
+        "next": null,
+        "offset": 0,
+        "previous": null,
+        "total": 2
+    }
+}
