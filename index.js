@@ -236,7 +236,7 @@ async function download_playlist(data) {
 
 	
 	// Download videos
-	let skip_vd = true
+	let skip_vd = false
 	console.log('downloading videos...')
 	for (let item of data.items) {
 		if (skip_vd) continue 
@@ -281,7 +281,7 @@ async function download_playlist(data) {
 
 	
 	// Convert videos
-	let skip_vc = true
+	let skip_vc = false
 	console.log('Converting videos...')
 	for (let item of data.items) {
 		if (skip_vc) continue 
