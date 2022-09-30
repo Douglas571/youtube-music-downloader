@@ -236,7 +236,7 @@ async function download_playlist(data) {
 
 	
 	// Download videos
-	let skip_vd = false
+	let skip_vd = true
 	console.log('downloading videos...')
 	for (let item of data.items) {
 		if (skip_vd) continue 
@@ -367,8 +367,8 @@ async function download_playlist(data) {
 
 			const meta = {
 			    title: item.title,
-			    artist: item.artist,
-			    performerInfo: item.artist,
+			    artist: item.artists,
+			    performerInfo: item.artists,
 			    APIC: item.cover.file_path,
 			    trackNumber: item.track,
 			    year: item.year,
