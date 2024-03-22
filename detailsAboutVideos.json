@@ -1,0 +1,1417 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "QbKu3IhnkDl3IAa5MgpqyaWHzgI",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "4IYoAUXewND3tp3Batx_lBS0Ry0",
+      "id": "eYaDQ0sD6n4",
+      "snippet": {
+        "publishedAt": "2021-11-11T18:27:49Z",
+        "channelId": "UC2DTAJ9Ipn50Uf6zuXPZSHA",
+        "title": "sundial - 24 (lyric video)",
+        "description": "listen to \"24\": https://foundation-media.ffm.to/sundial24\n\nthank u for watching! love u :) \n\nfollow us @ \ninstagram: http://www.instagram.com/officialsundial\ntiktok: http://tiktok.com/@officialsundial \nfacebook: http://www.facebook.com/officialsundial\ntwitter: http://www.twitter.com/officialsundial",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eYaDQ0sD6n4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eYaDQ0sD6n4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eYaDQ0sD6n4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/eYaDQ0sD6n4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/eYaDQ0sD6n4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "sundial",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "sundial - 24 (lyric video)",
+          "description": "listen to \"24\": https://foundation-media.ffm.to/sundial24\n\nthank u for watching! love u :) \n\nfollow us @ \ninstagram: http://www.instagram.com/officialsundial\ntiktok: http://tiktok.com/@officialsundial \nfacebook: http://www.facebook.com/officialsundial\ntwitter: http://www.twitter.com/officialsundial"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT2M19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "TGn_80ll8an8ybEuRQHGOMY3Dnk",
+      "id": "gepG66cqIHk",
+      "snippet": {
+        "publishedAt": "2021-12-10T05:00:12Z",
+        "channelId": "UC2DTAJ9Ipn50Uf6zuXPZSHA",
+        "title": "sundial - 24 (home video)",
+        "description": "listen to \"24\" here: https://foundation-media.ffm.to/sundial24\n\nthank u for watching !!! hope u like it as much as we loved making it. also thank u to our friend nadia for being in this :)\n\nfollow us: \nSpotify: https://officialsundial.com/spotify \nApple Music: https://music.apple.com/us/artist/sundial\nInstagram: https://instagram.com/officialsundial \nTikTok: https://tiktok.com/@officialsundial \nYouTube: https://youtube.com/officialsundial \n\nlyrics\n\n(verse 1)\ni’m 24 now \nstill at my parents house \nthought i would have it figured out\n\nfriends getting married\none has a baby\ni barely recognize this town\n\nmamma asked me what my plan is for the future \nbut i don’t even know what going on for dinner \ni’m 24 now \nthought i could finally settled down \n\n(chorus)\nparties end before i’m drunk\nfriday night, i’m tired as fuck\ni don’t know how i ended up like this \ncan someone tell me what the hell i missed\n\nbirthdays here, i’m still depressed \ngot no friends, just lots of stress\nit feels like yesterday when we were kids\ncan someone tell me what the hell i missed? \n‘cause i don’t know\n\n(verse 2)\nsleep til the sun’s down\nanother breakdown\nfeels like the days are all the same\n\nnew type of anxious  \nschool never taught this \nand what the fuck are taxes anyway\n\ntell myself i won’t be cynical and bitter\nnow i see it when i’m looking in the mirror \ni'm 24 now\nwonder when i will be okay  \n\n(chorus)\n\noh, ‘cause I don’t know\noh, ‘cause I don’t know\noh, can someone tell me what the hell I missed?\n‘cause I don’t know",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gepG66cqIHk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gepG66cqIHk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gepG66cqIHk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/gepG66cqIHk/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/gepG66cqIHk/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "sundial",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "sundial - 24 (home video)",
+          "description": "listen to \"24\" here: https://foundation-media.ffm.to/sundial24\n\nthank u for watching !!! hope u like it as much as we loved making it. also thank u to our friend nadia for being in this :)\n\nfollow us: \nSpotify: https://officialsundial.com/spotify \nApple Music: https://music.apple.com/us/artist/sundial\nInstagram: https://instagram.com/officialsundial \nTikTok: https://tiktok.com/@officialsundial \nYouTube: https://youtube.com/officialsundial \n\nlyrics\n\n(verse 1)\ni’m 24 now \nstill at my parents house \nthought i would have it figured out\n\nfriends getting married\none has a baby\ni barely recognize this town\n\nmamma asked me what my plan is for the future \nbut i don’t even know what going on for dinner \ni’m 24 now \nthought i could finally settled down \n\n(chorus)\nparties end before i’m drunk\nfriday night, i’m tired as fuck\ni don’t know how i ended up like this \ncan someone tell me what the hell i missed\n\nbirthdays here, i’m still depressed \ngot no friends, just lots of stress\nit feels like yesterday when we were kids\ncan someone tell me what the hell i missed? \n‘cause i don’t know\n\n(verse 2)\nsleep til the sun’s down\nanother breakdown\nfeels like the days are all the same\n\nnew type of anxious  \nschool never taught this \nand what the fuck are taxes anyway\n\ntell myself i won’t be cynical and bitter\nnow i see it when i’m looking in the mirror \ni'm 24 now\nwonder when i will be okay  \n\n(chorus)\n\noh, ‘cause I don’t know\noh, ‘cause I don’t know\noh, can someone tell me what the hell I missed?\n‘cause I don’t know"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT2M14S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "vRNyj1Y5ekOOSDxqGmWOx-WV8K8",
+      "id": "Oh-A7d80sBo",
+      "snippet": {
+        "publishedAt": "2021-10-14T08:32:43Z",
+        "channelId": "UCSl9OaDkFogr2Eh0V1PQcuQ",
+        "title": "I'm 24 now | Sundial | Lyrics",
+        "description": "Song: 24\nartist: Sundial\n\n#twentyfour\n#sundial\n\nLyrics\n\nI'm 24 now\nStill at my parents house\nThought I would have it figured out\nFriends getting married, one has a baby\nI barely recognize this town\n\nMama asked me what my plan is for the future\nBut I don't even know what's going on for dinner\nI'm 24 now, thought I could finally settle down\n\nParty's end before I'm drunk\nFriday night I'm tired as fuck\nI don't know how I ended up like this\nCan someone tell me what the hell I missed?\n\nBirthday's here, I'm still depressed\nGot no friends, just lots of stress\nIt feels like yеsterday when we wеre kids\n\nCan someone tell me what the hell I missed?\nCause I don't know\n\nSleep till the sun's down, another breakdown Feels like all the days are the same\nNew type of anxious, school never taught this And what the fuck are taxes anyway\n\nI tell myself I won't be sitting going bitter\nAnd now I see it when I'm looking in the mirror\n\nI'm 24 now, wondering when I will be okay\nParty's end before I'm drunk\nFriday night I'm tired as fuck\nI don't know how I ended up like this\nCan someone tell me what the hell I missed?\n\nBirthday's here, I'm still depressed\nGot no friends, just lots of stress\nIt feels like yesterday when we were kids\nCan someone tell me what the hell I missed?\nCause I don't know\n\nOooh, Cause I don't know\nOooh, Cause I don't know\nOooh\n\nCan someone tell me what the hell I missed?\nCause I don't know",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Oh-A7d80sBo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Oh-A7d80sBo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Oh-A7d80sBo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Oh-A7d80sBo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Oh-A7d80sBo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dynamic Music ☊",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "I'm 24 now | Sundial | Lyrics",
+          "description": "Song: 24\nartist: Sundial\n\n#twentyfour\n#sundial\n\nLyrics\n\nI'm 24 now\nStill at my parents house\nThought I would have it figured out\nFriends getting married, one has a baby\nI barely recognize this town\n\nMama asked me what my plan is for the future\nBut I don't even know what's going on for dinner\nI'm 24 now, thought I could finally settle down\n\nParty's end before I'm drunk\nFriday night I'm tired as fuck\nI don't know how I ended up like this\nCan someone tell me what the hell I missed?\n\nBirthday's here, I'm still depressed\nGot no friends, just lots of stress\nIt feels like yеsterday when we wеre kids\n\nCan someone tell me what the hell I missed?\nCause I don't know\n\nSleep till the sun's down, another breakdown Feels like all the days are the same\nNew type of anxious, school never taught this And what the fuck are taxes anyway\n\nI tell myself I won't be sitting going bitter\nAnd now I see it when I'm looking in the mirror\n\nI'm 24 now, wondering when I will be okay\nParty's end before I'm drunk\nFriday night I'm tired as fuck\nI don't know how I ended up like this\nCan someone tell me what the hell I missed?\n\nBirthday's here, I'm still depressed\nGot no friends, just lots of stress\nIt feels like yesterday when we were kids\nCan someone tell me what the hell I missed?\nCause I don't know\n\nOooh, Cause I don't know\nOooh, Cause I don't know\nOooh\n\nCan someone tell me what the hell I missed?\nCause I don't know"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M16S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "D0TkQbONViQj_g2-ma86gKBrxKM",
+      "id": "kMPxGzEvWiI",
+      "snippet": {
+        "publishedAt": "2023-09-14T10:04:13Z",
+        "channelId": "UCUu3uEjf4czTrjQeRQS3M-Q",
+        "title": "24",
+        "description": "Provided to YouTube by Stem Disintermedia Inc.\n\n24 · sundial\n\nthe roaring twenties\n\n℗ 2023 sundial in partnership with Hundred Days Records\n\nReleased on: 2023-09-15\n\nProducer: Dorothy Chan\nProducer: Jisu Kim\nWriter: Dorothy Chan\nWriter: Jisu Kim\n\nAuto-generated by YouTube.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kMPxGzEvWiI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kMPxGzEvWiI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kMPxGzEvWiI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kMPxGzEvWiI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/kMPxGzEvWiI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "sundial - Topic",
+        "tags": [
+          "sundial",
+          "the roaring twenties",
+          "24"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "24",
+          "description": "Provided to YouTube by Stem Disintermedia Inc.\n\n24 · sundial\n\nthe roaring twenties\n\n℗ 2023 sundial in partnership with Hundred Days Records\n\nReleased on: 2023-09-15\n\nProducer: Dorothy Chan\nProducer: Jisu Kim\nWriter: Dorothy Chan\nWriter: Jisu Kim\n\nAuto-generated by YouTube."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M14S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "RNB4EyO1hj5QC4S1ncV09nr0nJ4",
+      "id": "tg4ztGNTlFQ",
+      "snippet": {
+        "publishedAt": "2021-10-17T21:52:32Z",
+        "channelId": "UC7XkWYkn7KcbKZY7Hcpk-WA",
+        "title": "「 sundial - 24 ✧ sub español + lyrics 」",
+        "description": "❥Si tomas la traducción, avísame y dame créditos.\n❥Mi canal de respaldo: https://www.youtube.com/c/sunshinemango13/\n\n¡Gracias por ver el video! Espero que haya sido de tu agrado.💜\nSi es así te invito a suscribirte a mi canal, donde encontrarás contenido similiar a este.✨\n\n#Sundial \nviral, tik tok, sub español, subtitulada al español, traducida al español, traducción, subtítulos, subtitulado, letra, lyrics, hd, topic, letra, 2021, lyrics\n⁑\n⁑\n⁑\nAll music, clips, animations, overlays, textures, photos, etc. belong to all respective artists.\nCopyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. NON-PROFIT, educational or personal use tips the balance in favor of fair use.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tg4ztGNTlFQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tg4ztGNTlFQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tg4ztGNTlFQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/tg4ztGNTlFQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/tg4ztGNTlFQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "augustine",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "「 sundial - 24 ✧ sub español + lyrics 」",
+          "description": "❥Si tomas la traducción, avísame y dame créditos.\n❥Mi canal de respaldo: https://www.youtube.com/c/sunshinemango13/\n\n¡Gracias por ver el video! Espero que haya sido de tu agrado.💜\nSi es así te invito a suscribirte a mi canal, donde encontrarás contenido similiar a este.✨\n\n#Sundial \nviral, tik tok, sub español, subtitulada al español, traducida al español, traducción, subtítulos, subtitulado, letra, lyrics, hd, topic, letra, 2021, lyrics\n⁑\n⁑\n⁑\nAll music, clips, animations, overlays, textures, photos, etc. belong to all respective artists.\nCopyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. NON-PROFIT, educational or personal use tips the balance in favor of fair use."
+        },
+        "defaultAudioLanguage": "zxx"
+      },
+      "contentDetails": {
+        "duration": "PT2M14S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "vEujWfFZES728sa9XsZdZDMO8eE",
+      "id": "wdJuz85mc9c",
+      "snippet": {
+        "publishedAt": "2023-11-29T10:04:08Z",
+        "channelId": "UCUu3uEjf4czTrjQeRQS3M-Q",
+        "title": "scenic route",
+        "description": "Provided to YouTube by Stem Disintermedia Inc.\n\nscenic route · sundial\n\nscenic route\n\n℗ 2023 sundial in partnership with Hundred Days Records\n\nReleased on: 2023-11-30\n\nProducer: Dorothy Chan\nProducer: Jisu Kim\nWriter: Jisu Kim\nWriter: Dorothy Chan\nWriter: Chloe Copoloff\n\nAuto-generated by YouTube.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wdJuz85mc9c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wdJuz85mc9c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wdJuz85mc9c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wdJuz85mc9c/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wdJuz85mc9c/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "sundial - Topic",
+        "tags": [
+          "sundial",
+          "scenic route"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "scenic route",
+          "description": "Provided to YouTube by Stem Disintermedia Inc.\n\nscenic route · sundial\n\nscenic route\n\n℗ 2023 sundial in partnership with Hundred Days Records\n\nReleased on: 2023-11-30\n\nProducer: Dorothy Chan\nProducer: Jisu Kim\nWriter: Jisu Kim\nWriter: Dorothy Chan\nWriter: Chloe Copoloff\n\nAuto-generated by YouTube."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT3M1S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "67sPnsD4g1pP4srYSToEDWowOC4",
+      "id": "NayfisrIt3o",
+      "snippet": {
+        "publishedAt": "2023-11-30T17:00:16Z",
+        "channelId": "UC2DTAJ9Ipn50Uf6zuXPZSHA",
+        "title": "sundial - scenic route (lyric video)",
+        "description": "thank you for listening :) stream \"scenic route\" here: https://fanlink.to/sundialscenicroute\n\nstream \"the roaring twenties\" EP here: https://fanlink.to/roaringtwenties\n\nwritten by dorothy, jisu, and chloe copoloff\nmixed by evan sutton \n\nlyrics:\nnever was a straight A kid  \nnever called a genius \nstayed up every night \nbags under my eyes \njust to get an 86\n\ntried out for the play that spring \nsang until my voice would sting\nsure i nailed the notes\ngot into the show\nbut i still didn’t get the lead\n\nnothing good comes easy, \ndoesn’t mean that i won’t try\ncuz nothing worth it happens overnight \n\nchorus\ni don’t take the shortcut \ni’m here for the long run\ni’d rather be the runner up, for the rest of my life, than cut to number one\n\ni don’t need a free lunch\ndaddy and his trust fund\ni’d rather be the underdog, for the rest of my life, than be the lucky one\n\ncello lessons since first grade\npracticed while my friends would play \ni wouldn’t leave the house\ni hated missing out\nbut now i’m playing every state \n\nlabels want a viral hit but i’ll still take my time\ncuz nothing worth it happens overnight \n    \nchorus\n\noutro\ni will take the scenic route\ndriving through the ups and downs\ncuz maybe that’s what life’s about\nisn’t it? isn’t it?\n\nsilver line in every cloud\nso rain or shine, i’m still around\ncuz maybe that’s what life’s about\nisn’t it? isn’t it?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NayfisrIt3o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NayfisrIt3o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NayfisrIt3o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/NayfisrIt3o/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/NayfisrIt3o/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "sundial",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "sundial - scenic route (lyric video)",
+          "description": "thank you for listening :) stream \"scenic route\" here: https://fanlink.to/sundialscenicroute\n\nstream \"the roaring twenties\" EP here: https://fanlink.to/roaringtwenties\n\nwritten by dorothy, jisu, and chloe copoloff\nmixed by evan sutton \n\nlyrics:\nnever was a straight A kid  \nnever called a genius \nstayed up every night \nbags under my eyes \njust to get an 86\n\ntried out for the play that spring \nsang until my voice would sting\nsure i nailed the notes\ngot into the show\nbut i still didn’t get the lead\n\nnothing good comes easy, \ndoesn’t mean that i won’t try\ncuz nothing worth it happens overnight \n\nchorus\ni don’t take the shortcut \ni’m here for the long run\ni’d rather be the runner up, for the rest of my life, than cut to number one\n\ni don’t need a free lunch\ndaddy and his trust fund\ni’d rather be the underdog, for the rest of my life, than be the lucky one\n\ncello lessons since first grade\npracticed while my friends would play \ni wouldn’t leave the house\ni hated missing out\nbut now i’m playing every state \n\nlabels want a viral hit but i’ll still take my time\ncuz nothing worth it happens overnight \n    \nchorus\n\noutro\ni will take the scenic route\ndriving through the ups and downs\ncuz maybe that’s what life’s about\nisn’t it? isn’t it?\n\nsilver line in every cloud\nso rain or shine, i’m still around\ncuz maybe that’s what life’s about\nisn’t it? isn’t it?"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT3M38S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "4IYoAUXewND3tp3Batx_lBS0Ry0",
+      "id": "eYaDQ0sD6n4",
+      "snippet": {
+        "publishedAt": "2021-11-11T18:27:49Z",
+        "channelId": "UC2DTAJ9Ipn50Uf6zuXPZSHA",
+        "title": "sundial - 24 (lyric video)",
+        "description": "listen to \"24\": https://foundation-media.ffm.to/sundial24\n\nthank u for watching! love u :) \n\nfollow us @ \ninstagram: http://www.instagram.com/officialsundial\ntiktok: http://tiktok.com/@officialsundial \nfacebook: http://www.facebook.com/officialsundial\ntwitter: http://www.twitter.com/officialsundial",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eYaDQ0sD6n4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eYaDQ0sD6n4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eYaDQ0sD6n4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/eYaDQ0sD6n4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/eYaDQ0sD6n4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "sundial",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "sundial - 24 (lyric video)",
+          "description": "listen to \"24\": https://foundation-media.ffm.to/sundial24\n\nthank u for watching! love u :) \n\nfollow us @ \ninstagram: http://www.instagram.com/officialsundial\ntiktok: http://tiktok.com/@officialsundial \nfacebook: http://www.facebook.com/officialsundial\ntwitter: http://www.twitter.com/officialsundial"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT2M19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "cIOeKHPFPaa4-0ex0WoXoN48vYI",
+      "id": "OFzOKKeB6OY",
+      "snippet": {
+        "publishedAt": "2023-05-18T16:00:08Z",
+        "channelId": "UChWPZqldtZgrbfyQSwPKkUg",
+        "title": "Taylor Bickett - QUARTER LIFE CRISIS (Official Music Video)",
+        "description": "Listen to \"QUARTER LIFE CRISIS\" here: http://found.ee/quarter-life-crisis\n____________\n\nLyrics:\n\nI'm terrified of rejection\nBut I get high off attention\nI drink my coffee light 'cause I'm not fucking pretentious\nSay that I read for fun\nBut haven't read in months\nSay that I'm settling down\nBut I blacked out at brunch\n\nI swear sixteen was yesterday\nBut now I'm closer to twenty-eight\nI'm focusing all of my energy on staying awake\n\nOh, I don't mean to keep\nMaking it about me\nEverybody feels like this at twenty-three\nI know I'm not unique\nBut I'm a drama queen\nI don't why I'm surprised\nIt's just a quarter life crisis\n\nI'm constantly symptomatic\nMom says it's psychosomatic\nThat I'm the girl that cried headache\nI'm melodramatic as hell\nWhere's all the talent that I had last decade?\nAnother gifted kid that burned out in the tenth grade\n\nSwear that feels like yesterday\nI'm just a tired old cliché\nI'm focusing all of my energy on just being okay\n\nOh, I don't mean to keep\nMaking it about me\nEverybody feels like this at twenty-three\nI know I'm not unique\nBut I'm a drama queen\nI don't why I'm surprised\nIt's just a quarter life crisis\nHmm, oh, ohh\nIt's just a quarter life crisis\n\nAnd I just found out\nThat someone from my high school is dead\nAnd another one is married with a kid\nAnd the rest are all lying on the internet\nI fall for it every time\nIt feels like I'm falling behind\n\nI don't mean to keep\nMaking it about me\nEverybody feels like this at twenty-three\nI know I'm not unique\nBut I'm a drama queen, woah\nI don't mean to keep\nMaking it about me\nEverybody feels like this at twenty-three\nI know I'm not unique\nBut I'm a drama queen\nI don't why I'm surprised\nIt's just a quarter life\nEverybody feels like this\nIt's a quarter life\nI don't why I'm surprised\nIt's just a quarter life crisis\n____________\n\nCredits: \n\nA Spaced Visuals Production\nDirected by Angelica Valente & Pseudo\nProducer: Angelica Valente\nDirectors Rep: Born Wild\nAP: Kalie-Ann\nDP: Sid Singh\nAC: @sonalichugani\nGaffer: Caleb Harris\nKey Grip: Jack Thomas\nSwing: Eric Crain\nHMU: Nelly Santiago\nWardrobe Stylist: Laurien Decibel\nBaker: Eat Stupid Good\nTalent: Paisley Glazer\nSet Teacher: Julie Stell\nPA: Allison Parra\nManagement: Three Six Zero\nEdit: Pseudo\nColor: Edgar Reyna\n____________\n\nFollow Taylor Bickett:\n\nInstagram: https://instagram.com/taylorbickett?igshid=MTIzZWMxMTBkOA==\nTikTok: https://www.tiktok.com/@taylorbickettmusic?_t=8e4RUDgU3TC&_r=1\nFacebook: https://www.facebook.com/taylorbickettmusic?mibextid=LQQJ4d\nSpotify: https://open.spotify.com/artist/3Fxg10eJ6YmvUdM2PPB4Zk?si=NA4qX2ZcSZKsT9NgaVUHzQ\n\n#TaylorBickett #QUARTERLIFECRISIS",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OFzOKKeB6OY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OFzOKKeB6OY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OFzOKKeB6OY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OFzOKKeB6OY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OFzOKKeB6OY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Taylor Bickett",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Taylor Bickett - QUARTER LIFE CRISIS (Official Music Video)",
+          "description": "Listen to \"QUARTER LIFE CRISIS\" here: http://found.ee/quarter-life-crisis\n____________\n\nLyrics:\n\nI'm terrified of rejection\nBut I get high off attention\nI drink my coffee light 'cause I'm not fucking pretentious\nSay that I read for fun\nBut haven't read in months\nSay that I'm settling down\nBut I blacked out at brunch\n\nI swear sixteen was yesterday\nBut now I'm closer to twenty-eight\nI'm focusing all of my energy on staying awake\n\nOh, I don't mean to keep\nMaking it about me\nEverybody feels like this at twenty-three\nI know I'm not unique\nBut I'm a drama queen\nI don't why I'm surprised\nIt's just a quarter life crisis\n\nI'm constantly symptomatic\nMom says it's psychosomatic\nThat I'm the girl that cried headache\nI'm melodramatic as hell\nWhere's all the talent that I had last decade?\nAnother gifted kid that burned out in the tenth grade\n\nSwear that feels like yesterday\nI'm just a tired old cliché\nI'm focusing all of my energy on just being okay\n\nOh, I don't mean to keep\nMaking it about me\nEverybody feels like this at twenty-three\nI know I'm not unique\nBut I'm a drama queen\nI don't why I'm surprised\nIt's just a quarter life crisis\nHmm, oh, ohh\nIt's just a quarter life crisis\n\nAnd I just found out\nThat someone from my high school is dead\nAnd another one is married with a kid\nAnd the rest are all lying on the internet\nI fall for it every time\nIt feels like I'm falling behind\n\nI don't mean to keep\nMaking it about me\nEverybody feels like this at twenty-three\nI know I'm not unique\nBut I'm a drama queen, woah\nI don't mean to keep\nMaking it about me\nEverybody feels like this at twenty-three\nI know I'm not unique\nBut I'm a drama queen\nI don't why I'm surprised\nIt's just a quarter life\nEverybody feels like this\nIt's a quarter life\nI don't why I'm surprised\nIt's just a quarter life crisis\n____________\n\nCredits: \n\nA Spaced Visuals Production\nDirected by Angelica Valente & Pseudo\nProducer: Angelica Valente\nDirectors Rep: Born Wild\nAP: Kalie-Ann\nDP: Sid Singh\nAC: @sonalichugani\nGaffer: Caleb Harris\nKey Grip: Jack Thomas\nSwing: Eric Crain\nHMU: Nelly Santiago\nWardrobe Stylist: Laurien Decibel\nBaker: Eat Stupid Good\nTalent: Paisley Glazer\nSet Teacher: Julie Stell\nPA: Allison Parra\nManagement: Three Six Zero\nEdit: Pseudo\nColor: Edgar Reyna\n____________\n\nFollow Taylor Bickett:\n\nInstagram: https://instagram.com/taylorbickett?igshid=MTIzZWMxMTBkOA==\nTikTok: https://www.tiktok.com/@taylorbickettmusic?_t=8e4RUDgU3TC&_r=1\nFacebook: https://www.facebook.com/taylorbickettmusic?mibextid=LQQJ4d\nSpotify: https://open.spotify.com/artist/3Fxg10eJ6YmvUdM2PPB4Zk?si=NA4qX2ZcSZKsT9NgaVUHzQ\n\n#TaylorBickett #QUARTERLIFECRISIS"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT3M21S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "6B0QF9dF8tICfkrtj1TqXKnkzb4",
+      "id": "zENNQrHCk4k",
+      "snippet": {
+        "publishedAt": "2022-11-03T17:00:46Z",
+        "channelId": "UChWPZqldtZgrbfyQSwPKkUg",
+        "title": "Taylor Bickett - QUARTER LIFE CRISIS (Official Lyric Video)",
+        "description": "Listen to \"QUARTER LIFE CRISIS\" here: https://found.ee/quarter-life-crisis   \n____________\n\nCredits:\n\nArt/Animation by Emily Hoang\nPhoto by Audrey Bergeron \n____________\n\nFollow Taylor Bickett:\n\nInstagram: https://instagram.com/taylorbickett?igshid=MTIzZWMxMTBkOA==\nTikTok: https://www.tiktok.com/@taylorbickettmusic?_t=8e4RUDgU3TC&_r=1\nFacebook: https://www.facebook.com/taylorbickettmusic?mibextid=LQQJ4d\nSpotify: https://open.spotify.com/artist/3Fxg10eJ6YmvUdM2PPB4Zk?si=NA4qX2ZcSZKsT9NgaVUHzQ\n\n#TaylorBickett #QUARTERLIFECRISIS",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zENNQrHCk4k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zENNQrHCk4k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zENNQrHCk4k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zENNQrHCk4k/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zENNQrHCk4k/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Taylor Bickett",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Taylor Bickett - QUARTER LIFE CRISIS (Official Lyric Video)",
+          "description": "Listen to \"QUARTER LIFE CRISIS\" here: https://found.ee/quarter-life-crisis   \n____________\n\nCredits:\n\nArt/Animation by Emily Hoang\nPhoto by Audrey Bergeron \n____________\n\nFollow Taylor Bickett:\n\nInstagram: https://instagram.com/taylorbickett?igshid=MTIzZWMxMTBkOA==\nTikTok: https://www.tiktok.com/@taylorbickettmusic?_t=8e4RUDgU3TC&_r=1\nFacebook: https://www.facebook.com/taylorbickettmusic?mibextid=LQQJ4d\nSpotify: https://open.spotify.com/artist/3Fxg10eJ6YmvUdM2PPB4Zk?si=NA4qX2ZcSZKsT9NgaVUHzQ\n\n#TaylorBickett #QUARTERLIFECRISIS"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT3M19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "pSJwBUnsYlvOLXcVAWKCVFbqNOg",
+      "id": "Q_84jkKggG4",
+      "snippet": {
+        "publishedAt": "2022-10-20T13:30:11Z",
+        "channelId": "UCqUwBqJB42q4VGv9A3rxTNw",
+        "title": "Taylor Bickett - Quarter Life Crisis (Lyrics)",
+        "description": "🎶 Taylor Bickett - Quarter Life Crisis (Lyrics)\n🔔 Subscribe and turn on notifications to stay updated with new uploads.\n👍🏽 Please leave a like and appreciate all the support!\n♫ Lyrics via LyricsOnly: https://www.lyricsonly.io/\n\n\n👇🏼 Follow\nInstagram:  @bag_only.yt\n\nFor music submissions please message @Bag_Only.yt on Instagram or email bagonly.music@gmail.com\n\n📋 Tags: #TaylorBickett #quarterlifecrisis  #lyrics",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Q_84jkKggG4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Q_84jkKggG4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Q_84jkKggG4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Q_84jkKggG4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Q_84jkKggG4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BagOnly",
+        "tags": [
+          "hip hop",
+          "rap",
+          "house",
+          "future",
+          "chill",
+          "indie",
+          "pop",
+          "edm",
+          "electropop",
+          "lo-fi",
+          "sad rap",
+          "bagonly",
+          "artist",
+          "song",
+          "artist song",
+          "song artist",
+          "artist song lyrics",
+          "artist lyrics",
+          "lyrics artist",
+          "lyrics",
+          "artist lyrics song"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Taylor Bickett - Quarter Life Crisis (Lyrics)",
+          "description": "🎶 Taylor Bickett - Quarter Life Crisis (Lyrics)\n🔔 Subscribe and turn on notifications to stay updated with new uploads.\n👍🏽 Please leave a like and appreciate all the support!\n♫ Lyrics via LyricsOnly: https://www.lyricsonly.io/\n\n\n👇🏼 Follow\nInstagram:  @bag_only.yt\n\nFor music submissions please message @Bag_Only.yt on Instagram or email bagonly.music@gmail.com\n\n📋 Tags: #TaylorBickett #quarterlifecrisis  #lyrics"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT3M19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "nlr4bxestSKrEQ_5Up2Z92UWGLw",
+      "id": "OFA2QYccNFQ",
+      "snippet": {
+        "publishedAt": "2022-10-18T19:31:17Z",
+        "channelId": "UCTS70WpqG82S0CPZgWFg1GQ",
+        "title": "Taylor Bickett - Quarter Life Crisis (Lyrics)",
+        "description": "Submissions / Inquiries - nick@bangersonlyhq.com\n\nPartner Channels:\nChillOnly - https://bit.ly/3uYHKe3\nSauceOnly - https://bit.ly/30gjpSP\nBagOnly - https://bit.ly/38eIimn\nVibesOnly - https://bit.ly/30dN2nQ",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OFA2QYccNFQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OFA2QYccNFQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OFA2QYccNFQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OFA2QYccNFQ/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OFA2QYccNFQ/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BangersOnly",
+        "tags": [
+          "BANGERSONLY",
+          "Taylor Bickett",
+          "Quarter Life Crisis"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Taylor Bickett - Quarter Life Crisis (Lyrics)",
+          "description": "Submissions / Inquiries - nick@bangersonlyhq.com\n\nPartner Channels:\nChillOnly - https://bit.ly/3uYHKe3\nSauceOnly - https://bit.ly/30gjpSP\nBagOnly - https://bit.ly/38eIimn\nVibesOnly - https://bit.ly/30dN2nQ"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT3M19S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "xez5xTgkH9R1D2jE08NAHM9MqvA",
+      "id": "8M58tRvPWqc",
+      "snippet": {
+        "publishedAt": "2022-05-29T17:00:59Z",
+        "channelId": "UCnazDW1L5q8M2WzB0yI8iJg",
+        "title": "Taylor Bickett - \"Quarter Life Crisis\"",
+        "description": "\"Quarter Life Crisis\" by Taylor Bickett on 5/23/22\n\nSong Suffragettes is a female singer/songwriter round every Monday night at The Listening Room Cafe in Nashville, TN.\n\nTaylor Bickett\nhttps://www.instagram.com/taylorbickett/\nhttps://www.facebook.com/taylorbickettmusic\nhttp://www.taylorbickett.com\n\nSong Suffragettes\nhttps://instagram.com/songsuffragettes\nhttps://twitter.com/songsuffragette\nhttps://www.facebook.com/songsuffragettes\nhttp://www.songsuffragettes.com/",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8M58tRvPWqc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8M58tRvPWqc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8M58tRvPWqc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/8M58tRvPWqc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/8M58tRvPWqc/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Song Suffragettes",
+        "tags": [
+          "brandi carlile",
+          "#letthegirlsplay",
+          "american idol",
+          "cmt",
+          "country",
+          "country music",
+          "female",
+          "females",
+          "girls",
+          "highway find",
+          "kalie shorr",
+          "kelsea ballerini",
+          "let the girls play",
+          "letthegirlsplay",
+          "music",
+          "nashville",
+          "next women of country",
+          "radio disney country",
+          "singer",
+          "singer songwriter",
+          "sirius xm",
+          "sirius xm the highway",
+          "song suffragettes",
+          "songwriter",
+          "suffragettes",
+          "taste of country",
+          "taylor swift",
+          "the listening room cafe",
+          "taylor bickett",
+          "taylor",
+          "bickett",
+          "quarter life crisis"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Taylor Bickett - \"Quarter Life Crisis\"",
+          "description": "\"Quarter Life Crisis\" by Taylor Bickett on 5/23/22\n\nSong Suffragettes is a female singer/songwriter round every Monday night at The Listening Room Cafe in Nashville, TN.\n\nTaylor Bickett\nhttps://www.instagram.com/taylorbickett/\nhttps://www.facebook.com/taylorbickettmusic\nhttp://www.taylorbickett.com\n\nSong Suffragettes\nhttps://instagram.com/songsuffragettes\nhttps://twitter.com/songsuffragette\nhttps://www.facebook.com/songsuffragettes\nhttp://www.songsuffragettes.com/"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT3M23S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "6KGZZUcDnRqI-pHTOkjGQDrHeuQ",
+      "id": "EQuVCE5Dqf0",
+      "snippet": {
+        "publishedAt": "2022-05-20T04:00:07Z",
+        "channelId": "UCtuYNnKhOOQL_H6F-EzUaZg",
+        "title": "mxmtoon - growing pains (official audio)",
+        "description": "'growing pains' is from mxmtoon's album rising, out now! \n\nstream or download rising here: http://mxmtoon.ffm.to/rising\n\nstay up to date on mxmtoon tours and live shows https://www.mxmtoon.com/shows\n\nfollow mxmtoon:\nhttp://www.mxmtoon.com\nhttp://www.tiktok.com/@mxmtoon\nhttp://instagram.com/mxmtoon\nhttp://twitter.com/mxmtoon\nhttp://facebook.com/mxmtoon\nhttp://my.community.com/mxmtoon\n\nlyrics:\nsometimes i wonder whether me when i was younger\nwould like the person that i’ve become\ncause first impressions tend to last through adolescence\nand she still kinda hates everyone\n\nyou and i aren’t so different\nhindsight has perfect vision\nyou don’t even know all the places that you’ll go\nbut i’m sorry that you feel so alone\n\neverything’s gonna get better\neverything’s gonna get worse\nwhen it gets hard remember that’s the way it always works\nmaybe we’re just\nlike flowers starting down in the dirt\neveryone calls them growing pains because we know the hurt\n\nsometime’s i question when i look at my reflection\nIf the person looking back is really me\nA couple of years spent learning how to disappear\nA couple more spent learning what i could be\n\nyou and i aren’t so different\nhindsight has perfect vision\nyou don’t even know all the places that you’ll go\nbut i’m sorry that you feel so alone\n\neverything’s gonna get better\neverything’s gonna get worse\nwhen it gets hard remember that’s the way it always works\nmaybe we’re just like flowers starting down in the dirt\neveryone calls them growing pains because we know the hurt\n\ni can’t myself from faking a smile\nhard to break an old habit you’ve had for a while\ni don’t wanna be any less than me\nsometimes it’s hard to believe\n\neverything’s gonna get better\neverything’s gonna get worse\nwhen it gets hard remember that’s the way it always works\ncause every perfect\nflower started down in the dirt\neveryone calls them growing pains because we know the hurt",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EQuVCE5Dqf0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EQuVCE5Dqf0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EQuVCE5Dqf0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EQuVCE5Dqf0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EQuVCE5Dqf0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "mxmtoon",
+        "tags": [
+          "mxmtoon",
+          "maia mxmtoon",
+          "maia",
+          "bedroom pop",
+          "indie pop",
+          "sad pop",
+          "maia moredocting",
+          "mxmtoon songs",
+          "the masquerade",
+          "official audio",
+          "official video",
+          "the rising",
+          "rising",
+          "music video",
+          "growing pains",
+          "growing pains mxmtoon",
+          "growing",
+          "pains",
+          "growing pain",
+          "growing pain mxmtoon",
+          "growing pains audio",
+          "growing pains video"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "mxmtoon - growing pains (official audio)",
+          "description": "'growing pains' is from mxmtoon's album rising, out now! \n\nstream or download rising here: http://mxmtoon.ffm.to/rising\n\nstay up to date on mxmtoon tours and live shows https://www.mxmtoon.com/shows\n\nfollow mxmtoon:\nhttp://www.mxmtoon.com\nhttp://www.tiktok.com/@mxmtoon\nhttp://instagram.com/mxmtoon\nhttp://twitter.com/mxmtoon\nhttp://facebook.com/mxmtoon\nhttp://my.community.com/mxmtoon\n\nlyrics:\nsometimes i wonder whether me when i was younger\nwould like the person that i’ve become\ncause first impressions tend to last through adolescence\nand she still kinda hates everyone\n\nyou and i aren’t so different\nhindsight has perfect vision\nyou don’t even know all the places that you’ll go\nbut i’m sorry that you feel so alone\n\neverything’s gonna get better\neverything’s gonna get worse\nwhen it gets hard remember that’s the way it always works\nmaybe we’re just\nlike flowers starting down in the dirt\neveryone calls them growing pains because we know the hurt\n\nsometime’s i question when i look at my reflection\nIf the person looking back is really me\nA couple of years spent learning how to disappear\nA couple more spent learning what i could be\n\nyou and i aren’t so different\nhindsight has perfect vision\nyou don’t even know all the places that you’ll go\nbut i’m sorry that you feel so alone\n\neverything’s gonna get better\neverything’s gonna get worse\nwhen it gets hard remember that’s the way it always works\nmaybe we’re just like flowers starting down in the dirt\neveryone calls them growing pains because we know the hurt\n\ni can’t myself from faking a smile\nhard to break an old habit you’ve had for a while\ni don’t wanna be any less than me\nsometimes it’s hard to believe\n\neverything’s gonna get better\neverything’s gonna get worse\nwhen it gets hard remember that’s the way it always works\ncause every perfect\nflower started down in the dirt\neveryone calls them growing pains because we know the hurt"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT2M43S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "OA4niwEYDILcpt8PqCS0jEZyhuE",
+      "id": "2Gu9fG36CpM",
+      "snippet": {
+        "publishedAt": "2022-05-22T16:50:44Z",
+        "channelId": "UCGjYmvmcdI3G55mma1wyYpg",
+        "title": "growing pains - mxmtoon 🎧Lyrics",
+        "description": "#growingpains\n#rising by #mxmtoon\n#rising\n#Lyrics\n\nSpotify: https://open.spotify.com/track/7eXdMfUwoxOPkgnLbnVWhL?si=48e1cc0c1de74b1a\n\ngrowing pains Lyrics:\n\nSometimes, I wonder whether me when I was younger\nWould like the person that I've become\n'Cause first impressions tend to last through adolescence\nAnd she still kinda hates everyone\n\n[Pre-Chorus]\nYou and I aren't so different\nHindsight has perfect vision\nYou don't even know all the places that you'll go\nBut I'm sorry that you feel so alone\n\n[Chorus]\nEverything's gonna get better, everything's gonna get worsе\nWhen it gets hard, remеmber that's the way it always works\nMaybe we're just like flowers startin' down in the dirt\nEveryone calls them growin' pains because we know the hurt\n[Verse 2]\nSometimes, I question when I look at my reflection\nIf the person looking back is really me (Is really me)\nA couple years spent learning how to disappear\nA couple more spent learning what I could be\n\n[Pre-Chorus]\nYou and I aren't so different\nHindsight has perfect vision\nYou don't even know all the places that you'll go\nBut I'm sorry that you feel so alone\n\n[Chorus]\nEverything's gonna get better, everything's gonna get worse\nWhen it gets hard, remember that's the way it always works\nMaybe we're just like flowers startin' down in the dirt\nEveryone calls them growin' pains because we know the hurt\n\n[Bridge]\nI can't help myself from fakin' a smile\nHard to break an old habit you've had for a while\nI don't wanna be any less than me\nSometimes, it's hard to believe\n\n[Chorus]\nEverything's gonna get better, everything's gonna get worse\nWhen it gets hard, remember that's the way it always works\nMaybe we're just like flowers startin' down in the dirt\nEveryone calls them growin' pains because we know the hurt\n\nTags:\n\ngrowing pains\nmxmtoon\nrising \nLyrics\ngrowing pains mxmtoon\nmxmtoon growing pains\ngrowing pains Lyrics\ngrowing pains Lyrics mxmtoon\nmxmtoon growing pains Lyrics\ngrowing pains By mxmtoon\nmxmtoon Songs\nmxmtoon New Song\nLyrics to growing pains\n\n\nCopyright Disclaimer:\n     Under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2Gu9fG36CpM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2Gu9fG36CpM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2Gu9fG36CpM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/2Gu9fG36CpM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/2Gu9fG36CpM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Lyrical Guys",
+        "tags": [
+          "Lyrical Guys",
+          "Guys Lyrical",
+          "Guys",
+          "Lyrical",
+          "growing pains",
+          "mxmtoon",
+          "rising",
+          "Lyrics",
+          "growing pains mxmtoon",
+          "mxmtoon growing pains",
+          "growing pains Lyrics",
+          "growing pains Lyrics mxmtoon",
+          "mxmtoon growing pains Lyrics",
+          "growing pains By mxmtoon",
+          "mxmtoon Songs",
+          "mxmtoon New Song",
+          "Lyrics to growing pains"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "growing pains - mxmtoon 🎧Lyrics",
+          "description": "#growingpains\n#rising by #mxmtoon\n#rising\n#Lyrics\n\nSpotify: https://open.spotify.com/track/7eXdMfUwoxOPkgnLbnVWhL?si=48e1cc0c1de74b1a\n\ngrowing pains Lyrics:\n\nSometimes, I wonder whether me when I was younger\nWould like the person that I've become\n'Cause first impressions tend to last through adolescence\nAnd she still kinda hates everyone\n\n[Pre-Chorus]\nYou and I aren't so different\nHindsight has perfect vision\nYou don't even know all the places that you'll go\nBut I'm sorry that you feel so alone\n\n[Chorus]\nEverything's gonna get better, everything's gonna get worsе\nWhen it gets hard, remеmber that's the way it always works\nMaybe we're just like flowers startin' down in the dirt\nEveryone calls them growin' pains because we know the hurt\n[Verse 2]\nSometimes, I question when I look at my reflection\nIf the person looking back is really me (Is really me)\nA couple years spent learning how to disappear\nA couple more spent learning what I could be\n\n[Pre-Chorus]\nYou and I aren't so different\nHindsight has perfect vision\nYou don't even know all the places that you'll go\nBut I'm sorry that you feel so alone\n\n[Chorus]\nEverything's gonna get better, everything's gonna get worse\nWhen it gets hard, remember that's the way it always works\nMaybe we're just like flowers startin' down in the dirt\nEveryone calls them growin' pains because we know the hurt\n\n[Bridge]\nI can't help myself from fakin' a smile\nHard to break an old habit you've had for a while\nI don't wanna be any less than me\nSometimes, it's hard to believe\n\n[Chorus]\nEverything's gonna get better, everything's gonna get worse\nWhen it gets hard, remember that's the way it always works\nMaybe we're just like flowers startin' down in the dirt\nEveryone calls them growin' pains because we know the hurt\n\nTags:\n\ngrowing pains\nmxmtoon\nrising \nLyrics\ngrowing pains mxmtoon\nmxmtoon growing pains\ngrowing pains Lyrics\ngrowing pains Lyrics mxmtoon\nmxmtoon growing pains Lyrics\ngrowing pains By mxmtoon\nmxmtoon Songs\nmxmtoon New Song\nLyrics to growing pains\n\n\nCopyright Disclaimer:\n     Under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use."
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT3M16S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "Zd8dWcB7Sl494-fGRhJXWyMnL2Q",
+      "id": "Evah9-yYiaI",
+      "snippet": {
+        "publishedAt": "2022-05-21T04:19:16Z",
+        "channelId": "UC1RhKeJp3kMQWVQp9ecN0BQ",
+        "title": "🧯 growing pains - mxmtoon (lyrics/español) 🧯",
+        "description": "Donaciones al canal: https://paypal.me/LuzL13\nMi otro canal: https://www.youtube.com/channel/UCGDM6UGbHkGnyZiB-jKMfmw\nINSTAGRAM: https://www.instagram.com/marialuzlinares/\nTWITTER: https://twitter.com/marialuzlinares\nASK: http://ask.fm/LuzEditionsAndTutorials\nTUMBLR: https://marialuzlinares.tumblr.com\nMAIL: marialuzlinares@yahoo.com.mx\nGOODREADS: https://www.goodreads.com/user/show/26765820-luz\nTIK TOK: marialuzlinares1\nSPOTIFY: https://open.spotify.com/user/1278891600?si=d6b3a90102b54af5\n\nGrupos del canal: \nhttps://www.facebook.com/groups/403085018016371/\nhttps://chat.whatsapp.com/IX3AEC2aPRV0sDCA9iOzKm\n\nFAIR USE- \"Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.\"\n\nEste vídeo es con fines meramente de diversión y entretenimiento, yo no genero ningún tipo de ingreso con este vídeo,  todos los ingresos monetarios generados son para la disquera y lxs artistas.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Evah9-yYiaI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Evah9-yYiaI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Evah9-yYiaI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Evah9-yYiaI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Evah9-yYiaI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Luz L",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "🧯 growing pains - mxmtoon (lyrics/español) 🧯",
+          "description": "Donaciones al canal: https://paypal.me/LuzL13\nMi otro canal: https://www.youtube.com/channel/UCGDM6UGbHkGnyZiB-jKMfmw\nINSTAGRAM: https://www.instagram.com/marialuzlinares/\nTWITTER: https://twitter.com/marialuzlinares\nASK: http://ask.fm/LuzEditionsAndTutorials\nTUMBLR: https://marialuzlinares.tumblr.com\nMAIL: marialuzlinares@yahoo.com.mx\nGOODREADS: https://www.goodreads.com/user/show/26765820-luz\nTIK TOK: marialuzlinares1\nSPOTIFY: https://open.spotify.com/user/1278891600?si=d6b3a90102b54af5\n\nGrupos del canal: \nhttps://www.facebook.com/groups/403085018016371/\nhttps://chat.whatsapp.com/IX3AEC2aPRV0sDCA9iOzKm\n\nFAIR USE- \"Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for \"fair use\" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, educational or personal use tips the balance in favor of fair use.\"\n\nEste vídeo es con fines meramente de diversión y entretenimiento, yo no genero ningún tipo de ingreso con este vídeo,  todos los ingresos monetarios generados son para la disquera y lxs artistas."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M51S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "irEKG36x3X64rOKOMQRneriv5PQ",
+      "id": "nM0VsRmxAT8",
+      "snippet": {
+        "publishedAt": "2022-05-20T02:11:35Z",
+        "channelId": "UCoAtUmOK6GcFqFUTVhqN50A",
+        "title": "Mxmtoon - Growing pains (Subtitulado en español)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nM0VsRmxAT8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nM0VsRmxAT8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nM0VsRmxAT8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/nM0VsRmxAT8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/nM0VsRmxAT8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Hugo",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Mxmtoon - Growing pains (Subtitulado en español)",
+          "description": ""
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M43S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "t4qi2fB4N1Yz75sPXs9qiB9qRHQ",
+      "id": "P-lil--oeZM",
+      "snippet": {
+        "publishedAt": "2023-09-27T23:05:33Z",
+        "channelId": "UCj4X26Mh_EpqMFkQTIpZiDg",
+        "title": "growing pains - mxmtoon (audio)",
+        "description": "LYRICS\nSometimes, I wonder whether me when I was younger\nWould like the person that I've become\n'Cause first impressions tend to last through adolescence\nAnd she still kinda hates everyone\n\nYou and I aren't so different\nHindsight has perfect vision\nYou don't even know all the places that you'll go\nBut I'm sorry that you feel so alone\n\nEverything's gonna get better, everything's gonna get worsе\nWhen it gets hard, remеmber that's the way it always works\nMaybe we're just like flowers starting down in the dirt\nEveryone calls them growing pains because we know the hurt\n\nSometimes, I question when I look at my reflection\nIf the person looking back is really me (Is really me)\nA couple years spent learning how to disappear\nA couple more spent learning what I could be\n\nYou and I aren't so different\nHindsight has perfect vision\nYou don't even know all the places that you'll go\nBut I'm sorry that you feel so alone\n\nEverything's gonna get better, everything's gonna get worse\nWhen it gets hard, remember that's the way it always works\nMaybe we're just like flowers starting down in the dirt\nEveryone calls them growing pains because we know the hurt\n\nI can't help myself from faking a smile\nHard to break an old habit you've had for a while\nI don't wanna be any less than me\nSometimes, it's hard to believe\n\nEverything's gonna get better, everything's gonna get worse\nWhen it gets hard, remember that's the way it always works\nMaybe we're just like flowers starting down in the dirt\nEveryone calls them growing pains because we know the hurt\n\n\nDISCLAIMER\nThis song is not mine and belongs to its rightful owner. My goal is not to make a profit off this video, I just want an easy way for myself and others to see the lyrics and play the song.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/P-lil--oeZM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/P-lil--oeZM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/P-lil--oeZM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/P-lil--oeZM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/P-lil--oeZM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Syncopated Beats",
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "growing pains - mxmtoon (audio)",
+          "description": "LYRICS\nSometimes, I wonder whether me when I was younger\nWould like the person that I've become\n'Cause first impressions tend to last through adolescence\nAnd she still kinda hates everyone\n\nYou and I aren't so different\nHindsight has perfect vision\nYou don't even know all the places that you'll go\nBut I'm sorry that you feel so alone\n\nEverything's gonna get better, everything's gonna get worsе\nWhen it gets hard, remеmber that's the way it always works\nMaybe we're just like flowers starting down in the dirt\nEveryone calls them growing pains because we know the hurt\n\nSometimes, I question when I look at my reflection\nIf the person looking back is really me (Is really me)\nA couple years spent learning how to disappear\nA couple more spent learning what I could be\n\nYou and I aren't so different\nHindsight has perfect vision\nYou don't even know all the places that you'll go\nBut I'm sorry that you feel so alone\n\nEverything's gonna get better, everything's gonna get worse\nWhen it gets hard, remember that's the way it always works\nMaybe we're just like flowers starting down in the dirt\nEveryone calls them growing pains because we know the hurt\n\nI can't help myself from faking a smile\nHard to break an old habit you've had for a while\nI don't wanna be any less than me\nSometimes, it's hard to believe\n\nEverything's gonna get better, everything's gonna get worse\nWhen it gets hard, remember that's the way it always works\nMaybe we're just like flowers starting down in the dirt\nEveryone calls them growing pains because we know the hurt\n\n\nDISCLAIMER\nThis song is not mine and belongs to its rightful owner. My goal is not to make a profit off this video, I just want an easy way for myself and others to see the lyrics and play the song."
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M43S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "KmUB-o48hHIMa4ExCO9j31yEGEs",
+      "id": "QxsbHsfxbuI",
+      "snippet": {
+        "publishedAt": "2023-09-04T14:39:49Z",
+        "channelId": "UC68wYk-6uvHEwKFMuUT09qA",
+        "title": "Abby Cates - Better Friends (Lyrics)",
+        "description": "Enjoy it and don't miss it to subscribe.\n\nI do not own anything. All credits go to the right owners. \n\nTurn on notifications and never miss a video.\n\n~ Support Soul Music :\n\nInstagram : https://www.instagram.com/soulmusicid/\n\nWallpaper : https://www.pexels.com/\n\n\nOfficial Video : https://www.youtube.com/watch?v=Po9az4x5Rzc\n\n\nDownload / Stream :\n\nSpotify : https://open.spotify.com/album/0RzTwg0NExClE4DJWs8Rf9\n\nApple Music : https://music.apple.com/us/album/better-friends-single/1574943389\n\nDeezer : https://www.deezer.com/en/album/241700332\n\n\n~ Support Abby Cates :\n\nInstagram : https://www.instagram.com/abbycates/\n\nTwitter : https://twitter.com/catesabby\n\nYoutube : https://www.youtube.com/channel/UCVxbn2aTrv8eR-6WZjEOkhQ\n\n.\n.\n.\n\nFor all copyright issues, submissions and questions. Please email soulmusic202@gmail.com and we will remove your content immediately.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QxsbHsfxbuI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QxsbHsfxbuI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QxsbHsfxbuI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/QxsbHsfxbuI/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/QxsbHsfxbuI/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Soul Music",
+        "tags": [
+          "Abby Cates",
+          "Soul Music",
+          "abby cates better friends",
+          "better friends abby cates lyrics",
+          "better friends abby cates clean",
+          "better friends abby",
+          "abby cates better friends lyrics",
+          "abby cates take me to church",
+          "abby cates the voice",
+          "abby cates road trip song",
+          "abby cates tiktok",
+          "abby cates cover",
+          "abby cates lyrics",
+          "song about friends",
+          "song about friendship lyrics",
+          "better friends",
+          "abby cates",
+          "lyrics",
+          "lagu tentang teman bahasa inggris",
+          "lagu tentang teman munafik",
+          "lirik",
+          "cover song",
+          "lyric"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Abby Cates - Better Friends (Lyrics)",
+          "description": "Enjoy it and don't miss it to subscribe.\n\nI do not own anything. All credits go to the right owners. \n\nTurn on notifications and never miss a video.\n\n~ Support Soul Music :\n\nInstagram : https://www.instagram.com/soulmusicid/\n\nWallpaper : https://www.pexels.com/\n\n\nOfficial Video : https://www.youtube.com/watch?v=Po9az4x5Rzc\n\n\nDownload / Stream :\n\nSpotify : https://open.spotify.com/album/0RzTwg0NExClE4DJWs8Rf9\n\nApple Music : https://music.apple.com/us/album/better-friends-single/1574943389\n\nDeezer : https://www.deezer.com/en/album/241700332\n\n\n~ Support Abby Cates :\n\nInstagram : https://www.instagram.com/abbycates/\n\nTwitter : https://twitter.com/catesabby\n\nYoutube : https://www.youtube.com/channel/UCVxbn2aTrv8eR-6WZjEOkhQ\n\n.\n.\n.\n\nFor all copyright issues, submissions and questions. Please email soulmusic202@gmail.com and we will remove your content immediately."
+        },
+        "defaultAudioLanguage": "zxx"
+      },
+      "contentDetails": {
+        "duration": "PT3M8S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "8R94Bit8P7ANYJapay704A9rkKM",
+      "id": "Po9az4x5Rzc",
+      "snippet": {
+        "publishedAt": "2021-07-28T17:00:07Z",
+        "channelId": "UCVxbn2aTrv8eR-6WZjEOkhQ",
+        "title": "Abby Cates - Better Friends (Lyric Video)",
+        "description": "Stream \"Better Friends\": https://dashgo.co/betterfriends\n\nFollow me !!\nInstagram: https://www.instagram.com/abbycates\nTikTok: https://www.tiktok.com/@abbycates\nTwitter: https://twitter.com/catesabby\nFacebook: https://www.facebook.com/abbycatesmusic\n\nCheck out my website: https://abbycates.com\n\nLyrics: \n\nIt’s getting late \nMy hair is frizzy in the heat \nStrawberry wine \nIs sticky on my car seats \nI’m all alone \nI drove 3 of my girlfriend’s home \n\nThe stars are out \nBut they’re covered by the neighborhood \nThe night is over \nBefore it could really get good \nI like Ohio \nBut she’s putting my soul to sleep \n\nI just need some \nBetter friends \nSomebody who will listen \nBetter friends \nI need a fucking better friend list \nBetter characters \nMy boredom’s getting harder to ignore \n\nBetter friends \nWho won’t say they’re in the friend zone \nBetter friends \nThat won’t remind me I’m a bit alone \nBetter characters that \nMaybe won’t let me down \nCus oh I’m down \n\nI’m down \nI’m down \n\nI’m tired of \nThis lukewarm typa attitude \nOkay with everything but never really in the mood \nWhat should we do you always answer \nLet’s go drive all night \n\nThat’d be okay if it was decent conversation \nNot all about what your latest shitty boyfriend did \nHonestly I want to turn this car around\n\nI just need some \nBetter friends \nSomebody who will listen \nBetter friends \nI need a fucking better friends list \nBetter characters \nMy boredom’s getting harder to ignore \n\nBetter friends \nWho won’t say they’re in the friend zone \nBetter friends \nThat won’t remind me I’m a bit alone \nBetter characters that \nMaybe won’t let me down \nCus oh I’m down \n\nI’m down \nI’m down \n\nBetter friends \nSomebody who will listen \nBetter friends I need a \nFucking better friends list\n\nBetter characters my boredoms getting harder to ignore \n\nBetter friends \nWho won’t say they’re in the friend zone \nBetter friends \nThat won’t remind me I’m a bit alone \nBetter characters that \nMaybe won’t let me down \nCus oh I’m down \n\nI’m down \nI’m down \n\n\n#AbbyCates #BetterFriends #Lyrics",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Po9az4x5Rzc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Po9az4x5Rzc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Po9az4x5Rzc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Abby Cates",
+        "tags": [
+          "AbbyCates",
+          "BetterFriends",
+          "Lyrics",
+          "SingerSongwriter",
+          "TikTok"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Abby Cates - Better Friends (Lyric Video)",
+          "description": "Stream \"Better Friends\": https://dashgo.co/betterfriends\n\nFollow me !!\nInstagram: https://www.instagram.com/abbycates\nTikTok: https://www.tiktok.com/@abbycates\nTwitter: https://twitter.com/catesabby\nFacebook: https://www.facebook.com/abbycatesmusic\n\nCheck out my website: https://abbycates.com\n\nLyrics: \n\nIt’s getting late \nMy hair is frizzy in the heat \nStrawberry wine \nIs sticky on my car seats \nI’m all alone \nI drove 3 of my girlfriend’s home \n\nThe stars are out \nBut they’re covered by the neighborhood \nThe night is over \nBefore it could really get good \nI like Ohio \nBut she’s putting my soul to sleep \n\nI just need some \nBetter friends \nSomebody who will listen \nBetter friends \nI need a fucking better friend list \nBetter characters \nMy boredom’s getting harder to ignore \n\nBetter friends \nWho won’t say they’re in the friend zone \nBetter friends \nThat won’t remind me I’m a bit alone \nBetter characters that \nMaybe won’t let me down \nCus oh I’m down \n\nI’m down \nI’m down \n\nI’m tired of \nThis lukewarm typa attitude \nOkay with everything but never really in the mood \nWhat should we do you always answer \nLet’s go drive all night \n\nThat’d be okay if it was decent conversation \nNot all about what your latest shitty boyfriend did \nHonestly I want to turn this car around\n\nI just need some \nBetter friends \nSomebody who will listen \nBetter friends \nI need a fucking better friends list \nBetter characters \nMy boredom’s getting harder to ignore \n\nBetter friends \nWho won’t say they’re in the friend zone \nBetter friends \nThat won’t remind me I’m a bit alone \nBetter characters that \nMaybe won’t let me down \nCus oh I’m down \n\nI’m down \nI’m down \n\nBetter friends \nSomebody who will listen \nBetter friends I need a \nFucking better friends list\n\nBetter characters my boredoms getting harder to ignore \n\nBetter friends \nWho won’t say they’re in the friend zone \nBetter friends \nThat won’t remind me I’m a bit alone \nBetter characters that \nMaybe won’t let me down \nCus oh I’m down \n\nI’m down \nI’m down \n\n\n#AbbyCates #BetterFriends #Lyrics"
+        },
+        "defaultAudioLanguage": "en-US"
+      },
+      "contentDetails": {
+        "duration": "PT3M8S",
+        "dimension": "2d",
+        "definition": "sd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "L7IXQg2_mG5IZgFMQwoNGY2wzjU",
+      "id": "SaQZV9ts6wM",
+      "snippet": {
+        "publishedAt": "2021-01-22T18:50:44Z",
+        "channelId": "UCBpEx79rynBqGBDIlcu3C3g",
+        "title": "better friends - abby cates (lyrics)",
+        "description": "**not my song...written and performed by abby cates!\n\nhey everyone! i know this isn’t your usual olivia rodrigo content but i found this song a few weeks ago and i absolutely LOVE IT! abby cates is so talented and i’m [not so] patiently waiting for her to release the studio ver of this song!!!! how are you doing??? comment down one good thing you did this week and until next time, i love you and you’re valid! 💛💛",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SaQZV9ts6wM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SaQZV9ts6wM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SaQZV9ts6wM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SaQZV9ts6wM/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/SaQZV9ts6wM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "wholseome",
+        "tags": [
+          "music",
+          "song",
+          "songs",
+          "lyric",
+          "lyrics",
+          "abbycates",
+          "abbycatesmusic",
+          "abbycatessong",
+          "abbycatessongs",
+          "abbycateslyric",
+          "abbycateslyrics",
+          "iloveyou",
+          "you'revalid"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "better friends - abby cates (lyrics)",
+          "description": "**not my song...written and performed by abby cates!\n\nhey everyone! i know this isn’t your usual olivia rodrigo content but i found this song a few weeks ago and i absolutely LOVE IT! abby cates is so talented and i’m [not so] patiently waiting for her to release the studio ver of this song!!!! how are you doing??? comment down one good thing you did this week and until next time, i love you and you’re valid! 💛💛"
+        },
+        "defaultAudioLanguage": "en"
+      },
+      "contentDetails": {
+        "duration": "PT1M1S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "joY0r3jaYdzFVJFqkWyeEZS6p3U",
+      "id": "eb2ZvHWvTOo",
+      "snippet": {
+        "publishedAt": "2021-08-10T02:47:11Z",
+        "channelId": "UCSl9OaDkFogr2Eh0V1PQcuQ",
+        "title": "Abby Cates | Better Friends Lyrics",
+        "description": "Music Credits:\nsong:   Better Friends\nArtist:  Abby Cates",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eb2ZvHWvTOo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eb2ZvHWvTOo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eb2ZvHWvTOo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/eb2ZvHWvTOo/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/eb2ZvHWvTOo/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Dynamic Music ☊",
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Abby Cates | Better Friends Lyrics",
+          "description": "Music Credits:\nsong:   Better Friends\nArtist:  Abby Cates"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT1M",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    },
+    {
+      "kind": "youtube#video",
+      "etag": "vubVJQ4HvrYZ6kcrSPh4c_iF2K0",
+      "id": "F5c5i2d2zAY",
+      "snippet": {
+        "publishedAt": "2023-01-13T05:00:11Z",
+        "channelId": "UC7vaBvJnnkUcwdzVfFbDI6A",
+        "title": "Abby Cates \"Better Friends\"",
+        "description": "Abby singing her song \"Better Friends\" :)",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F5c5i2d2zAY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F5c5i2d2zAY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F5c5i2d2zAY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/F5c5i2d2zAY/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/F5c5i2d2zAY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Abby Cates Brazil",
+        "tags": [
+          "abby cates"
+        ],
+        "categoryId": "22",
+        "liveBroadcastContent": "none",
+        "localized": {
+          "title": "Abby Cates \"Better Friends\"",
+          "description": "Abby singing her song \"Better Friends\" :)"
+        }
+      },
+      "contentDetails": {
+        "duration": "PT2M57S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": false,
+        "contentRating": {},
+        "projection": "rectangular"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 23,
+    "resultsPerPage": 23
+  }
+}

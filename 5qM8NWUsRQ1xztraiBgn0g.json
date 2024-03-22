@@ -1,0 +1,70 @@
+{
+  "id": "5qM8NWUsRQ1xztraiBgn0g",
+  "name": "QUARTER LIFE CRISIS",
+  "duration_ms": 198436,
+  "artists": [
+    "Taylor Bickett"
+  ],
+  "album": {
+    "name": "QUARTER LIFE CRISIS",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273029e531f73b0b0fe66030e5d",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02029e531f73b0b0fe66030e5d",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851029e531f73b0b0fe66030e5d",
+        "width": 64
+      }
+    ]
+  },
+  "videos": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3-IcAb40h-ksZQx9k9C8HOHEu5M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OFzOKKeB6OY"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2YigTXs_sMHeOO-vrjFGp-Qzjw8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zENNQrHCk4k"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7676GaqpGrp5mU0p37QhzPEF_UA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Q_84jkKggG4"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4Ow-G-wgrvajdOnvhQWTAhdWGoc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OFA2QYccNFQ"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sFK56wJWFD9g21hCtTi5eXSCbZc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8M58tRvPWqc"
+      }
+    }
+  ]
+}

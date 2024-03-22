@@ -1,0 +1,70 @@
+{
+  "id": "1WrIpH5KlgQrYBsutdyWSE",
+  "name": "scenic route",
+  "duration_ms": 180592,
+  "artists": [
+    "sundial"
+  ],
+  "album": {
+    "name": "scenic route",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273077f568165e4df580f4bb1f0",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02077f568165e4df580f4bb1f0",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851077f568165e4df580f4bb1f0",
+        "width": 64
+      }
+    ]
+  },
+  "videos": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EcEtN1MFXhG9E-dkJflmqJtdvu8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wdJuz85mc9c"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "px-u2eL8RCRegz2ewZPw46aghBU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NayfisrIt3o"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hEbPB0XbeO0smVe18RS_7Aghaik",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UC2DTAJ9Ipn50Uf6zuXPZSHA"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "P48DVRG8iPo0dtgHPRCc3GwfUD8",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCSI_IdxacZbimjHf_J0hi2w"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FoXSGC55iF_daufGnOkG944hNkg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eYaDQ0sD6n4"
+      }
+    }
+  ]
+}

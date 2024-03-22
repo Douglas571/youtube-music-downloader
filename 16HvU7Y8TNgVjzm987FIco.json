@@ -1,0 +1,70 @@
+{
+  "id": "16HvU7Y8TNgVjzm987FIco",
+  "name": "Better Friends",
+  "duration_ms": 180428,
+  "artists": [
+    "Abby Cates"
+  ],
+  "album": {
+    "name": "Better Friends",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b2739d2353550f51cc4ba1a62cd0",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e029d2353550f51cc4ba1a62cd0",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d000048519d2353550f51cc4ba1a62cd0",
+        "width": 64
+      }
+    ]
+  },
+  "videos": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "x7hOp1xDZsVOt0fy8GAk9T7n1FE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QxsbHsfxbuI"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SOrudNyA5P0fN-CT7MxyXywrXeQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Po9az4x5Rzc"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9u0uCddtWHTUBOXVbyVh53wKVf4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SaQZV9ts6wM"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mzXoQ_ar0tqGwAmxx0bDrrc1rdk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eb2ZvHWvTOo"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2vhgGdO8jbtvuWKBIh6m0YX3Z2o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "F5c5i2d2zAY"
+      }
+    }
+  ]
+}

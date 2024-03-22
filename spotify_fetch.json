@@ -1,0 +1,142 @@
+[
+  {
+    "id": "1tw0JbdpIFmHK9eI7fN44u",
+    "name": "24",
+    "duration_ms": 133897,
+    "artists": [
+      "sundial"
+    ],
+    "album": {
+      "name": "the roaring twenties",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273ac0f877641a1bca66f70e0b6",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02ac0f877641a1bca66f70e0b6",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851ac0f877641a1bca66f70e0b6",
+          "width": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "1WrIpH5KlgQrYBsutdyWSE",
+    "name": "scenic route",
+    "duration_ms": 180592,
+    "artists": [
+      "sundial"
+    ],
+    "album": {
+      "name": "scenic route",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273077f568165e4df580f4bb1f0",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02077f568165e4df580f4bb1f0",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851077f568165e4df580f4bb1f0",
+          "width": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "5qM8NWUsRQ1xztraiBgn0g",
+    "name": "QUARTER LIFE CRISIS",
+    "duration_ms": 198436,
+    "artists": [
+      "Taylor Bickett"
+    ],
+    "album": {
+      "name": "QUARTER LIFE CRISIS",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273029e531f73b0b0fe66030e5d",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02029e531f73b0b0fe66030e5d",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851029e531f73b0b0fe66030e5d",
+          "width": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "2VlWyiqyT7a3x7ob4ufeOT",
+    "name": "growing pains",
+    "duration_ms": 162266,
+    "artists": [
+      "mxmtoon"
+    ],
+    "album": {
+      "name": "rising (the deluxe)",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273334307750e96ab9c2eb4b757",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02334307750e96ab9c2eb4b757",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851334307750e96ab9c2eb4b757",
+          "width": 64
+        }
+      ]
+    }
+  },
+  {
+    "id": "16HvU7Y8TNgVjzm987FIco",
+    "name": "Better Friends",
+    "duration_ms": 180428,
+    "artists": [
+      "Abby Cates"
+    ],
+    "album": {
+      "name": "Better Friends",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b2739d2353550f51cc4ba1a62cd0",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e029d2353550f51cc4ba1a62cd0",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d000048519d2353550f51cc4ba1a62cd0",
+          "width": 64
+        }
+      ]
+    }
+  }
+]

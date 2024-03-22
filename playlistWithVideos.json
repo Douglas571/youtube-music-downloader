@@ -1,0 +1,352 @@
+[
+  {
+    "id": "1tw0JbdpIFmHK9eI7fN44u",
+    "name": "24",
+    "duration_ms": 133897,
+    "artists": [
+      "sundial"
+    ],
+    "album": {
+      "name": "the roaring twenties",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273ac0f877641a1bca66f70e0b6",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02ac0f877641a1bca66f70e0b6",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851ac0f877641a1bca66f70e0b6",
+          "width": 64
+        }
+      ]
+    },
+    "videos": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "FoXSGC55iF_daufGnOkG944hNkg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "eYaDQ0sD6n4"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "2JkIMBqhiRfruTt9mgGHNOLnguI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "gepG66cqIHk"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "aA8Y3Ha9y2WmufzddOVN1XP2Swg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Oh-A7d80sBo"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "LQwUTk_5k-KELW-AGvMLnBgCLnM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "kMPxGzEvWiI"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "NE6eNR8u2FcPmX-06sc3V2CZ07w",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "tg4ztGNTlFQ"
+        }
+      }
+    ]
+  },
+  {
+    "id": "1WrIpH5KlgQrYBsutdyWSE",
+    "name": "scenic route",
+    "duration_ms": 180592,
+    "artists": [
+      "sundial"
+    ],
+    "album": {
+      "name": "scenic route",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273077f568165e4df580f4bb1f0",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02077f568165e4df580f4bb1f0",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851077f568165e4df580f4bb1f0",
+          "width": 64
+        }
+      ]
+    },
+    "videos": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "EcEtN1MFXhG9E-dkJflmqJtdvu8",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "wdJuz85mc9c"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "px-u2eL8RCRegz2ewZPw46aghBU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "NayfisrIt3o"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "hEbPB0XbeO0smVe18RS_7Aghaik",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UC2DTAJ9Ipn50Uf6zuXPZSHA"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "P48DVRG8iPo0dtgHPRCc3GwfUD8",
+        "id": {
+          "kind": "youtube#channel",
+          "channelId": "UCSI_IdxacZbimjHf_J0hi2w"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "FoXSGC55iF_daufGnOkG944hNkg",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "eYaDQ0sD6n4"
+        }
+      }
+    ]
+  },
+  {
+    "id": "5qM8NWUsRQ1xztraiBgn0g",
+    "name": "QUARTER LIFE CRISIS",
+    "duration_ms": 198436,
+    "artists": [
+      "Taylor Bickett"
+    ],
+    "album": {
+      "name": "QUARTER LIFE CRISIS",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273029e531f73b0b0fe66030e5d",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02029e531f73b0b0fe66030e5d",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851029e531f73b0b0fe66030e5d",
+          "width": 64
+        }
+      ]
+    },
+    "videos": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "3-IcAb40h-ksZQx9k9C8HOHEu5M",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "OFzOKKeB6OY"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "2YigTXs_sMHeOO-vrjFGp-Qzjw8",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "zENNQrHCk4k"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "7676GaqpGrp5mU0p37QhzPEF_UA",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Q_84jkKggG4"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "4Ow-G-wgrvajdOnvhQWTAhdWGoc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "OFA2QYccNFQ"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "sFK56wJWFD9g21hCtTi5eXSCbZc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "8M58tRvPWqc"
+        }
+      }
+    ]
+  },
+  {
+    "id": "2VlWyiqyT7a3x7ob4ufeOT",
+    "name": "growing pains",
+    "duration_ms": 162266,
+    "artists": [
+      "mxmtoon"
+    ],
+    "album": {
+      "name": "rising (the deluxe)",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b273334307750e96ab9c2eb4b757",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e02334307750e96ab9c2eb4b757",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d00004851334307750e96ab9c2eb4b757",
+          "width": 64
+        }
+      ]
+    },
+    "videos": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "IDn9u8hVkXt8gHKR6mGcF_5WGyc",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "EQuVCE5Dqf0"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "TtLVqlDg4XKlYJ4wxfIaUz4hVDI",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "2Gu9fG36CpM"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "2DThNjbRivgZN8IeETef8vpnSOw",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Evah9-yYiaI"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "H3wO7jXHRDsTUfNBgM5TUzdg2SM",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "nM0VsRmxAT8"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "xr0LRDgl83lO_Ka1gFjHMT-KXoU",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "P-lil--oeZM"
+        }
+      }
+    ]
+  },
+  {
+    "id": "16HvU7Y8TNgVjzm987FIco",
+    "name": "Better Friends",
+    "duration_ms": 180428,
+    "artists": [
+      "Abby Cates"
+    ],
+    "album": {
+      "name": "Better Friends",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b2739d2353550f51cc4ba1a62cd0",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e029d2353550f51cc4ba1a62cd0",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d000048519d2353550f51cc4ba1a62cd0",
+          "width": 64
+        }
+      ]
+    },
+    "videos": [
+      {
+        "kind": "youtube#searchResult",
+        "etag": "x7hOp1xDZsVOt0fy8GAk9T7n1FE",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "QxsbHsfxbuI"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "SOrudNyA5P0fN-CT7MxyXywrXeQ",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "Po9az4x5Rzc"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "9u0uCddtWHTUBOXVbyVh53wKVf4",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "SaQZV9ts6wM"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "mzXoQ_ar0tqGwAmxx0bDrrc1rdk",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "eb2ZvHWvTOo"
+        }
+      },
+      {
+        "kind": "youtube#searchResult",
+        "etag": "2vhgGdO8jbtvuWKBIh6m0YX3Z2o",
+        "id": {
+          "kind": "youtube#video",
+          "videoId": "F5c5i2d2zAY"
+        }
+      }
+    ]
+  }
+]

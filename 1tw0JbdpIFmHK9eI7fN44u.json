@@ -1,0 +1,70 @@
+{
+  "id": "1tw0JbdpIFmHK9eI7fN44u",
+  "name": "24",
+  "duration_ms": 133897,
+  "artists": [
+    "sundial"
+  ],
+  "album": {
+    "name": "the roaring twenties",
+    "images": [
+      {
+        "height": 640,
+        "url": "https://i.scdn.co/image/ab67616d0000b273ac0f877641a1bca66f70e0b6",
+        "width": 640
+      },
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab67616d00001e02ac0f877641a1bca66f70e0b6",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67616d00004851ac0f877641a1bca66f70e0b6",
+        "width": 64
+      }
+    ]
+  },
+  "videos": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "FoXSGC55iF_daufGnOkG944hNkg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "eYaDQ0sD6n4"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2JkIMBqhiRfruTt9mgGHNOLnguI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gepG66cqIHk"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "aA8Y3Ha9y2WmufzddOVN1XP2Swg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Oh-A7d80sBo"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LQwUTk_5k-KELW-AGvMLnBgCLnM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kMPxGzEvWiI"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NE6eNR8u2FcPmX-06sc3V2CZ07w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tg4ztGNTlFQ"
+      }
+    }
+  ]
+}
